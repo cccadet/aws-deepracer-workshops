@@ -1,0 +1,8 @@
+ipython
+ipykernel
+numpy
+pandas
+matplotlib
+shapely
+sklearn
+boto3
