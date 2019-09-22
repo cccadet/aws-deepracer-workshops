@@ -185,6 +185,7 @@ Na imagem é possível avaliar os seguinte pontos:
 
 - Iteration (2) and episode (39): Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
 - Throttle: Com uma média de 0.7765 é possível avaliar que o carrinho esteve acelerando boa parte do tempo de treinamento.
+- Reward: Temos uma média de recompensa de 1.05.
 - 
 
 ### Visualização exploratória
@@ -291,10 +292,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MTEzLDEyNDIyMTYxMDgsMTAzMjgxND
-c4MCwxMDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNzIwMCwtMTA0
-MDIwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOS
-wtOTYxMDc4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5
-NTc5NDksLTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOC
-wzNTM3MTk0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbMTIyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNj
+EwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYx
+NjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOT
+QsODExMjM4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyMywxNjMy
+NDY2NjIzLDE1Mjk1Nzk0OSwtODAwMTkxNzU5LDE0OTU1MDQwNz
+EsNTU2NDcwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRdfQ==
 -->
