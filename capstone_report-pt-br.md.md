@@ -105,52 +105,52 @@ A partir do treino e da avaliação realizada no console do AWS Deep Racer, são
 
 Meu objetivo inicial foi encontrar, com a função de recompensa padrão básica e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
 
-def reward_function(params):
 
-    # Read input parameters
-    track_width = params['track_width']
-    distance_from_center = params['distance_from_center']
-    all_wheels_on_track = params['all_wheels_on_track']
-    steering = abs(params['steering_angle']) # Only need the absolute steering angle
-    progress = params['progress']
-    speed = params['speed']
-    SPEED_THRESHOLD = 1.0
-    SPEED_THRESHOLD_3 = 3.0
-    # Steering penality threshold, change the number based on your action space setting
-    ABS_STEERING_THRESHOLD = 20
+    def reward_function(params):
+	    # Read input parameters
+	    track_width = params['track_width']
+	    distance_from_center = params['distance_from_center']
+	    all_wheels_on_track = params['all_wheels_on_track']
+	    steering = abs(params['steering_angle']) # Only need the absolute steering angle
+	    progress = params['progress']
+	    speed = params['speed']
+	    SPEED_THRESHOLD = 1.0
+	    SPEED_THRESHOLD_3 = 3.0
+	    # Steering penality threshold, change the number based on your action space setting
+	    ABS_STEERING_THRESHOLD = 20
 
-    # Calculate 3 markers that are at varying distances away from the center line
-    marker_1 = 0.1 * track_width
-    marker_2 = 0.25 * track_width
-    marker_3 = 0.5 * track_width
+	    # Calculate 3 markers that are at varying distances away from the center line
+	    marker_1 = 0.1 * track_width
+	    marker_2 = 0.25 * track_width
+	    marker_3 = 0.5 * track_width
 
-    # Give higher reward if the car is closer to center line and vice versa
-    if distance_from_center <= marker_1:
-        reward = 1.0
-    elif distance_from_center <= marker_2:
-        reward = 0.5
-    elif distance_from_center <= marker_3:
-        reward = 0.1
-    else:
-        reward = 1e-3  # likely crashed/ close to off track
+	    # Give higher reward if the car is closer to center line and vice versa
+	    if distance_from_center <= marker_1:
+	        reward = 1.0
+	    elif distance_from_center <= marker_2:
+	        reward = 0.5
+	    elif distance_from_center <= marker_3:
+	        reward = 0.1
+	    else:
+	        reward = 1e-3  # likely crashed/ close to off track
 
-    if not all_wheels_on_track:
-        # Penalize if the car goes off track
-        reward = 1e-3
-    elif speed < SPEED_THRESHOLD:
-        # Penalize if the car goes too slow
-        reward = reward - 0.1
-    else:
-        # High reward if the car stays on track and goes fast
-        reward = reward * speed
+	    if not all_wheels_on_track:
+	        # Penalize if the car goes off track
+	        reward = 1e-3
+	    elif speed < SPEED_THRESHOLD:
+	        # Penalize if the car goes too slow
+	        reward = reward - 0.1
+	    else:
+	        # High reward if the car stays on track and goes fast
+	        reward = reward * speed
 
-    if steering > ABS_STEERING_THRESHOLD:
-        # Penalize reward if the agent is steering too much
-        reward *= 0.8
+	    if steering > ABS_STEERING_THRESHOLD:
+	        # Penalize reward if the agent is steering too much
+	        reward *= 0.8
 
-    reward = reward + (reward * (progress / 100))
+	    reward = reward + (reward * (progress / 100))
 
-    return float(reward)
+	    return float(reward)
 
 ##### Estrutura de logs
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
@@ -257,8 +257,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDg0NTk4OCw4MTEyMzgzMjksLTk2MT
-A3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5
-LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNz
-E5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbLTE1NzgzMTkzNTYsODExMjM4MzI5LC05Nj
+EwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0
+OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1Mz
+cxOTQyMywtODUwOTMwMzRdfQ==
 -->
