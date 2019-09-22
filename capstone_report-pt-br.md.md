@@ -191,6 +191,7 @@ Nesta seção, você deverá discutir os algoritmos e técnicas que você preten
 - _As técnicas a serem usadas foram adequadamente discutidas e justificadas?_
 - _Ficou claro como os dados de entrada ou conjuntos de dados serão controlados pelos algoritmos e técnicas escolhidas?_
 
+
 ### Benchmark
 Nesta  seção, você deverá definir claramente um resultado de referência (benchmark) ou limiar para comparar entre desempenhos obtidos pela sua solução. O raciocínio por trás da referência (no caso onde não é estabelecido um resultado) deve ser discutido. Questões para se perguntar ao escrever esta seção:
 - _Algum resultado ou valor que funcione como referência para a medida de desempenho foi fornecido?_
@@ -279,9 +280,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3MDMwMDI0LDM2MTYyNzIwMCwtMTA0MD
-IwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOSwt
-OTYxMDc4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NT
-c5NDksLTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwz
-NTM3MTk0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbLTU2ODc2MDAzOCwzNjE2MjcyMDAsLTEwND
+AyMDQ1MjMsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjks
+LTk2MTA3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOT
+U3OTQ5LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgs
+MzUzNzE5NDIzLC04NTA5MzAzNF19
 -->
