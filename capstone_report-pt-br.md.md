@@ -103,7 +103,7 @@ Nesta seção, é esperado que você analise os dados que você está usando par
 
 A partir do treino e da avaliação realizada no console do AWS Deep Racer, são gerados arquivos de logs do treinamento e da avaliação. Utilizando o modelo de análise disponível no AWS Deepracer Workshop Lab Github [6] é possível realizar o download desses logs e iniciar a avaliação, atraveś do arquivo `log-analysis/DeepRacer Log Analysis.ipynb`. Além dos logs de treinamento/avaliação é gerado um modelo referente as redes neurais que fazem parte do algoritmo já explicado acima. No console AWS é possível realizar o download deste modelo para que o mesmo também seja avaliado no Jupyter Notebook já mencionado acima.
 
-Meu objetivo inicial foi encontrar, com a função de recompensa baseada nos padrões básicos dos exemplos da documentação e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
+Meu objetivo inicial foi encontrar, com a função de recompensa baseada nos padrões básicos dos exemplos da documentação e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei na pista **re:Invent 2018** foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
 
 **Função de recompensa:**
 
@@ -278,9 +278,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTc4Mzg3MSwxOTg1NDU0NDksNzYwOT
-c2MDk0LDgxMTIzODMyOSwtOTYxMDc4NzE5LDE2NzM0MDEwMjMs
-MTYzMjQ2NjYyMywxNTI5NTc5NDksLTgwMDE5MTc1OSwxNDk1NT
-A0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbLTEwNDAyMDQ1MjMsMTk4NTQ1NDQ5LDc2MD
+k3NjA5NCw4MTEyMzgzMjksLTk2MTA3ODcxOSwxNjczNDAxMDIz
+LDE2MzI0NjY2MjMsMTUyOTU3OTQ5LC04MDAxOTE3NTksMTQ5NT
+UwNDA3MSw1NTY0NzA1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
 
 -->
