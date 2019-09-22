@@ -174,7 +174,7 @@ Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
-Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realizadas nas etapa III.Metodologia.
+Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realizadas nas etapa **III.Metodologia**.
 
 
 ### Visualização exploratória
@@ -183,7 +183,7 @@ Nesta seção, você precisará fornecer alguma forma de visualização que sint
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
-A visualização exploratória, assim a exploração de dados serão tratados na etapa III.Metodologia.
+A visualização exploratória, assim a exploração de dados serão tratados na etapa **III.Metodologia**.
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -191,6 +191,10 @@ Nesta seção, você deverá discutir os algoritmos e técnicas que você preten
 - _As técnicas a serem usadas foram adequadamente discutidas e justificadas?_
 - _Ficou claro como os dados de entrada ou conjuntos de dados serão controlados pelos algoritmos e técnicas escolhidas?_
 
+Conforme descrito na etapa de **Descrição do Problema** O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula "Value Functions" (L4: Reinforcement Learning) do curso AWS DeepRacer, esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
+
+- Policy Network: Decide qual ação tomar de acordo com a imagem recebida no input.
+- Value Network: Estima o resultado cumulativo que provavelmente obteremos, considerando a imagem como uma entrada.
 
 ### Benchmark
 Nesta  seção, você deverá definir claramente um resultado de referência (benchmark) ou limiar para comparar entre desempenhos obtidos pela sua solução. O raciocínio por trás da referência (no caso onde não é estabelecido um resultado) deve ser discutido. Questões para se perguntar ao escrever esta seção:
@@ -280,7 +284,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODc2MDAzOCwzNjE2MjcyMDAsLTEwND
+eyJoaXN0b3J5IjpbMTgzNDYwNTY5NSwzNjE2MjcyMDAsLTEwND
 AyMDQ1MjMsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjks
 LTk2MTA3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOT
 U3OTQ5LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgs
