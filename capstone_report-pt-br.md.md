@@ -87,9 +87,8 @@ Nesta seção, você precisará definir claramente as métricas ou cálculos que
 - _As métricas que você escolheu para medir o desempenho de seus modelos foram discutidas e definidas de forma clara?_
 - _Você forneceu justificativas razoáveis para as métricas escolhidas, baseando-se no problema e solução?_
 
-Para a métrica de avaliação a ideia é usar o percentuao tempo de conclusão de volta, as recompensas por iteração e a avaliação do algoritmo em pistas diferentes. Para facilitar essa análise utilizarei o Jupyter notebook disponibilizado no artigo “Using Jupyter Notebook for analysing DeepRacer’s logs”.
+Para a métrica de avaliação a ideia é usar o **percentual de conclusão da pista**, **o tempo de conclusão de volta**, as recompensas por iteração e a avaliação do algoritmo em pistas diferentes. Para facilitar essa análise utilizarei o Jupyter notebook disponibilizado no artigo “Using Jupyter Notebook for analysing DeepRacer’s logs” [5].
 
-Artigo disponível em:  [https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 
 
 ## II. Análise
@@ -199,9 +198,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 [3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
-
+[5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA0OTk2MjgsLTgwMDE5MTc1OSwxND
-k1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMsLTg1MDkzMDM0
-XX0=
+eyJoaXN0b3J5IjpbNzM1Njc1ODYzLC04MDAxOTE3NTksMTQ5NT
+UwNDA3MSw1NTY0NzA1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
+
 -->
