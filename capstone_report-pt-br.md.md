@@ -19,15 +19,7 @@ O projeto tem como tema o AWS Deep Racer da Amazon. Como a própria Amazon descr
 
 Esse modelo de competição e aprendizado de RL faz com que aprendamos sobre o assunto que é um campo de estudo fascinante, porém muito complexo. Recentemente a Udacity lançou o AWS DeepRacer Scholarship Challenge e como não havia selecionado a minha proposta para o trabalho final resolvi applicá-la no meu trabalho.
 
-O objetivo do meu projeto é desenvolver 
-
-### Descrição do problema
-
-_(aprox. 1 parágrafo)_
-
-Nesta seção, descreva claramente o problema a ser resolvido. O problema descrito deve ser bem definido e ter pelo menos uma solução possível. Descreva o problema detalhadamente, de forma que fique claro que o problema é quantificável (pode ser expresso em termos matemáticos ou lógicos), mensurável (pode ser medido por uma métrica e claramente observado), e replicável (pode ser reproduzido e ocorre mais de uma vez).
-
-O desafio é uma corrida. Inicialmente o objetivo é fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos.
+O objetivo do meu projeto é desenvolver é fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta 
 
 ### Conjuntos de dados e entradas
 
@@ -197,6 +189,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 ### Referências:
 [1] [https://aws.amazon.com/deepracer/?nc1=h_ls](https://aws.amazon.com/deepracer/?nc1=h_ls)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk5MDg5MTksMzUzNzE5NDIzLC04NT
+eyJoaXN0b3J5IjpbLTEzMTAxMjUxMjcsMzUzNzE5NDIzLC04NT
 A5MzAzNF19
 -->
