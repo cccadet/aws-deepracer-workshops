@@ -171,11 +171,13 @@ Os hyperparâmetros serão mantidos estes inicialmente.
 
 ##### Estrutura de logs
 Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download os logs direto da AWS, desde que o AWS Client seja configurado. Os arquivos necessário para executar os notebooks avaliados neste relatório estarão todos disponíveis na pasta **log-analysis/** (logs) e **log-analysis/intermediate_checkpoint** (modelos).
+
+##### Notebook de Análise
+Inicialmente vamos avaliar o notebook resultante de 1 hora de treinamento com as funções definidas acima. O mesmo encontra-se na pasta `log-analysis/` com nome `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
+
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
-##### Notebook de Análise
-Inicialmente vamos avaliar o notebook resultante de 1 hora de treinamento com as funções definidas acima. O mesmo encontra-se na pasta 
 
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
@@ -281,7 +283,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NjcxNTY4LDk3NTQwNDMxMCwzNjE2Mj
+eyJoaXN0b3J5IjpbMTA4MjU2MjQ2LDk3NTQwNDMxMCwzNjE2Mj
 cyMDAsLTEwNDAyMDQ1MjMsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4
 MTEyMzgzMjksLTk2MTA3ODcxOSwxNjczNDAxMDIzLDE2MzI0Nj
 Y2MjMsMTUyOTU3OTQ5LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1
