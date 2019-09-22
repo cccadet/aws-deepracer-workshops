@@ -21,6 +21,12 @@ O projeto tem como tema o AWS Deep Racer da Amazon. Como a própria Amazon descr
 
 Esse modelo de competição e aprendizado de RL faz com que aprendamos sobre o assunto que é um campo de estudo fascinante, porém muito complexo. Recentemente a Udacity lançou o AWS DeepRacer Scholarship Challenge e como não havia selecionado a minha proposta para o trabalho final resolvi applicá-la no meu trabalho.
 
+### Descrição do problema
+Nesta seção, você irá definir o problema que você está tentando resolver de forma clara, incluindo a estratégia (resumo das tarefas) que você irá utilizar para alcançar a solução desejada. Você deverá também discutir detalhadamente qual será a solução pretendida para este problema. Questões para se perguntar ao escrever esta seção:
+- _A enunciação do problema foi claramente definida? O leitor irá entender o que você está esperando resolver?_
+- _Você discutiu detalhadamente como irá tentar resolver o problema?_
+- _A solução antecipada está claramente definida? O leitor entenderá quais resultados você está procurando?_
+
 O objetivo do meu projeto é desenvolver e fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta pessoa é U$50,00.
 
 #### Conjuntos de dados e entradas
@@ -70,11 +76,8 @@ Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais c
 
 
 
-### Descrição do problema
-Nesta seção, você irá definir o problema que você está tentando resolver de forma clara, incluindo a estratégia (resumo das tarefas) que você irá utilizar para alcançar a solução desejada. Você deverá também discutir detalhadamente qual será a solução pretendida para este problema. Questões para se perguntar ao escrever esta seção:
-- _A enunciação do problema foi claramente definida? O leitor irá entender o que você está esperando resolver?_
-- _Você discutiu detalhadamente como irá tentar resolver o problema?_
-- _A solução antecipada está claramente definida? O leitor entenderá quais resultados você está procurando?_
+
+
 
 ### Métricas
 Nesta seção, você precisará definir claramente as métricas ou cálculos que você irá usar para avaliar o desempenho de um modelo ou resultado no seu projeto. Esses cálculos e métricas devem ser justificadas baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -191,6 +194,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNDI1NjYxLDU1NjQ3MDUxOCwzNTM3MT
-k0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNz
+E5NDIzLC04NTA5MzAzNF19
 -->
