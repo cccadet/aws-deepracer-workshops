@@ -32,7 +32,7 @@ O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimi
 
 ##### Reward
 
-A função de recompensa será o guia do nosso algoritmo. Para a construção da função de recompensa temos uma entrada de uma variável chamada “params”. Essa variável é uma biblioteca no seguinte formato:
+A função de recompensa será o guia do nosso algoritmo. Ela que recompensará as ações positivas, ou seja que eu gostaria que o carrinho realizasse. Além disso, ela também penalizará açõs indesejadas, como sair da pista durante a corrida. Para a construção da função de recompensa temos uma entrada de uma variável chamada “params”. Essa variável é uma biblioteca no seguinte formato:
 
 ```
 {
@@ -57,7 +57,7 @@ Mais informações sobre a função de recompensa estão disponíveis na documen
 
 #### Hyperparâmetros
 
-Hiperparâmetros algorítmicos  
+Os Hiperparâmetros algorítmicos  
 Gradient descent batch size (Tamanho de lote da descida de gradiente)  
 Number of epochs (Número de epochs)  
 Learning rate (Taxa de aprendizado)  
@@ -189,6 +189,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 [3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM4MTE1NzQsNTU2NDcwNTE4LDM1Mz
-cxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbLTY1Mzk3OTUyNyw1NTY0NzA1MTgsMzUzNz
+E5NDIzLC04NTA5MzAzNF19
 -->
