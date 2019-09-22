@@ -53,7 +53,7 @@ Para a construção da função de recompensa temos uma entrada de uma variável
 
 ```
 
-Mais informações estão disponíveis no endereço:  [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+Mais informações estão disponíveis na docupentação de desenvolvedores da Amazon Deep Racer [3].
 
 #### Hyperparâmetros
 
@@ -187,7 +187,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 ### Referências:
 [1] [https://aws.amazon.com/deepracer/?nc1=h_ls](https://aws.amazon.com/deepracer/?nc1=h_ls)
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
+[3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzE0ODQ3OCw1NTY0NzA1MTgsMzUzNz
-E5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbLTE4ODM3Mzg5NjUsNTU2NDcwNTE4LDM1Mz
+cxOTQyMywtODUwOTMwMzRdfQ==
 -->
