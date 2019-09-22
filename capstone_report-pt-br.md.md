@@ -1,7 +1,7 @@
 # Nanodegree Engenheiro de Machine Learning
 ## Projeto final
-Joe Udacity  
-31 de dezembro de 2050
+Cristian Carlos dos Santos 
+22 de setembro de 2019
 
 ## I. Definição
 _(aprox. 1-2 páginas)_
@@ -200,7 +200,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1Njc1ODYzLC04MDAxOTE3NTksMTQ5NT
+eyJoaXN0b3J5IjpbMTUyOTU3OTQ5LC04MDAxOTE3NTksMTQ5NT
 UwNDA3MSw1NTY0NzA1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
 
 -->
