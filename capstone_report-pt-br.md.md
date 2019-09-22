@@ -103,7 +103,7 @@ Nesta seção, é esperado que você analise os dados que você está usando par
 
 A partir do treino e da avaliação realizada no console do AWS Deep Racer, são gerados arquivos de logs do treinamento e da avaliação. Utilizando o modelo de análise disponível no AWS Deepracer Workshop Lab Github [6] é possível realizar o download desses logs e iniciar a avaliação, atraveś do arquivo `log-analysis/DeepRacer Log Analysis.ipynb`. Além dos logs de treinamento/avaliação é gerado um modelo referente as redes neurais que fazem parte do algoritmo já explicado acima. No console AWS é possível realizar o download deste modelo para que o mesmo também seja avaliado no Jupyter Notebook já mencionado acima.
 
-Meu objetivo inicial foi encontrar, com a função de recompensa padrão básica e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
+Meu objetivo inicial foi encontrar, com a função de recompensa baseada nos padrões básicos dos exemplos da documentação e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
 
 **Função de recompensa:**
 
@@ -152,6 +152,8 @@ Meu objetivo inicial foi encontrar, com a função de recompensa padrão básica
 	    reward = reward + (reward * (progress / 100))
 
 	    return float(reward)
+
+Essa função de recompensa é busca manter o carrinho na pista, sem grandes zigue-zague e 
 
 **Hyperparâmetros:**
 
@@ -272,8 +274,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc2MzkzMTUsODExMjM4MzI5LC05Nj
-EwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0
-OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1Mz
-cxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbMTY0OTExNTgxOSw4MTEyMzgzMjksLTk2MT
+A3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5
+LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNz
+E5NDIzLC04NTA5MzAzNF19
 -->
