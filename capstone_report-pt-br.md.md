@@ -178,7 +178,7 @@ Inicialmente vamos avaliar o notebook resultante de 1 hora de treinamento com as
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
-Avaliando valore(26.58, 495.35)
+Avaliando valores(26.58, 495.35)
 
 (0.0, 2.0)
 
@@ -286,7 +286,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzMxNjYyMSwxMDgyNTYyNDYsOTc1ND
+eyJoaXN0b3J5IjpbMTAzMjgxNDc4MCwxMDgyNTYyNDYsOTc1ND
 A0MzEwLDM2MTYyNzIwMCwtMTA0MDIwNDUyMywxOTg1NDU0NDks
 NzYwOTc2MDk0LDgxMTIzODMyOSwtOTYxMDc4NzE5LDE2NzM0MD
 EwMjMsMTYzMjQ2NjYyMywxNTI5NTc5NDksLTgwMDE5MTc1OSwx
