@@ -174,7 +174,7 @@ Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
-
+Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realzi
 
 
 ### Visualização exploratória
@@ -277,9 +277,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA5NjIxNTAsLTEwNDAyMDQ1MjMsMT
-k4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjksLTk2MTA3ODcx
-OSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5LC04MD
-AxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNzE5NDIz
-LC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbLTg0NzY0NTAzMiwtMTA0MDIwNDUyMywxOT
+g1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOSwtOTYxMDc4NzE5
+LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NTc5NDksLTgwMD
+E5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMs
+LTg1MDkzMDM0XX0=
 -->
