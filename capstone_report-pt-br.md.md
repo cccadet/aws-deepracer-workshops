@@ -57,16 +57,16 @@ Mais informações sobre a função de recompensa estão disponíveis na documen
 
 #### Hyperparâmetros
 
-Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais citadas acima. Com eles podemos acelerar ajustes de funções e definir pontos importantes do processo de Reinforcement Learning, como fazer com que nosso algoritmo priorize ações de maior recompensa já descoberta ou explore mais ações a fim de encontrar uma ação melhor em determinado estado.
-Gradient descent batch size (Tamanho de lote da descida de gradiente)  
-Number of epochs (Número de epochs)  
-Learning rate (Taxa de aprendizado)  
-Entropy  
-Discount factor (Fator de desconto)  
-Loss type (Tipo de perda)  
-Number of experience episodes between each policy-updating iteration (Número de episódios de experiência entre cada iteração de atualização de política)
+Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais citadas acima. Com eles podemos acelerar ajustes de funções e definir pontos importantes do processo de Reinforcement Learning, como fazer com que nosso algoritmo priorize ações de maior recompensa já descoberta ou explore mais ações a fim de encontrar uma ação melhor em determinado estado. No console da AWS Deep Racer temos  os seguintes parâmetros:
+- Gradient descent batch size (Tamanho de lote da descida de gradiente)  
+- Number of epochs (Número de epochs)  
+- Learning rate (Taxa de aprendizado)  
+- Entropy  
+- Discount factor (Fator de desconto)  
+- Loss type (Tipo de perda)  
+- Number of experience episodes between each policy-updating iteration - (Número de episódios de experiência entre cada iteração de atualização de política)
 
-Mais informações:  [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
+É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajus Mais informações:  [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 
 Para esse projeto usarei o ambiente do AWS Deep Racer conforme já comentado anteriormente.
 
@@ -189,6 +189,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 [3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI3NTEyOTksNTU2NDcwNTE4LDM1Mz
-cxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbNjA1MTk1NTkwLDU1NjQ3MDUxOCwzNTM3MT
+k0MjMsLTg1MDkzMDM0XX0=
 -->
