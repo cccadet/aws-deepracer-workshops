@@ -82,8 +82,6 @@ Para a função de recompensa utilizarei formas de maximizar ações esperadas, 
 Para os hiperparâmetros, conforme vídeo “Intro to Tuning Hyperparameters” (L5: Tuning your model - AWS DeepRacer Course): “Figuring out what works best for your model is usually done through trial and error.”
 
 
-
-
 ### Métricas
 Nesta seção, você precisará definir claramente as métricas ou cálculos que você irá usar para avaliar o desempenho de um modelo ou resultado no seu projeto. Esses cálculos e métricas devem ser justificadas baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
 - _As métricas que você escolheu para medir o desempenho de seus modelos foram discutidas e definidas de forma clara?_
@@ -199,6 +197,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1Nj
-Q3MDUxOCwzNTM3MTk0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbLTUxNzExNTYyNywtODAwMTkxNzU5LDE0OT
+U1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRd
+fQ==
 -->
