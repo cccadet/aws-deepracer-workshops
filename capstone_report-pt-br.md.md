@@ -181,7 +181,9 @@ Os logs de treinamento após serem carregados para um DataFrame são exibidos co
 Para avaliar as estatísticas selecionei as colunas que achei mais importantes para a avaliação:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Train_Describe.png)
 
+Na imagem é possível avaliar os seguinte pontos:
 
+- Iteration and episode: Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
 
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
@@ -287,10 +289,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjIxNjEwOCwxMDMyODE0NzgwLDEwOD
-I1NjI0Niw5NzU0MDQzMTAsMzYxNjI3MjAwLC0xMDQwMjA0NTIz
-LDE5ODU0NTQ0OSw3NjA5NzYwOTQsODExMjM4MzI5LC05NjEwNz
-g3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0OSwt
-ODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOT
-QyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbLTE0ODE2OTAzMDQsMTI0MjIxNjEwOCwxMD
+MyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYxNjI3MjAw
+LC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOTQsODExMj
+M4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIz
+LDE1Mjk1Nzk0OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2ND
+cwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRdfQ==
 -->
