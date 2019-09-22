@@ -101,7 +101,7 @@ Nesta seção, é esperado que você analise os dados que você está usando par
 - _Se **não** existe um conjunto de dados para o problema, foi realizada uma discussão sobre o espaço de entrada ou os dados de entrada do problema?_
 - _Existem anormalidades ou características acerca do espaço de entrada ou conjunto de dados que necessitem ser direcionados? (variáveis categóricas, valores faltando, valores atípicos, etc.)_
 
-A partir do treino e da avaliação realizada no console do AWS Deep Racer, são gerados arquivos de logs do treinamento e da avaliação. Utilizando o modelo de análise disponível no AWS Deepracer Workshop Lab Github [6] é possível realizar o download desses logs e iniciar a avaliação. Além dos logs de treinamento e 
+A partir do treino e da avaliação realizada no console do AWS Deep Racer, são gerados arquivos de logs do treinamento e da avaliação. Utilizando o modelo de análise disponível no AWS Deepracer Workshop Lab Github [6] é possível realizar o download desses logs e iniciar a avaliação, atraveś do arquivo . Além dos logs de treinamento/avaliação é gerado um modelo referente as redes neurais que fazem parte do algoritmo já explicado acima.
 
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
@@ -203,7 +203,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MjQyMDE0LDE1Mjk1Nzk0OSwtODAwMT
+eyJoaXN0b3J5IjpbNzc2NDE3Mjc0LDE1Mjk1Nzk0OSwtODAwMT
 kxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOTQyMywt
 ODUwOTMwMzRdfQ==
 -->
