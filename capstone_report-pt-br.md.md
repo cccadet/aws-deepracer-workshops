@@ -153,7 +153,7 @@ Meu objetivo inicial foi encontrar, com a função de recompensa baseada nos pad
 
 	    return float(reward)
 
-Essa função de recompensa é busca manter o carrinho na pista, sem grandes zigue-zague e 
+Essa função de recompensa é busca manter o carrinho na pista, sem grandes zigue-zague e adicionando um multiplicador pela velocidade.
 
 **Hyperparâmetros:**
 
@@ -167,9 +167,10 @@ Essa função de recompensa é busca manter o carrinho na pista, sem grandes zig
 |N. of experience episodes between each policy-updating iteration|20|
 |Number of epochs|10|
 
-
+Os hyperparâmetros serão mantidos estes inicialmente.
 
 ##### Estrutura de logs
+Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de 
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 A partir dessa estrutura básica é possível realizar
@@ -274,8 +275,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTExNTgxOSw4MTEyMzgzMjksLTk2MT
-A3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5
-LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNz
-E5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbNTg2MDU1ODM1LDgxMTIzODMyOSwtOTYxMD
+c4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NTc5NDks
+LTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MT
+k0MjMsLTg1MDkzMDM0XX0=
 -->
