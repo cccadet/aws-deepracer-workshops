@@ -183,7 +183,8 @@ Para avaliar as estatísticas selecionei as colunas que achei mais importantes p
 
 Na imagem é possível avaliar os seguinte pontos:
 
-- Iteration and episode: Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
+- Iteration (2) and episode (39): Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
+- Throttle
 
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
@@ -289,7 +290,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE2OTAzMDQsMTI0MjIxNjEwOCwxMD
+eyJoaXN0b3J5IjpbLTEzNzc2MzQxOTUsMTI0MjIxNjEwOCwxMD
 MyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYxNjI3MjAw
 LC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOTQsODExMj
 M4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIz
