@@ -13,7 +13,7 @@ Nesta seção, procure fornecer uma visão de alto nível do projeto em linguage
 
 _(aprox. 1-2 parágrafos)_
 
-#### Resumo e domínio do problema
+#### Resumo
 
 O projeto tem como tema o AWS Deep Racer da Amazon. Como a própria Amazon descreve:
 
@@ -21,9 +21,9 @@ O projeto tem como tema o AWS Deep Racer da Amazon. Como a própria Amazon descr
 
 Esse modelo de competição e aprendizado de RL faz com que aprendamos sobre o assunto que é um campo de estudo fascinante, porém muito complexo. Recentemente a Udacity lançou o AWS DeepRacer Scholarship Challenge e como não havia selecionado a minha proposta para o trabalho final resolvi applicá-la no meu trabalho.
 
-O objetivo do meu projeto é desenvolver é fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta pessoa é U$50,00.
+O objetivo do meu projeto é desenvolver e fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta pessoa é U$50,00.
 
-### Conjuntos de dados e entradas
+#### Conjuntos de dados e entradas
 
 O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer, esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
 
@@ -187,6 +187,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 ### Referências:
 [1] [https://aws.amazon.com/deepracer/?nc1=h_ls](https://aws.amazon.com/deepracer/?nc1=h_ls)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg2ODc0OTAsMzUzNzE5NDIzLC04NT
-A5MzAzNF19
+eyJoaXN0b3J5IjpbNTU2NDcwNTE4LDM1MzcxOTQyMywtODUwOT
+MwMzRdfQ==
 -->
