@@ -11,6 +11,73 @@ Nesta seção, procure fornecer uma visão de alto nível do projeto em linguage
 - _Foi fornecido um resumo do projeto final, bem como o domínio do problema, a origem do projeto e o conjunto de dados ou entradas?_
 - _Foram dadas informações suficientes sobre o contexto para que um leitor desinformado possa entender o domínio e a enunciação problema?_
 
+_(aprox. 1-2 parágrafos)_
+
+O projeto tem como tConforme descrição da própria página da AWS Amazon:
+
+“AWS DeepRacer is a reinforcement learning (RL)-enabled autonomous 1/18th-scale vehicle with supporting services in the AWS Machine Learning ecosystem. It offers an interactive learning system for users of all levels to acquire and refine their skill set in machine learning in general and reinforcement learning in particular. You can use the AWS DeepRacer console to train and evaluate deep reinforcement learning models in simulation and then deploy them to an AWS DeepRacer vehicle for autonomous driving. You can also join AWS DeepRacer League to race in the online Virtual Circuit or the in-person Summit Circuit.”
+
+Esse modelo de competição e aprendizado de RL faz com que aprendamos sobre o assunto que é um campo de estudo fascinante, porém muito complexo. Recentemente a Udacity lançou o AWS DeepRacer Scholarship Challenge e como não tinha selecionado a minha proposta para o trabalho final resolvi applicá-la no meu trabalho.
+
+### Descrição do problema
+
+_(aprox. 1 parágrafo)_
+
+Nesta seção, descreva claramente o problema a ser resolvido. O problema descrito deve ser bem definido e ter pelo menos uma solução possível. Descreva o problema detalhadamente, de forma que fique claro que o problema é quantificável (pode ser expresso em termos matemáticos ou lógicos), mensurável (pode ser medido por uma métrica e claramente observado), e replicável (pode ser reproduzido e ocorre mais de uma vez).
+
+O desafio é uma corrida. Inicialmente o objetivo é fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos.
+
+### Conjuntos de dados e entradas
+
+_(aprox. 2-3 parágrafos)_
+
+Nesta seção, o(s) conjunto(s) de dados e/ou entrada(s) considerado(s) para o projeto deve(m) ser descrito(s) detalhadamente, bem como a forma como ele(s) está(ão) relacionado(s) ao problema e por que deverá(ão) ser utilizado(s). Informações tais como a forma de obtenção do conjunto de dados ou entrada e as características do conjunto de dados ou entrada devem ser incluídas com referências relevantes e citações, conforme o necessário. Deve estar claro como o(s) conjunto(s) de dados ou entrada(s) será(ão) utilizado(s) no projeto e se o uso dele(s) é apropriado, dado o contexto do problema.
+
+O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer, esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
+
+-   Policy Network: Decide qual ação tomar de acordo com a imagem recebida no input.
+-   Value Network: Estima o resultado cumulativo que provavelmente obteremos, considerando a imagem como uma entrada.
+
+#### Reward
+
+Para a construção da função de recompensa temos uma entrada de uma variável chamada “params”. Essa variável é uma biblioteca no seguinte formato:
+
+```
+{
+    "all_wheels_on_track": Boolean,    # flag to indicate if the vehicle is on the track
+    "x": float,                        # vehicle's x-coordinate in meters
+    "y": float,                        # vehicle's y-coordinate in meters
+    "distance_from_center": float,     # distance in meters from the track center 
+    "is_left_of_center": Boolean,      # Flag to indicate if the vehicle is on the left side to the track center or not. 
+    "heading": float,                  # vehicle's yaw in degrees
+    "progress": float,                 # percentage of track completed
+    "steps": int,                      # number steps completed
+    "speed": float,                    # vehicle's speed in meters per second (m/s)
+    "steering_angle": float,          # vehicle's steering angle in degrees
+    "track_width": float,              # width of the track
+    "waypoints": [[float, float], … ], # list of [x,y] as milestones along the track center
+    "closest_waypoints": [int, int]    # indices of the two nearest waypoints.
+}
+
+```
+
+Mais informações estão disponíveis no endereço:  [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+
+#### Hyperparâmetros
+
+Hiperparâmetros algorítmicos  
+Gradient descent batch size (Tamanho de lote da descida de gradiente)  
+Number of epochs (Número de epochs)  
+Learning rate (Taxa de aprendizado)  
+Entropy  
+Discount factor (Fator de desconto)  
+Loss type (Tipo de perda)  
+Number of experience episodes between each policy-updating iteration (Número de episódios de experiência entre cada iteração de atualização de política)
+
+Mais informações:  [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
+
+Para esse projeto usarei o ambiente do AWS Deep Racer conforme já comentado anteriormente.
+
 ### Descrição do problema
 Nesta seção, você irá definir o problema que você está tentando resolver de forma clara, incluindo a estratégia (resumo das tarefas) que você irá utilizar para alcançar a solução desejada. Você deverá também discutir detalhadamente qual será a solução pretendida para este problema. Questões para se perguntar ao escrever esta seção:
 - _A enunciação do problema foi claramente definida? O leitor irá entender o que você está esperando resolver?_
@@ -124,5 +191,5 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 - O código que implementa sua solução está legível e comentado adequadamente?
 - O código é executado sem erros e produz resultados similares àqueles reportados?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbOTQ3ODgzNzgsLTg1MDkzMDM0XX0=
 -->
