@@ -55,7 +55,7 @@ A função de recompensa será o guia do nosso algoritmo. Ela que recompensará 
 
 Mais informações sobre a função de recompensa estão disponíveis na documentação de desenvolvedores da Amazon Deep Racer [3].
 
-#### Hyperparâmetros
+##### Hyperparâmetros
 
 Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais citadas acima. Com eles podemos acelerar ajustes de funções e definir pontos importantes do processo de Reinforcement Learning, como fazer com que nosso algoritmo priorize ações de maior recompensa já descoberta ou explore mais ações a fim de encontrar uma ação melhor em determinado estado. No console da AWS Deep Racer temos  os seguintes parâmetros:
 - Gradient descent batch size (Tamanho de lote da descida de gradiente)  
@@ -68,7 +68,7 @@ Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais c
 
 É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajustes de parâmetros [4].
 
-Para esse projeto usarei o ambiente do AWS Deep Racer conforme já comentado anteriormente.
+
 
 ### Descrição do problema
 Nesta seção, você irá definir o problema que você está tentando resolver de forma clara, incluindo a estratégia (resumo das tarefas) que você irá utilizar para alcançar a solução desejada. Você deverá também discutir detalhadamente qual será a solução pretendida para este problema. Questões para se perguntar ao escrever esta seção:
@@ -191,6 +191,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjUxMTI5Niw1NTY0NzA1MTgsMzUzNz
-E5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbOTgxNDI1NjYxLDU1NjQ3MDUxOCwzNTM3MT
+k0MjMsLTg1MDkzMDM0XX0=
 -->
