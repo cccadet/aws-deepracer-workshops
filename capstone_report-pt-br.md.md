@@ -101,6 +101,8 @@ Nesta seção, é esperado que você analise os dados que você está usando par
 - _Se **não** existe um conjunto de dados para o problema, foi realizada uma discussão sobre o espaço de entrada ou os dados de entrada do problema?_
 - _Existem anormalidades ou características acerca do espaço de entrada ou conjunto de dados que necessitem ser direcionados? (variáveis categóricas, valores faltando, valores atípicos, etc.)_
 
+A partir do treino e da avaliação realizada no console do AWS Deep Racer, 
+
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
 - _Você visualizou uma característica ou um atributo relevante acerca do conjunto de dados ou dados de entrada?_
@@ -200,7 +202,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTU3OTQ5LC04MDAxOTE3NTksMTQ5NT
-UwNDA3MSw1NTY0NzA1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
-
+eyJoaXN0b3J5IjpbODE3MDIzMSwxNTI5NTc5NDksLTgwMDE5MT
+c1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMsLTg1
+MDkzMDM0XX0=
 -->
