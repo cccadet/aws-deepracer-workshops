@@ -190,6 +190,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 - Todos os recursos usados neste projeto foram corretamente citados e referenciados?
 - O código que implementa sua solução está legível e comentado adequadamente?
 - O código é executado sem erros e produz resultados similares àqueles reportados?
+
+
+### Referncias
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNzE5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbLTE0MTkyMzI2OTgsMzUzNzE5NDIzLC04NT
+A5MzAzNF19
 -->
