@@ -82,10 +82,14 @@ Para a função de recompensa utilizarei formas de maximizar ações esperadas, 
 Para os hiperparâmetros, conforme vídeo “Intro to Tuning Hyperparameters” (L5: Tuning your model - AWS DeepRacer Course): “Figuring out what works best for your model is usually done through trial and error.”
 
 
-### Métricas
+#### Métricas
 Nesta seção, você precisará definir claramente as métricas ou cálculos que você irá usar para avaliar o desempenho de um modelo ou resultado no seu projeto. Esses cálculos e métricas devem ser justificadas baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
 - _As métricas que você escolheu para medir o desempenho de seus modelos foram discutidas e definidas de forma clara?_
 - _Você forneceu justificativas razoáveis para as métricas escolhidas, baseando-se no problema e solução?_
+
+Para a métrica de avaliação a ideia é usar o percentuao tempo de conclusão de volta, as recompensas por iteração e a avaliação do algoritmo em pistas diferentes. Para facilitar essa análise utilizarei o Jupyter notebook disponibilizado no artigo “Using Jupyter Notebook for analysing DeepRacer’s logs”.
+
+Artigo disponível em:  [https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 
 
 ## II. Análise
@@ -197,7 +201,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzExNTYyNywtODAwMTkxNzU5LDE0OT
-U1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTEwMjA0OTk2MjgsLTgwMDE5MTc1OSwxND
+k1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMsLTg1MDkzMDM0
+XX0=
 -->
