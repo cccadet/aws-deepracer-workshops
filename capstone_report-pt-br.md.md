@@ -13,7 +13,7 @@ Nesta seção, procure fornecer uma visão de alto nível do projeto em linguage
 
 _(aprox. 1-2 parágrafos)_
 
-O projeto tem como tConforme descrição da própria página da AWS Amazon:
+O projeto tem como tema o AWS Deep Racer da Amazon. Como a própria Amazon descreve:
 
 “AWS DeepRacer is a reinforcement learning (RL)-enabled autonomous 1/18th-scale vehicle with supporting services in the AWS Machine Learning ecosystem. It offers an interactive learning system for users of all levels to acquire and refine their skill set in machine learning in general and reinforcement learning in particular. You can use the AWS DeepRacer console to train and evaluate deep reinforcement learning models in simulation and then deploy them to an AWS DeepRacer vehicle for autonomous driving. You can also join AWS DeepRacer League to race in the online Virtual Circuit or the in-person Summit Circuit.”
 
@@ -191,5 +191,5 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 - O código que implementa sua solução está legível e comentado adequadamente?
 - O código é executado sem erros e produz resultados similares àqueles reportados?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3ODgzNzgsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbNTk0OTQwMDAyLC04NTA5MzAzNF19
 -->
