@@ -105,7 +105,7 @@ A partir do treino e da avaliação realizada no console do AWS Deep Racer, são
 
 Meu objetivo inicial foi encontrar, com a função de recompensa padrão básica e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
 
-``def reward_function(params):
+def reward_function(params):
 
     # Read input parameters
     track_width = params['track_width']
@@ -257,7 +257,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzU0NTU3Miw4MTEyMzgzMjksLTk2MT
+eyJoaXN0b3J5IjpbMTE5MDg0NTk4OCw4MTEyMzgzMjksLTk2MT
 A3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5
 LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNz
 E5NDIzLC04NTA5MzAzNF19
