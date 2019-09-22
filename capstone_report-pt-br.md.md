@@ -25,12 +25,12 @@ O objetivo do meu projeto é desenvolver e fazer com que o carrinho chegue no fi
 
 #### Conjuntos de dados e entradas
 
-O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer, esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
+O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer [2], esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
 
 -   Policy Network: Decide qual ação tomar de acordo com a imagem recebida no input.
 -   Value Network: Estima o resultado cumulativo que provavelmente obteremos, considerando a imagem como uma entrada.
 
-#### Reward
+##### Reward
 
 Para a construção da função de recompensa temos uma entrada de uma variável chamada “params”. Essa variável é uma biblioteca no seguinte formato:
 
@@ -186,7 +186,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 
 ### Referências:
 [1] [https://aws.amazon.com/deepracer/?nc1=h_ls](https://aws.amazon.com/deepracer/?nc1=h_ls)
+[2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NDcwNTE4LDM1MzcxOTQyMywtODUwOT
-MwMzRdfQ==
+eyJoaXN0b3J5IjpbLTgxNzE0ODQ3OCw1NTY0NzA1MTgsMzUzNz
+E5NDIzLC04NTA5MzAzNF19
 -->
