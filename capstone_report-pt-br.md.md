@@ -57,7 +57,7 @@ Mais informações sobre a função de recompensa estão disponíveis na documen
 
 #### Hyperparâmetros
 
-Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais citadas acima. Com eles podemos acelerar ajustes de funções e definir pontos importantes do processo de Reinforcement Leraning
+Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais citadas acima. Com eles podemos acelerar ajustes de funções e definir pontos importantes do processo de Reinforcement Learning, como fazer com que nosso algoritmo priorize ações de maior recompensa já descoberta ou explore mais ações a fim de encontrar uma ação melhor em determinado estado.
 Gradient descent batch size (Tamanho de lote da descida de gradiente)  
 Number of epochs (Número de epochs)  
 Learning rate (Taxa de aprendizado)  
@@ -189,6 +189,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 [3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTY2MTUxOSw1NTY0NzA1MTgsMzUzNz
-E5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbLTE0NjI3NTEyOTksNTU2NDcwNTE4LDM1Mz
+cxOTQyMywtODUwOTMwMzRdfQ==
 -->
