@@ -170,7 +170,7 @@ Essa função de recompensa é busca manter o carrinho na pista, sem grandes zig
 Os hyperparâmetros serão mantidos estes inicialmente.
 
 ##### Estrutura de logs
-Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download os logs direto da AWS, desde que o AWS Client seja configurado. Os arquivos necessário para executar os notebooks avaliados neste relatório estarão todos disponíveis na pasta
+Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download os logs direto da AWS, desde que o AWS Client seja configurado. Os arquivos necessário para executar os notebooks avaliados neste relatório estarão todos disponíveis na pasta **log-analysis/** (logs) e **log-analysis/intermediate_checkpoint** (modelos).
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 A partir dessa estrutura básica é possível realizar
@@ -275,8 +275,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwOTc2MDk0LDgxMTIzODMyOSwtOTYxMD
-c4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NTc5NDks
-LTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MT
-k0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMz
+gzMjksLTk2MTA3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMs
+MTUyOTU3OTQ5LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0Nz
+A1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
 -->
