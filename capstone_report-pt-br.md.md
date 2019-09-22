@@ -77,8 +77,8 @@ Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais c
 #### Solução
 Para solucionar o problema proposto utilizarei como ponto de partida os exemplos de função de recompensa e hiperparâmetros disponíveis nos exemplos da documentação da AWS Deep Racer. 
 ##### Reward
-Para a função de recompensa utilizarei formas de maximizar ações esperadas, como manter-se na pista, ganhar velocidade e completar voltas. Para isso a ideia é usar como base da função de recompensa os parâmetros `distance_from_center` and `
-
+Para a função de recompensa utilizarei formas de maximizar ações esperadas, como manter-se na pista, ganhar velocidade e completar voltas. Para isso a ideia é usar como base da função de recompensa os parâmetros `distance_from_center` and `all_wheels_on_track`. Além disso, vou usar como multiplicador da recompensa o `progress` a fim de que a recompensa seja maior de acordo com o avanço na pista.
+##### Hyperparam
 Para os hiperparâmetros, conforme vídeo “Intro to Tuning Hyperparameters” (L5: Tuning your model - AWS DeepRacer Course): “Figuring out what works best for your model is usually done through trial and error.”
 
 
@@ -199,6 +199,6 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAyNzIyMzMsMTQ5NTUwNDA3MSw1NT
-Y0NzA1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
+eyJoaXN0b3J5IjpbNzA5Mjg4NjMxLDE0OTU1MDQwNzEsNTU2ND
+cwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRdfQ==
 -->
