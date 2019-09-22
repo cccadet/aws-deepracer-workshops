@@ -162,11 +162,8 @@ Meu objetivo inicial foi encontrar, com a função de recompensa padrão básica
 |Discount factor | 0.999 |
 |Loss type|Huber|
 |Learning rate|0.0003|
-|Number of experience episodes between each policy-updating iteration|20|
-
-Number of epochs
-
-10
+|N. of experience episodes between each policy-updating iteration|20|
+|Number of epochs|10|
 
 ##### Estrutura de logs
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
@@ -273,8 +270,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkwOTgxNTIsODExMjM4MzI5LC05Nj
-EwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0
-OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1Mz
-cxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbMTk0NzAyNTM1Myw4MTEyMzgzMjksLTk2MT
+A3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5
+LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgsMzUzNz
+E5NDIzLC04NTA5MzAzNF19
 -->
