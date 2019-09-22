@@ -154,10 +154,19 @@ Meu objetivo inicial foi encontrar, com a função de recompensa padrão básica
 	    return float(reward)
 
 **Hyperparâmetros:**
+
 | Hyperparâmetro              |      Value    |
 |-----------------------------|:-------------:|
 | Gradient descent batch size | 64            |
-|||
+|Entropy|0.01|
+|Discount factor | 0.999 |
+|Loss type|Huber|
+|Learning rate|0.0003|
+|Number of experience episodes between each policy-updating iteration|20|
+
+Number of epochs
+
+10
 
 ##### Estrutura de logs
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
@@ -264,7 +273,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc1MzUyNDEsODExMjM4MzI5LC05Nj
+eyJoaXN0b3J5IjpbLTEwNjkwOTgxNTIsODExMjM4MzI5LC05Nj
 EwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0
 OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1Mz
 cxOTQyMywtODUwOTMwMzRdfQ==
