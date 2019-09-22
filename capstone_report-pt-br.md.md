@@ -66,7 +66,7 @@ Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais c
 - Loss type (Tipo de perda)  
 - Number of experience episodes between each policy-updating iteration - (Número de episódios de experiência entre cada iteração de atualização de política)
 
-É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajus Mais informações:  [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
+É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajustes de parâmetros [4].
 
 Para esse projeto usarei o ambiente do AWS Deep Racer conforme já comentado anteriormente.
 
@@ -188,7 +188,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [1] [https://aws.amazon.com/deepracer/?nc1=h_ls](https://aws.amazon.com/deepracer/?nc1=h_ls)
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 [3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+[4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MTk1NTkwLDU1NjQ3MDUxOCwzNTM3MT
-k0MjMsLTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbMTg3NjUxMTI5Niw1NTY0NzA1MTgsMzUzNz
+E5NDIzLC04NTA5MzAzNF19
 -->
