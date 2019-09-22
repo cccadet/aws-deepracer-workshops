@@ -105,7 +105,7 @@ A partir do treino e da avaliação realizada no console do AWS Deep Racer, são
 
 ##### Estrutura de logs
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
-![Exemplo de dados de treinamento AWS Deep Racer](https://drive.google.com/open?id=12FHblJO7DnnfDsIyXAidPb99ToIOvb5k)
+![Exemplo de dados de treinamento AWS Deep Racer]()
 
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
@@ -207,7 +207,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mj
-k1Nzk0OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4
-LDM1MzcxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbLTk2MTA3ODcxOSwxNjczNDAxMDIzLDE2Mz
+I0NjY2MjMsMTUyOTU3OTQ5LC04MDAxOTE3NTksMTQ5NTUwNDA3
+MSw1NTY0NzA1MTgsMzUzNzE5NDIzLC04NTA5MzAzNF19
 -->
