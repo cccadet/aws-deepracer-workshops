@@ -191,7 +191,7 @@ Nesta seção, você deverá discutir os algoritmos e técnicas que você preten
 - _As técnicas a serem usadas foram adequadamente discutidas e justificadas?_
 - _Ficou claro como os dados de entrada ou conjuntos de dados serão controlados pelos algoritmos e técnicas escolhidas?_
 
-Conforme descrito na etapa de **I.Definição** o AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Esse projeto trata-se de um projeto de otimização e não
+Conforme descrito na etapa de **I.Definição** o AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Esse projeto trata-se de um projeto de otimização do algoritmo já definido e usado pela AWS Deep Racer. Conforme já descrito na etapa de **Entrada de Dados** e **Exploração dos **
 
 ### Benchmark
 Nesta  seção, você deverá definir claramente um resultado de referência (benchmark) ou limiar para comparar entre desempenhos obtidos pela sua solução. O raciocínio por trás da referência (no caso onde não é estabelecido um resultado) deve ser discutido. Questões para se perguntar ao escrever esta seção:
@@ -281,7 +281,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTI3MzM3MywzNjE2MjcyMDAsLTEwND
+eyJoaXN0b3J5IjpbMTE3NzU4MjA1NSwzNjE2MjcyMDAsLTEwND
 AyMDQ1MjMsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjks
 LTk2MTA3ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOT
 U3OTQ5LC04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MTgs
