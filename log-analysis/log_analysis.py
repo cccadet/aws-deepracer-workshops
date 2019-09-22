@@ -30,6 +30,7 @@ from shapely.geometry import Point, Polygon
 from shapely.geometry.polygon import LinearRing, LineString
 from datetime import datetime
 
+import seaborn as sns
 
 EPISODE_PER_ITER = 20
 
@@ -268,8 +269,10 @@ def plot_grid_world(episode_df, inner, outer, scale=10.0, plot=True):
                     #average_throttle = np.nanmean(df_slice['throttle'])
                     grid[x][y] = np.nanmean(df_slice['throttle'])
 
+        from matplotlib.colors import ListedColormap
+        cmap = ListedColormap(sns.color_palette("BrBG", 7))
         fig = plt.figure(figsize=(7,7))
-        imgplot = plt.imshow(grid)
+        imgplot = plt.imshow(grid, cmap=cmap)
         plt.colorbar(orientation='vertical')
         plt.title('Lap time (sec) = %.2f' %lap_time)
         #plt.savefig('grid.png')

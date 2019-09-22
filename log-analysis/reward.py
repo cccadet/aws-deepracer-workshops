@@ -14,7 +14,7 @@ def reward_function(params):
     track_width = params['track_width']
     distance_from_center = params['distance_from_center']
     all_wheels_on_track = params['all_wheels_on_track']
-    steering = abs(params['steering_angle']) # Only need the absolute steering angle
+    steering = abs(params['steering_angle'])  # Only need the absolute steering angle
     progress = params['progress']
     speed = params['speed']
     SPEED_THRESHOLD = 1.0
@@ -37,20 +37,21 @@ def reward_function(params):
     else:
         reward = 1e-3  # likely crashed/ close to off track
 
-    if not all_wheels_on_track:
-        # Penalize if the car goes off track
-        reward = 1e-3
-    elif speed < SPEED_THRESHOLD:
-        # Penalize if the car goes too slow
-        reward = reward - 0.1
-    else:
-        # High reward if the car stays on track and goes fast
-        reward = reward * speed
-
     if steering > ABS_STEERING_THRESHOLD:
         # Penalize reward if the agent is steering too much
         reward *= 0.8
+    elif speed < SPEED_THRESHOLD:
+        # Penalize if the car goes too slow
+        reward *= 0.1
+    else:
+        # High reward if the car stays on track and goes fast
+        reward *= 1.1
+        reward = reward + speed
 
     reward = reward + (reward * (progress / 100))
+
+    if not all_wheels_on_track:
+        # Penalize if the car goes off track
+        reward = 1e-3
 
     return float(reward)
