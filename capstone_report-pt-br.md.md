@@ -184,7 +184,8 @@ Para avaliar as estatísticas selecionei as colunas que achei mais importantes p
 Na imagem é possível avaliar os seguinte pontos:
 
 - Iteration (2) and episode (39): Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
-- Throttle
+- Throttle: Com uma média de 0.7765 é possível avaliar que o carrinho esteve acelerando boa parte do tempo de treinamento.
+- 
 
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
@@ -290,10 +291,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc2MzQxOTUsMTI0MjIxNjEwOCwxMD
-MyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYxNjI3MjAw
-LC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOTQsODExMj
-M4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIz
-LDE1Mjk1Nzk0OSwtODAwMTkxNzU5LDE0OTU1MDQwNzEsNTU2ND
-cwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbMzc5MTEzLDEyNDIyMTYxMDgsMTAzMjgxND
+c4MCwxMDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNzIwMCwtMTA0
+MDIwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOS
+wtOTYxMDc4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5
+NTc5NDksLTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOC
+wzNTM3MTk0MjMsLTg1MDkzMDM0XX0=
 -->
