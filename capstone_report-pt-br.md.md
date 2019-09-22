@@ -174,7 +174,7 @@ Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
-Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realizadas nas etapadas de metodologias.
+Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realizadas nas etapa III.Metodologia.
 
 
 ### Visualização exploratória
@@ -183,7 +183,7 @@ Nesta seção, você precisará fornecer alguma forma de visualização que sint
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
-A visualização exploratória 
+A visualização exploratória, assim a exploração de dados serão tratados na etapa III.Metodologia.
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -279,9 +279,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNjI3MjAwLC0xMDQwMjA0NTIzLDE5OD
-U0NTQ0OSw3NjA5NzYwOTQsODExMjM4MzI5LC05NjEwNzg3MTks
-MTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0OSwtODAwMT
-kxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOTQyMywt
-ODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbNzA3MDMwMDI0LDM2MTYyNzIwMCwtMTA0MD
+IwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOSwt
+OTYxMDc4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NT
+c5NDksLTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwz
+NTM3MTk0MjMsLTg1MDkzMDM0XX0=
 -->
