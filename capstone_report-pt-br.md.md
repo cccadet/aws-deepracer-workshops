@@ -185,7 +185,7 @@ Na imagem é possível avaliar os seguinte pontos:
 
 - Iteration (2) and episode (39): Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
 - Throttle: Com uma média de 0.7765 é possível avaliar que o carrinho esteve acelerando boa parte do tempo de treinamento.
-- Reward: Temos uma média de recompensa de 1.05.
+- Reward: Temos uma média de recompensa de 1.05. Se formos avaliar a função de recompensa atual, podemos verificar que essa recompensa é atribuída quando o carrinhos está muito próximo ao centro da pista. Como o foco da corrida é tempo de volta, possívelmente 
 - 
 
 ### Visualização exploratória
@@ -292,10 +292,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNj
-EwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYx
-NjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOT
-QsODExMjM4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyMywxNjMy
-NDY2NjIzLDE1Mjk1Nzk0OSwtODAwMTkxNzU5LDE0OTU1MDQwNz
-EsNTU2NDcwNTE4LDM1MzcxOTQyMywtODUwOTMwMzRdfQ==
+eyJoaXN0b3J5IjpbLTEwNzY2MTI0NDMsMTIyNjMyMTM1OSwzNz
+kxMTMsMTI0MjIxNjEwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5
+NzU0MDQzMTAsMzYxNjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NT
+Q0OSw3NjA5NzYwOTQsODExMjM4MzI5LC05NjEwNzg3MTksMTY3
+MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0OSwtODAwMTkxNz
+U5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOTQyM119
 -->
