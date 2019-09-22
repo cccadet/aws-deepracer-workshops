@@ -103,6 +103,9 @@ Nesta seção, é esperado que você analise os dados que você está usando par
 
 A partir do treino e da avaliação realizada no console do AWS Deep Racer, são gerados arquivos de logs do treinamento e da avaliação. Utilizando o modelo de análise disponível no AWS Deepracer Workshop Lab Github [6] é possível realizar o download desses logs e iniciar a avaliação, atraveś do arquivo `log-analysis/DeepRacer Log Analysis.ipynb`. Além dos logs de treinamento/avaliação é gerado um modelo referente as redes neurais que fazem parte do algoritmo já explicado acima. No console AWS é possível realizar o download deste modelo para que o mesmo também seja avaliado no Jupyter Notebook já mencionado acima.
 
+##### Estrutura de logs
+Os logs de treinamento após serem carregados para um DataFrame 
+
 ### Visualização exploratória
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
 - _Você visualizou uma característica ou um atributo relevante acerca do conjunto de dados ou dados de entrada?_
@@ -203,7 +206,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjQ2NjYyMywxNTI5NTc5NDksLTgwMD
-E5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMs
-LTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbLTE1ODAwODAxNTAsMTYzMjQ2NjYyMywxNT
+I5NTc5NDksLTgwMDE5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUx
+OCwzNTM3MTk0MjMsLTg1MDkzMDM0XX0=
 -->
