@@ -174,7 +174,7 @@ Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download
 Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
-Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realzi
+Como neste cenário de RL os modelos gerarão logs somente após o treinamento/avaliação, estatísticas e avaliações serão realizadas nas etapadas de metodologias.
 
 
 ### Visualização exploratória
@@ -182,6 +182,8 @@ Nesta seção, você precisará fornecer alguma forma de visualização que sint
 - _Você visualizou uma característica ou um atributo relevante acerca do conjunto de dados ou dados de entrada?_
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
+
+A visualização exploratória 
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -277,9 +279,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzY0NTAzMiwtMTA0MDIwNDUyMywxOT
-g1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOSwtOTYxMDc4NzE5
-LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NTc5NDksLTgwMD
-E5MTc1OSwxNDk1NTA0MDcxLDU1NjQ3MDUxOCwzNTM3MTk0MjMs
-LTg1MDkzMDM0XX0=
+eyJoaXN0b3J5IjpbMzYxNjI3MjAwLC0xMDQwMjA0NTIzLDE5OD
+U0NTQ0OSw3NjA5NzYwOTQsODExMjM4MzI5LC05NjEwNzg3MTks
+MTY3MzQwMTAyMywxNjMyNDY2NjIzLDE1Mjk1Nzk0OSwtODAwMT
+kxNzU5LDE0OTU1MDQwNzEsNTU2NDcwNTE4LDM1MzcxOTQyMywt
+ODUwOTMwMzRdfQ==
 -->
