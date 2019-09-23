@@ -194,7 +194,8 @@ Nesta seção, você precisará fornecer alguma forma de visualização que sint
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
-A visualização exploratória, assim a exploração de dados serão tratados na etapa **III.Metodologia**.
+![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions.png)
+
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -292,10 +293,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMTYyMDYwLDYzMDYwNTI2MCwxMjI2Mz
-IxMzU5LDM3OTExMywxMjQyMjE2MTA4LDEwMzI4MTQ3ODAsMTA4
-MjU2MjQ2LDk3NTQwNDMxMCwzNjE2MjcyMDAsLTEwNDAyMDQ1Mj
-MsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjksLTk2MTA3
-ODcxOSwxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5LC
-04MDAxOTE3NTksMTQ5NTUwNDA3MSw1NTY0NzA1MThdfQ==
+eyJoaXN0b3J5IjpbLTMwNzkzMDY0OSw0MzIxNjIwNjAsNjMwNj
+A1MjYwLDEyMjYzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDgsMTAz
+MjgxNDc4MCwxMDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNzIwMC
+wtMTA0MDIwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIz
+ODMyOSwtOTYxMDc4NzE5LDE2NzM0MDEwMjMsMTYzMjQ2NjYyMy
+wxNTI5NTc5NDksLTgwMDE5MTc1OSwxNDk1NTA0MDcxXX0=
 -->
