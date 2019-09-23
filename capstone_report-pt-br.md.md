@@ -194,7 +194,11 @@ Nesta seção, você precisará fornecer alguma forma de visualização que sint
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
-Para avaliação dos gráficos a seguir é necessário tomar como base que o eixo X e o eixo Y são as rtespectivas co
+#### Avaliação de recompensa por ações
+
+Para avaliação dos gráficos a seguir é necessário tomar como base que o eixo X e o eixo Y são as rtespectivas colunas X e Y do Dataframe avaliado na seção notebooks de análise.
+
+##### Avaliação 
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions.png)
 
@@ -295,10 +299,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDg1MjM5MCwtMzA3OTMwNjQ5LDQzMj
-E2MjA2MCw2MzA2MDUyNjAsMTIyNjMyMTM1OSwzNzkxMTMsMTI0
-MjIxNjEwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMT
-AsMzYxNjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5
-NzYwOTQsODExMjM4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyMy
-wxNjMyNDY2NjIzLDE1Mjk1Nzk0OSwtODAwMTkxNzU5XX0=
+eyJoaXN0b3J5IjpbNzU3MjI3MjM3LC0zMDc5MzA2NDksNDMyMT
+YyMDYwLDYzMDYwNTI2MCwxMjI2MzIxMzU5LDM3OTExMywxMjQy
+MjE2MTA4LDEwMzI4MTQ3ODAsMTA4MjU2MjQ2LDk3NTQwNDMxMC
+wzNjE2MjcyMDAsLTEwNDAyMDQ1MjMsMTk4NTQ1NDQ5LDc2MDk3
+NjA5NCw4MTEyMzgzMjksLTk2MTA3ODcxOSwxNjczNDAxMDIzLD
+E2MzI0NjY2MjMsMTUyOTU3OTQ5LC04MDAxOTE3NTldfQ==
 -->
