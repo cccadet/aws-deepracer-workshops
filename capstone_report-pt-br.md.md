@@ -212,6 +212,8 @@ Na imagem abaixo é possível verificar as recompensas de uma iteração especí
 
 Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a base da composição da recompensa ser a distância do centro da pista. Tanto na imagem de avaliação geral quanto a imagem de avaliação de uma iteraçãpo específica, no caso a iteração 2, é visto que a distribuição das recompensas estão muito próximas do centro da pista.
 
+##### ### Path taken for top reward iterations
+
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -309,10 +311,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1Nz
-IyNzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2MCw2MzA2MDUyNjAs
-MTIyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNjEwOCwxMDMyODE0Nz
-gwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYxNjI3MjAwLC0xMDQw
-MjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOTQsODExMjM4MzI5LC
-05NjEwNzg3MTksMTY3MzQwMTAyMywxNjMyNDY2NjIzXX0=
+eyJoaXN0b3J5IjpbLTEzMTAxNTU4MzYsMTgxOTMyMDA4MywtNT
+YxNTg3NTMyLDc1NzIyNzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2
+MCw2MzA2MDUyNjAsMTIyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNj
+EwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYx
+NjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOT
+QsODExMjM4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyM119
 -->
