@@ -200,6 +200,8 @@ Para avaliação dos gráficos a seguir é necessário tomar como base que o eix
 
 ##### Avaliação geral
 
+Na imagem abaixo é possível verificar as recompensas retornadas no processo de treinamento.
+
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions.png)
 
 ##### Avaliação iteração 2
@@ -307,10 +309,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTYxOTc0NzUsNzU3MjI3MjM3LC0zMD
-c5MzA2NDksNDMyMTYyMDYwLDYzMDYwNTI2MCwxMjI2MzIxMzU5
-LDM3OTExMywxMjQyMjE2MTA4LDEwMzI4MTQ3ODAsMTA4MjU2Mj
-Q2LDk3NTQwNDMxMCwzNjE2MjcyMDAsLTEwNDAyMDQ1MjMsMTk4
-NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjksLTk2MTA3ODcxOS
-wxNjczNDAxMDIzLDE2MzI0NjY2MjMsMTUyOTU3OTQ5XX0=
+eyJoaXN0b3J5IjpbLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNz
+kzMDY0OSw0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMjYzMjEzNTks
+Mzc5MTEzLDEyNDIyMTYxMDgsMTAzMjgxNDc4MCwxMDgyNTYyND
+YsOTc1NDA0MzEwLDM2MTYyNzIwMCwtMTA0MDIwNDUyMywxOTg1
+NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOSwtOTYxMDc4NzE5LD
+E2NzM0MDEwMjMsMTYzMjQ2NjYyMywxNTI5NTc5NDldfQ==
 -->
