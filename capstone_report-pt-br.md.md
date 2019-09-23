@@ -210,9 +210,13 @@ Na imagem abaixo é possível verificar as recompensas de uma iteração especí
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_It2.png)
 
+##### Path taken for top reward iterations
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards.png)
+
 Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a base da composição da recompensa ser a distância do centro da pista. Tanto na imagem de avaliação geral quanto a imagem de avaliação de uma iteraçãpo específica, no caso a iteração 2, é visto que a distribuição das recompensas estão muito próximas do centro da pista.
 
-##### ### Path taken for top reward iterations
+
 
 
 ### Algoritmos e técnicas
@@ -311,10 +315,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAxNTU4MzYsMTgxOTMyMDA4MywtNT
-YxNTg3NTMyLDc1NzIyNzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2
-MCw2MzA2MDUyNjAsMTIyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNj
-EwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYx
-NjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NTQ0OSw3NjA5NzYwOT
-QsODExMjM4MzI5LC05NjEwNzg3MTksMTY3MzQwMTAyM119
+eyJoaXN0b3J5IjpbOTM2NTc5NjI0LDE4MTkzMjAwODMsLTU2MT
+U4NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAs
+NjMwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEzLDEyNDIyMTYxMD
+gsMTAzMjgxNDc4MCwxMDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYy
+NzIwMCwtMTA0MDIwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0LD
+gxMTIzODMyOSwtOTYxMDc4NzE5LDE2NzM0MDEwMjNdfQ==
 -->
