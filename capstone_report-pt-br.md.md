@@ -210,7 +210,7 @@ Na imagem abaixo é possível verificar as recompensas de uma iteração especí
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_It2.png)
 
-Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a 
+Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a base da composição da recompensa ser a distância do centro da pista. Tan
 
 
 ### Algoritmos e técnicas
@@ -309,7 +309,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4MjY2NjgyLC01NjE1ODc1MzIsNzU3Mj
+eyJoaXN0b3J5IjpbNzIzMTg0NjM4LC01NjE1ODc1MzIsNzU3Mj
 I3MjM3LC0zMDc5MzA2NDksNDMyMTYyMDYwLDYzMDYwNTI2MCwx
 MjI2MzIxMzU5LDM3OTExMywxMjQyMjE2MTA4LDEwMzI4MTQ3OD
 AsMTA4MjU2MjQ2LDk3NTQwNDMxMCwzNjE2MjcyMDAsLTEwNDAy
