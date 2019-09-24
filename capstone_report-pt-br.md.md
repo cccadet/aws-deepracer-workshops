@@ -222,6 +222,22 @@ Além disso, o caminho percorrido para as iterações de maior recompensa estão
 
 Na avaliação temos que entender como o carrinho se portou na pista durante as três tentativas de completar a corrida.
 
+**Tentativa 1:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1.png)
+
+
+**Tentativa 2:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_2.png)
+
+
+**Tentativa 3:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_3.png)
+
+
+**Resultado da avaliação pela AWS:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
 
@@ -323,11 +339,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OT
-IyOTM1MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEy
-NDg3LC0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYxNTg3NTMyLD
-c1NzIyNzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2MCw2MzA2MDUy
-NjAsMTIyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNjEwOCwxMDMyOD
-E0NzgwLDEwODI1NjI0Niw5NzU0MDQzMTAsMzYxNjI3MjAwXX0=
+eyJoaXN0b3J5IjpbLTk2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mj
+c4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1
+OTAyLDIxMDU4MTI0ODcsLTE4Mzg3NjE1OCwxODE5MzIwMDgzLC
+01NjE1ODc1MzIsNzU3MjI3MjM3LC0zMDc5MzA2NDksNDMyMTYy
+MDYwLDYzMDYwNTI2MCwxMjI2MzIxMzU5LDM3OTExMywxMjQyMj
+E2MTA4LDEwMzI4MTQ3ODAsMTA4MjU2MjQ2LDk3NTQwNDMxMF19
 
 -->
