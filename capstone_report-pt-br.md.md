@@ -94,7 +94,7 @@ Para a métrica de avaliação a ideia é usar o **percentual de conclusão da p
 ## II. Análise
 _(aprox. 2-4 páginas)_
 
-### Exploração dos dados
+### Exploração dos dados - Treinamento
 Nesta seção, é esperado que você analise os dados que você está usando para o problema. Esses dados podem ser tanto na forma de um conjunto de dados (ou conjuntos de dados), dados de entrada (ou arquivos de entrada), ou até um ambiente. O tipo de dados deve ser descrito detalhadamente e, se possível, ter estatísticas e informações básicas apresentadas (tais como discussão dos atributos de entrada ou definição de características das entradas ou do ambiente) Qualquer anormalidade ou qualidade interessante dos dados que possam precisar ser devidamente tratadas devem ser identificadas (tais como características que precisem ser transformadas ou a possibilidade de valores atípicos) Questões para se perguntar ao escrever esta seção:
 - _Se exite um conjunto de dados para o problema em questão, você discutiu totalmente as características desse conjunto? Uma amostra dos dados foi oferecida ao leitor?_
 - _Se existe um conjunto de dados para o problema, as estatísticas sobre eles foram calculadas e reportadas? Foram discutidos quaisquer resultados relevantes desses cálculos?_
@@ -169,8 +169,6 @@ Essa função de recompensa é busca manter o carrinho na pista, sem grandes zig
 
 Os hyperparâmetros serão mantidos estes inicialmente.
 
-### Treinamento
-
 ##### Estrutura de logs
 Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download os logs direto da AWS, desde que o AWS Client seja configurado. Os arquivos necessário para executar os notebooks avaliados neste relatório estarão todos disponíveis na pasta **log-analysis/** (logs) e **log-analysis/intermediate_checkpoint** (modelos).
 
@@ -190,7 +188,7 @@ Na imagem é possível avaliar os seguinte pontos:
 - **Reward:** Temos uma média de recompensa de 1.05. Se formos avaliar a função de recompensa atual, podemos verificar que essa recompensa é atribuída quando o carrinhos está muito próximo ao centro da pista. Como o foco da corrida é tempo de volta, possívelmente a base da recompensa não poderá ser a distancia do centro da pista.
 - **Progress:** Bom, chegamos no 100%.
 
-### Visualização exploratória
+### Visualização exploratória - Treinamento
 Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
 - _Você visualizou uma característica ou um atributo relevante acerca do conjunto de dados ou dados de entrada?_
 - _A visualização foi completamente analisada e discutida?_
@@ -220,8 +218,9 @@ Nas imagens acima é possível confirmar o que foi levantado na seção "Noteboo
 
 Além disso, o caminho percorrido para as iterações de maior recompensa estão extremamente alinhadas com o centro da pista. 
 
-### Ava
+### Exploração dos dados Avaliação
 
+### Visualização exploratória
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -319,10 +318,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjUyMjM5LDIxMDU4MTI0ODcsLTE4Mz
-g3NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3MjI3MjM3
-LC0zMDc5MzA2NDksNDMyMTYyMDYwLDYzMDYwNTI2MCwxMjI2Mz
-IxMzU5LDM3OTExMywxMjQyMjE2MTA4LDEwMzI4MTQ3ODAsMTA4
-MjU2MjQ2LDk3NTQwNDMxMCwzNjE2MjcyMDAsLTEwNDAyMDQ1Mj
-MsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjldfQ==
+eyJoaXN0b3J5IjpbLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMT
+gzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcy
+MzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMj
+YzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDgsMTAzMjgxNDc4MCwx
+MDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNzIwMCwtMTA0MDIwND
+UyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOV19
 -->
