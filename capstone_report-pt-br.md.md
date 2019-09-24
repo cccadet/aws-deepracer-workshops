@@ -218,9 +218,11 @@ Nas imagens acima é possível confirmar o que foi levantado na seção "Noteboo
 
 Além disso, o caminho percorrido para as iterações de maior recompensa estão extremamente alinhadas com o centro da pista. 
 
-### Exploração dos dados Avaliação
+### Exploração dos dados - Avaliação
 
-### Visualização exploratória
+
+
+### Visualização exploratória - Treinamento
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -318,10 +320,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMT
-gzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcy
-MzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMj
-YzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDgsMTAzMjgxNDc4MCwx
-MDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNzIwMCwtMTA0MDIwND
-UyMywxOTg1NDU0NDksNzYwOTc2MDk0LDgxMTIzODMyOV19
+eyJoaXN0b3J5IjpbLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMj
+EwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4
+NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAsNj
+MwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDgs
+MTAzMjgxNDc4MCwxMDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNz
+IwMCwtMTA0MDIwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0XX0=
+
 -->
