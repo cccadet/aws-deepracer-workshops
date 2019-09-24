@@ -321,7 +321,7 @@ Nesta seção, você deve documentar claramente todos os passos de pré-processa
 
 Conforme avaliado na seção de **Exploração de dados - Treinamento** a função de recompensa padrão utilizada apresentou uma forte de manter o carrinho no centro da pista. Isso não é de todo mal, porém tratando-se de uma corrida, a ideia é que o tempo de volta seja melhor.
 
-Diante disso, alterei a função de recompensa para ter como base a velocidade :
+Diante disso, alterei a função de recompensa para ter como base a velocidade do carrinho. Os demais parâmetros avaliados apenas aplicarão:
 
     def reward_function(params):
 	    # Read input parameters
@@ -439,7 +439,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjI1Mzc2NiwxNzg0Mzg4MjkxLC05Nj
+eyJoaXN0b3J5IjpbLTk0MjA0MzcwMywxNzg0Mzg4MjkxLC05Nj
 A3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1
 MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyNDg3LC
 0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1NzIy
