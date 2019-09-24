@@ -255,6 +255,58 @@ Nesta  seção, você deverá definir claramente um resultado de referência (be
 - _Algum resultado ou valor que funcione como referência para a medida de desempenho foi fornecido?_
 - _Ficou claro como esse resultado ou valor foi obtido (seja por dados ou por hipóteses)?_
 
+Como referência, o ganhador do “re:Invent 2018" completou a volta em 12.68 secs [7]. Para este modelo foi usada a seguinte função de recompensa:
+
+```
+def reward_function(params):
+    track_width = params['track_width']
+    distance_from_center = params['distance_from_center']
+    all_wheels_on_track = params['all_wheels_on_track']
+    speed = params['speed']
+    SPEED_THRESHOLD = 1.0 
+
+    
+    # Calculate 3 markers that are at varying distances away from the center line
+    marker_1 = 0.1 * track_width
+    marker_2 = 0.25 * track_width
+    marker_3 = 0.5 * track_width
+    
+    # Give higher reward if the car is closer to center line and vice versa
+    if distance_from_center <= marker_1:
+        reward = 1.0
+    elif distance_from_center <= marker_2:
+        reward = 0.5
+    elif distance_from_center <= marker_3:
+        reward = 0.1
+    else:
+        reward = 1e-3  # likely crashed/ close to off track
+
+    if not all_wheels_on_track:
+		# Penalize if the car goes off track
+        reward = 1e-3
+    elif speed < SPEED_THRESHOLD:
+		# Penalize if the car goes too slow
+        reward = reward + 0.5
+    else:
+		# High reward if the car stays on track and goes fast
+        reward = reward + 1.0
+
+    return float(reward)
+
+```
+
+Já em hyperparâmetros foram utilizados os seguinte:
+
+-   Gradient descent batch size: 64
+-   Entropy: 0.01
+-   Discount factor 0.666
+-   Loss type: Huber
+-   Learning Rate: 0.0003
+-   Number of experience episodes between each policy-updating iteration: 20
+-   Number of epochs: 10
+
+A partir desses parâmetros como referência desejo trilhar o caminho entre essa ótima referência e os parâmetros padrões. Se possível, aprimorar ainda mais o modelo e testar os resultados.
+
 
 ## III. Metodologia
 _(aprox. 3-5 páginas)_
@@ -337,8 +389,9 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
+[7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Nzk0MTA1MiwtOTYwNzUxMzQ2LDg3NT
+eyJoaXN0b3J5IjpbMTk4MjIzMDc5NywtOTYwNzUxMzQ2LDg3NT
 UxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5
 ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LD
 E4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkz
