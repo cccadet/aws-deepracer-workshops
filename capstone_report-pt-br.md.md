@@ -373,6 +373,8 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 - _Houve complicações com as métricas ou técnicas originais que acabaram exigindo mudanças antes de chegar à solução?_
 - _Houve qualquer parte do processo de codificação (escrita de funções complicadas, por exemplo) que deveriam ser documentadas?_
 
+Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento 
+
 ### Refinamento
 Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algoritmos e técnicas usados em sua implementação. Por exemplo, ajuste de parâmetros para que certos modelos obtenham melhores soluções está dentro da categoria de refinamento. Suas soluções inicial e final devem ser registradas, bem como quaisquer outros resultados intermediários significativos, conforme o necessário. Questões para se perguntar ao escrever esta seção:
 - _Uma solução inicial foi encontrada e claramente reportada?_
@@ -441,11 +443,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05Nj
-A3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1
-MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyNDg3LC
-0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1NzIy
-NzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2MCw2MzA2MDUyNjAsMT
-IyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNjEwOCwxMDMyODE0Nzgw
+eyJoaXN0b3J5IjpbMTM1NTIxNTU0NSwxOTYzNjEwNDU2LDE3OD
+QzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mjc4NjIy
+NiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1OTAyLD
+IxMDU4MTI0ODcsLTE4Mzg3NjE1OCwxODE5MzIwMDgzLC01NjE1
+ODc1MzIsNzU3MjI3MjM3LC0zMDc5MzA2NDksNDMyMTYyMDYwLD
+YzMDYwNTI2MCwxMjI2MzIxMzU5LDM3OTExMywxMjQyMjE2MTA4
 XX0=
 -->
