@@ -169,6 +169,8 @@ Essa função de recompensa é busca manter o carrinho na pista, sem grandes zig
 
 Os hyperparâmetros serão mantidos estes inicialmente.
 
+### Treinamento
+
 ##### Estrutura de logs
 Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download os logs direto da AWS, desde que o AWS Client seja configurado. Os arquivos necessário para executar os notebooks avaliados neste relatório estarão todos disponíveis na pasta **log-analysis/** (logs) e **log-analysis/intermediate_checkpoint** (modelos).
 
@@ -218,7 +220,7 @@ Nas imagens acima é possível confirmar o que foi levantado na seção "Noteboo
 
 Além disso, o caminho percorrido para as iterações de maior recompensa estão extremamente alinhadas com o centro da pista. 
 
-
+### Ava
 
 
 ### Algoritmos e técnicas
@@ -317,10 +319,10 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTgxMjQ4NywtMTgzODc2MTU4LDE4MT
-kzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0
-OSw0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMjYzMjEzNTksMzc5MT
-EzLDEyNDIyMTYxMDgsMTAzMjgxNDc4MCwxMDgyNTYyNDYsOTc1
-NDA0MzEwLDM2MTYyNzIwMCwtMTA0MDIwNDUyMywxOTg1NDU0ND
-ksNzYwOTc2MDk0LDgxMTIzODMyOSwtOTYxMDc4NzE5XX0=
+eyJoaXN0b3J5IjpbLTUwMjUyMjM5LDIxMDU4MTI0ODcsLTE4Mz
+g3NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3MjI3MjM3
+LC0zMDc5MzA2NDksNDMyMTYyMDYwLDYzMDYwNTI2MCwxMjI2Mz
+IxMzU5LDM3OTExMywxMjQyMjE2MTA4LDEwMzI4MTQ3ODAsMTA4
+MjU2MjQ2LDk3NTQwNDMxMCwzNjE2MjcyMDAsLTEwNDAyMDQ1Mj
+MsMTk4NTQ1NDQ5LDc2MDk3NjA5NCw4MTEyMzgzMjldfQ==
 -->
