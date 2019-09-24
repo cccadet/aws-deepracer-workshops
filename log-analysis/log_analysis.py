@@ -269,10 +269,11 @@ def plot_grid_world(episode_df, inner, outer, scale=10.0, plot=True):
                     #average_throttle = np.nanmean(df_slice['throttle'])
                     grid[x][y] = np.nanmean(df_slice['throttle'])
 
-        from matplotlib.colors import ListedColormap
-        cmap = ListedColormap(sns.color_palette("BrBG", 7))
-        fig = plt.figure(figsize=(7,7))
-        imgplot = plt.imshow(grid, cmap=cmap)
+        #from matplotlib.colors import ListedColormap
+        #cmap = ListedColormap(sns.color_palette("BrBG", 7))
+        fig = plt.figure(figsize=(12,12))
+        #imgplot = plt.imshow(grid, cmap=cmap)
+        imgplot = plt.imshow(grid)
         plt.colorbar(orientation='vertical')
         plt.title('Lap time (sec) = %.2f' %lap_time)
         #plt.savefig('grid.png')
