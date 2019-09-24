@@ -255,7 +255,7 @@ Nesta  seção, você deverá definir claramente um resultado de referência (be
 - _Algum resultado ou valor que funcione como referência para a medida de desempenho foi fornecido?_
 - _Ficou claro como esse resultado ou valor foi obtido (seja por dados ou por hipóteses)?_
 
-Como referência, o ganhador do “re:Invent 2018" completou a volta em 12.68 secs [7]. Para este modelo foi usada a seguinte função de recompensa:
+Como referência, me baseio no ganhador do “re:Invent 2018" que completou a volta em 12.68 secs [7]. Para este modelo foi usada a seguinte função de recompensa:
 
 ```
 def reward_function(params):
@@ -297,15 +297,17 @@ def reward_function(params):
 
 Já em hyperparâmetros foram utilizados os seguinte:
 
--   Gradient descent batch size: 64
--   Entropy: 0.01
--   Discount factor 0.666
--   Loss type: Huber
--   Learning Rate: 0.0003
--   Number of experience episodes between each policy-updating iteration: 20
--   Number of epochs: 10
+| Hyperparâmetro              |      Value    |
+|-----------------------------|:-------------:|
+| Gradient descent batch size | 64            |
+|Entropy|0.01|
+|Discount factor | 0.666 |
+|Loss type|Huber|
+|Learning rate|0.0003|
+|N. of experience episodes between each policy-updating iteration|20|
+|Number of epochs|10|
 
-A partir desses parâmetros como referência desejo trilhar o caminho entre essa ótima referência e os parâmetros padrões. Se possível, aprimorar ainda mais o modelo e testar os resultados.
+A partir desses parâmetros como referência desejo trilhar o caminho entre essa ótima referência e os parâmetros padrões. Se possível, aprimorar ainda mais o modelo e testar os resultados. Porém, é importante salientar que o tempo de treinamento usado pelo competidor não foi informado.
 
 
 ## III. Metodologia
@@ -391,7 +393,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjIzMDc5NywtOTYwNzUxMzQ2LDg3NT
+eyJoaXN0b3J5IjpbMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NT
 UxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5
 ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LD
 E4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkz
