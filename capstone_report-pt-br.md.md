@@ -224,8 +224,7 @@ Além disso, o caminho percorrido para as iterações de maior recompensa estão
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
 
-
-Na avaliação temos que entender como o carrinho se portou na pista durante as três tentativas de completar a corrida.
+Na etapa de avaliação temos que entender como o carrinho se portou na pista durante as três tentativas de completar a corrida.
 
 **Tentativa 1:**
 
@@ -241,7 +240,7 @@ Na avaliação temos que entender como o carrinho se portou na pista durante as 
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_3.png)
 
-
+É possível visualizar que o mesmo padrão do treinamento é repetido durante a fase de avaliação. O Carrinho tentou manter-se no centro da pista, por vezes sacrificando a velocidade para que isso acontecesse.
 
 ### Algoritmos e técnicas
 Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
@@ -339,7 +338,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzkwNzY2MiwtOTYwNzUxMzQ2LDg3NT
+eyJoaXN0b3J5IjpbMTc5Nzk0MTA1MiwtOTYwNzUxMzQ2LDg3NT
 UxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5
 ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LD
 E4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkz
