@@ -319,6 +319,50 @@ Nesta seção, você deve documentar claramente todos os passos de pré-processa
 - _Baseado na seção de **Exploração de dados**, se existiram anormalidade ou características que precisem ser tratadas, elas foram adequadamente corrigidas?_
 - _Se não é necessário um pré-processamento, foi bem definido o porquê?_
 
+
+eward_function(params):
+
+    def reward_function(params):
+	    # Read input parameters
+	    track_width = params['track_width']
+	    distance_from_center = params['distance_from_center']
+	    all_wheels_on_track = params['all_wheels_on_track']
+	    steering = abs(params['steering_angle'])  # Only need the absolute steering angle
+	    progress = params['progress']
+	    speed = params['speed']
+	    # Steering penality threshold, change the number based on your action space setting
+	    ABS_STEERING_THRESHOLD = 20
+
+	    if not all_wheels_on_track:
+	        # Penalize if the car goes off track
+	        reward = 1e-3
+	    else:
+	        reward = speed
+
+	    # Calculate 3 markers that are at varying distances away from the center line
+	    marker_1 = 0.4 * track_width
+	    marker_2 = 0.45 * track_width
+	    marker_3 = 0.5 * track_width
+
+	    # Give higher reward if the car is closer to center line and vice versa
+	    if distance_from_center <= marker_1:
+	        reward *= 1
+	    elif distance_from_center <= marker_2:
+	        reward *= 0.9
+	    elif distance_from_center <= marker_3:
+	        reward *= 0.85
+	    else:
+	        reward = 1e-3  # likely crashed/ close to off track
+
+	    if steering > ABS_STEERING_THRESHOLD:
+	        # Penalize reward if the agent is steering too much
+	        reward *= 0.8
+
+	    reward = reward + (reward * (progress / 100))
+
+
+	    return float(reward)
+
 ### Implementação
 Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas deveriam ser implementados para os dados apresentados deve estar claramente documentado. Deve estar bastante claro como a implementação foi feita, e uma discussão deve ser elaborada a respeito de quaisquer complicações ocorridas durante o processo.  Questões para se perguntar ao escrever esta seção:
 - _Ficou claro como os algoritmos e técnicas foram implementados com os conjuntos de dados e os dados de entrada apresentados?_
@@ -393,11 +437,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NT
-UxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5
-ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LD
-E4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkz
-MDY0OSw0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMjYzMjEzNTksMz
-c5MTEzLDEyNDIyMTYxMDgsMTAzMjgxNDc4MCwxMDgyNTYyNDZd
-fQ==
+eyJoaXN0b3J5IjpbMTQ0MDc5NTYzMiwxNzg0Mzg4MjkxLC05Nj
+A3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1
+MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyNDg3LC
+0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1NzIy
+NzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2MCw2MzA2MDUyNjAsMT
+IyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNjEwOCwxMDMyODE0Nzgw
+XX0=
 -->
