@@ -214,7 +214,7 @@ Na imagem abaixo é possível verificar as recompensas de uma iteração especí
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards.png)
 
-Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a base da composição da recompensa ser a distância do centro da pista. Tanto na imagem de avaliação geral quanto a imagem de avaliação de uma iteraçãpo específica, no caso a iteração 2, é visto que a distribuição das recompensas estão muito próximas do centro da pista.
+Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a base da composição da recompensa ser a distância do centro da pista. Tanto na imagem de avaliação geral quanto a imagem de avaliação de uma iteração específica, no caso a iteração 2, é visto que a distribuição das recompensas estão muito próximas do centro da pista.
 
 Além disso, o caminho percorrido para as iterações de maior recompensa estão extremamente alinhadas com o centro da pista. 
 
@@ -320,11 +320,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMj
-EwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4
-NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAsNj
-MwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDgs
-MTAzMjgxNDc4MCwxMDgyNTYyNDYsOTc1NDA0MzEwLDM2MTYyNz
-IwMCwtMTA0MDIwNDUyMywxOTg1NDU0NDksNzYwOTc2MDk0XX0=
+eyJoaXN0b3J5IjpbMTE5OTIyOTM1MiwtMTIzNTg4MDk4MiwtMT
+U0OTUxNTkwMiwyMTA1ODEyNDg3LC0xODM4NzYxNTgsMTgxOTMy
+MDA4MywtNTYxNTg3NTMyLDc1NzIyNzIzNywtMzA3OTMwNjQ5LD
+QzMjE2MjA2MCw2MzA2MDUyNjAsMTIyNjMyMTM1OSwzNzkxMTMs
+MTI0MjIxNjEwOCwxMDMyODE0NzgwLDEwODI1NjI0Niw5NzU0MD
+QzMTAsMzYxNjI3MjAwLC0xMDQwMjA0NTIzLDE5ODU0NTQ0OV19
 
 -->
