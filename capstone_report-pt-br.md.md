@@ -319,8 +319,9 @@ Nesta seção, você deve documentar claramente todos os passos de pré-processa
 - _Baseado na seção de **Exploração de dados**, se existiram anormalidade ou características que precisem ser tratadas, elas foram adequadamente corrigidas?_
 - _Se não é necessário um pré-processamento, foi bem definido o porquê?_
 
+Conforme avaliado na seção de 
 
-eward_function(params):
+:
 
     def reward_function(params):
 	    # Read input parameters
@@ -362,6 +363,7 @@ eward_function(params):
 
 
 	    return float(reward)
+
 
 ### Implementação
 Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas deveriam ser implementados para os dados apresentados deve estar claramente documentado. Deve estar bastante claro como a implementação foi feita, e uma discussão deve ser elaborada a respeito de quaisquer complicações ocorridas durante o processo.  Questões para se perguntar ao escrever esta seção:
@@ -437,11 +439,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDc5NTYzMiwxNzg0Mzg4MjkxLC05Nj
-A3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1
-MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyNDg3LC
-0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1NzIy
-NzIzNywtMzA3OTMwNjQ5LDQzMjE2MjA2MCw2MzA2MDUyNjAsMT
-IyNjMyMTM1OSwzNzkxMTMsMTI0MjIxNjEwOCwxMDMyODE0Nzgw
-XX0=
+eyJoaXN0b3J5IjpbLTQwNDQyMDY2LDE3ODQzODgyOTEsLTk2MD
+c1MTM0Niw4NzU1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5MzUy
+LC0xMjM1ODgwOTgyLC0xNTQ5NTE1OTAyLDIxMDU4MTI0ODcsLT
+E4Mzg3NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3MjI3
+MjM3LC0zMDc5MzA2NDksNDMyMTYyMDYwLDYzMDYwNTI2MCwxMj
+I2MzIxMzU5LDM3OTExMywxMjQyMjE2MTA4LDEwMzI4MTQ3ODBd
+fQ==
 -->
