@@ -373,7 +373,7 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 - _Houve complicações com as métricas ou técnicas originais que acabaram exigindo mudanças antes de chegar à solução?_
 - _Houve qualquer parte do processo de codificação (escrita de funções complicadas, por exemplo) que deveriam ser documentadas?_
 
-Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento 
+Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros inicialmente.
 
 ### Refinamento
 Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algoritmos e técnicas usados em sua implementação. Por exemplo, ajuste de parâmetros para que certos modelos obtenham melhores soluções está dentro da categoria de refinamento. Suas soluções inicial e final devem ser registradas, bem como quaisquer outros resultados intermediários significativos, conforme o necessário. Questões para se perguntar ao escrever esta seção:
@@ -443,11 +443,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTIxNTU0NSwxOTYzNjEwNDU2LDE3OD
-QzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mjc4NjIy
-NiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1OTAyLD
-IxMDU4MTI0ODcsLTE4Mzg3NjE1OCwxODE5MzIwMDgzLC01NjE1
-ODc1MzIsNzU3MjI3MjM3LC0zMDc5MzA2NDksNDMyMTYyMDYwLD
-YzMDYwNTI2MCwxMjI2MzIxMzU5LDM3OTExMywxMjQyMjE2MTA4
-XX0=
+eyJoaXN0b3J5IjpbNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4ND
+M4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2
+LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMj
+EwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4
+NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAsNj
+MwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDhd
+fQ==
 -->
