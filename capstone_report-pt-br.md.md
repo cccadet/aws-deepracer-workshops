@@ -430,8 +430,10 @@ Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei ot
 
 Para isso, clonarei a versão 2 do modelo de treinamento, que seria o modelo com função de recompensa focada em velocidade. Com isso aproveitarei o conhecimento já construído na primeira hora de treinamento e adicionarei mais 30 minutos de treinamento com os seguintes ajustes:
 
-- 
-- 
+- Learning rate: 0.0009
+- Gradient descent batch size: 32
+
+A ideia é que com fluxos de atualizações mais frequentes e saltos maiores, os ajuste
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -494,11 +496,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2NzYyMjI5LC0yNTI1MzE5MTQsLTEzNj
-Y3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0
-MzksNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOT
-YwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkz
-NTIsLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4Ny
-wtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcy
-MjcyMzddfQ==
+eyJoaXN0b3J5IjpbMTA4OTg0MjI0MiwtMjUyNTMxOTE0LC0xMz
+Y2Nzg1MDQwLDEwNzAzODk5NDMsLTE1MDUzODg2NTgsMjkxOTQx
+NDM5LDQ2MjA4ODEzOSwxOTYzNjEwNDU2LDE3ODQzODgyOTEsLT
+k2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5
+MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1OTAyLDIxMDU4MTI0OD
+csLTE4Mzg3NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3
+MjI3MjM3XX0=
 -->
