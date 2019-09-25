@@ -441,9 +441,9 @@ Com esses ajustes consegui os seguintes resultados de avaliação na AWS:
 
 Temos um avanço em questão de percentual de progresso da pista, mas não de tempo de volta. Vale ressaltar que 30 minutos é um tempo baixo para uma avaliação mais concreta, mas quero destacar a seguinte iteração do carrinho:
 
-![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v3_3.png)
 
-
+É possível ver que 
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -506,7 +506,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Njc1NzIyOSwyMDk0NDYyOTM0LDExNT
+eyJoaXN0b3J5IjpbLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNT
 U4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5
 NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOT
 YzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0
