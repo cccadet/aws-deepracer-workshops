@@ -398,9 +398,10 @@ Gostaria de demonstrar que a segunda iteração mais pontuada teve menos rigor a
 
 **Resultado da avaliação pela AWS:**
 
+Na avaliação do modelo que tem a base em velocidade, 1 hora de treinamento não é o suficiente para que o mesmo complete 100% da pista.
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
 
-Na etapa de avaliação temos que entender como o carrinho se portou na pista durante as três tentativas de completar a corrida.
+É possível ver nas tentativas o uso constante da aceleração, ocasionando a saída da pista
 
 **Tentativa 1:**
 
@@ -485,7 +486,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODEzNzkyOSwtMTM2Njc4NTA0MCwxMD
+eyJoaXN0b3J5IjpbMTk3NDgwMzQyMSwtMTM2Njc4NTA0MCwxMD
 cwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgx
 MzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsOD
 c1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4
