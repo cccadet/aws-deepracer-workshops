@@ -383,7 +383,7 @@ Na imagem abaixo é possível verificar as recompensas retornadas no processo de
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v2.png)
 
-Diferente da primeira função de recompensa, é possível ver que o carrinho está explorando mais a pista. Aos
+Diferente da primeira função de recompensa, é possível ver que o carrinho está explorando mais a pista. Com isso, é possível verificar mais "eeros de percurso" do que na primeira versão.
 ##### Avaliação iteração 2
 
 Na imagem abaixo é possível verificar as recompensas de uma iteração específica do treinamento.
@@ -466,11 +466,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjI5NDMyOSwyOTE5NDE0MzksNDYyMD
-g4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2
-LDg3NTUxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMz
-U4ODA5ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2
-MTU4LDE4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLT
-MwNzkzMDY0OSw0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMjYzMjEz
-NTldfQ==
+eyJoaXN0b3J5IjpbLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2Mj
+A4ODEzOSwxOTYzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0
+Niw4NzU1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMj
+M1ODgwOTgyLC0xNTQ5NTE1OTAyLDIxMDU4MTI0ODcsLTE4Mzg3
+NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3MjI3MjM3LC
+0zMDc5MzA2NDksNDMyMTYyMDYwLDYzMDYwNTI2MCwxMjI2MzIx
+MzU5XX0=
 -->
