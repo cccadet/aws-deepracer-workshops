@@ -430,8 +430,8 @@ Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei ot
 
 Para isso, clonarei a versão 2 do modelo de treinamento, que seria o modelo com função de recompensa focada em velocidade. Com isso aproveitarei o conhecimento já construído na primeira hora de treinamento e adicionarei mais 30 minutos de treinamento com os seguintes ajustes:
 
-- Learning rate: 0.0009
-- Gradient descent batch size: 32
+- **Learning rate:** 0.0009
+- **Gradient descent batch size:** 32
 
 A ideia é que com fluxos de atualizações mais frequentes e saltos maiores, os ajustes do algoritmo sejam acelerados.
 
@@ -451,11 +451,11 @@ Quanto aos gráficos de recompensa por iteração, não foram observados grandes
 
 Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que foi treinado por 1 hora e meia. Com isso, adicionarei mais um treinamento de 30 minutos mantendo a função de recompensa, mas ajustando alguns parâmetros de recompensa.
 
-- Learning rate: 0.0007
-- Discount factor: 0.997
-- Gradient descent batch size:
+- **Learning rate:** 0.0007
+- **Discount factor:** 0.997
+- **Gradient descent batch size:** 64
 
-64
+A ideia é caminhar novamente para parâmetros mais conservadores, mas com um pequeno ajuste no fator de desconto, pois acredito que diminuindo o número de 
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -518,11 +518,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDEzMTg1NCw0MjUwNjkyMzgsMTk5ND
-YyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcx
-LC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMT
-UwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0
-NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNT
-QyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1
-MTU5MDJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTE4NDMxMDksNDI1MDY5MjM4LDE5OT
+Q2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3
+MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDMsLT
+E1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOTYzNjEw
+NDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgsMT
+U0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5
+NTE1OTAyXX0=
 -->
