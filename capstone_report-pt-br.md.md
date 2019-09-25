@@ -218,7 +218,7 @@ Nas imagens acima é possível confirmar o que foi levantado na seção "Noteboo
 
 Além disso, o caminho percorrido para as iterações de maior recompensa estão extremamente alinhadas com o centro da pista. 
 
-### Visualização exploratória - Treinamento
+### Visualização exploratória - Treinamento v1
 
 **Resultado da avaliação pela AWS:**
 
@@ -375,6 +375,8 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 
 Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente.
 
+v2
+
 Com esse treinamento foram obtidos os seguintes resultados:
 
 ##### Avaliação geral de recompensa por ações
@@ -424,7 +426,9 @@ Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algorit
 - _O processo de melhoria foi documentado de foma clara, bem como as técnicas utilizadas?_
 - _As soluções intermediárias e finais foram reportadas claramente, conforme o processo foi sendo melhorado?_
 
-Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para
+Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
+
+Para isso, clonarei o modelo 
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -487,11 +491,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzYxNzQ3NSwtMjUyNTMxOTE0LC0xMz
-Y2Nzg1MDQwLDEwNzAzODk5NDMsLTE1MDUzODg2NTgsMjkxOTQx
-NDM5LDQ2MjA4ODEzOSwxOTYzNjEwNDU2LDE3ODQzODgyOTEsLT
-k2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5
-MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1OTAyLDIxMDU4MTI0OD
-csLTE4Mzg3NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3
-MjI3MjM3XX0=
+eyJoaXN0b3J5IjpbNzg3Nzg3MTU2LC0yNTI1MzE5MTQsLTEzNj
+Y3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0
+MzksNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOT
+YwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkz
+NTIsLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4Ny
+wtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcy
+MjcyMzddfQ==
 -->
