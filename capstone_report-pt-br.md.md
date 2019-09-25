@@ -424,6 +424,7 @@ Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algorit
 - _O processo de melhoria foi documentado de foma clara, bem como as técnicas utilizadas?_
 - _As soluções intermediárias e finais foram reportadas claramente, conforme o processo foi sendo melhorado?_
 
+Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -486,11 +487,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMD
-cwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgx
-MzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsOD
-c1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4
-MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyNDg3LC0xODM4NzYxNT
-gsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1NzIyNzIzNywtMzA3
-OTMwNjQ5XX0=
+eyJoaXN0b3J5IjpbMjAyNzYxNzQ3NSwtMjUyNTMxOTE0LC0xMz
+Y2Nzg1MDQwLDEwNzAzODk5NDMsLTE1MDUzODg2NTgsMjkxOTQx
+NDM5LDQ2MjA4ODEzOSwxOTYzNjEwNDU2LDE3ODQzODgyOTEsLT
+k2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5
+MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1OTAyLDIxMDU4MTI0OD
+csLTE4Mzg3NjE1OCwxODE5MzIwMDgzLC01NjE1ODc1MzIsNzU3
+MjI3MjM3XX0=
 -->
