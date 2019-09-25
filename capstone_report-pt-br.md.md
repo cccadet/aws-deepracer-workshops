@@ -435,7 +435,10 @@ Para isso, clonarei a versão 2 do modelo de treinamento, que seria o modelo com
 
 A ideia é que com fluxos de atualizações mais frequentes e saltos maiores, os ajustes do algoritmo sejam acelerados.
 
-Com esses ajustes consegui os seguintes resultados:
+Com esses ajustes consegui os seguintes resultados de avaliação na AWS:
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
+
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -498,11 +501,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1Mj
-UzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4
-NjU4LDI5MTk0MTQzOSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNz
-g0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYy
-MjYsMTE5OTIyOTM1MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMi
-wyMTA1ODEyNDg3LC0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYx
-NTg3NTMyXX0=
+eyJoaXN0b3J5IjpbMTA3NjM4MDAyNSwyMDk0NDYyOTM0LDExNT
+U4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5
+NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOT
+YzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0
+NDgsMTU0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC
+0xNTQ5NTE1OTAyLDIxMDU4MTI0ODcsLTE4Mzg3NjE1OCwxODE5
+MzIwMDgzXX0=
 -->
