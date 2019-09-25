@@ -449,7 +449,11 @@ Temos um avanço em questão de percentual de progresso da pista, mas não de te
 
 Quanto aos gráficos de recompensa por iteração, não foram observados grandes alterações devido a função de recompensa se manter a mesma.
 
+Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que foi treinado por 1 hora e meia. Com isso, adicionarei mais um treinamento de 30 minutos mantendo a função de recompensa, mas ajustando alguns parâmetros de recompensa.
 
+- 
+- 
+- 
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -512,11 +516,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM0MzQwNyw0MjUwNjkyMzgsMTk5ND
-YyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcx
-LC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMT
-UwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0
-NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNT
-QyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1
-MTU5MDJdfQ==
+eyJoaXN0b3J5IjpbMTI0NjE3NDg1LDQyNTA2OTIzOCwxOTk0Nj
+IzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzEs
+LTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQzLC0xNT
+A1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgxMzksMTk2MzYxMDQ1
+NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2NDQ4LDE1ND
+I3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4MDk4MiwtMTU0OTUx
+NTkwMl19
 -->
