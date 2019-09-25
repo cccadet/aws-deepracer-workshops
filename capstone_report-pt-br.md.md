@@ -373,7 +373,9 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 - _Houve complicações com as métricas ou técnicas originais que acabaram exigindo mudanças antes de chegar à solução?_
 - _Houve qualquer parte do processo de codificação (escrita de funções complicadas, por exemplo) que deveriam ser documentadas?_
 
-Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros inicialmente.
+Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente.
+
+Com esse treinamento foram obtidos os seguintes resultados.
 
 ### Refinamento
 Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algoritmos e técnicas usados em sua implementação. Por exemplo, ajuste de parâmetros para que certos modelos obtenham melhores soluções está dentro da categoria de refinamento. Suas soluções inicial e final devem ser registradas, bem como quaisquer outros resultados intermediários significativos, conforme o necessário. Questões para se perguntar ao escrever esta seção:
@@ -443,11 +445,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4ND
-M4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2
-LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMj
-EwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4
-NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OSw0MzIxNjIwNjAsNj
-MwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEzLDEyNDIyMTYxMDhd
+eyJoaXN0b3J5IjpbMTQxMDU2ODAyNCw0NjIwODgxMzksMTk2Mz
+YxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2NDQ4
+LDE1NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4MDk4MiwtMT
+U0OTUxNTkwMiwyMTA1ODEyNDg3LC0xODM4NzYxNTgsMTgxOTMy
+MDA4MywtNTYxNTg3NTMyLDc1NzIyNzIzNywtMzA3OTMwNjQ5LD
+QzMjE2MjA2MCw2MzA2MDUyNjAsMTIyNjMyMTM1OSwzNzkxMTNd
 fQ==
 -->
