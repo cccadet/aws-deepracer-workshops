@@ -375,7 +375,7 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 
 Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente.
 
-v2
+#### Visualização exploratória - Treinamento v2
 
 Com esse treinamento foram obtidos os seguintes resultados:
 
@@ -428,7 +428,7 @@ Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algorit
 
 Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
 
-Para isso, clonarei o modelo 
+Para isso, clonarei a versão 2 do modelo de treinamento, que seria o modelo com função de recompensa focada em velocidade.
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -491,11 +491,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3Nzg3MTU2LC0yNTI1MzE5MTQsLTEzNj
-Y3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0
-MzksNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOT
-YwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkz
-NTIsLTEyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4Ny
-wtMTgzODc2MTU4LDE4MTkzMjAwODMsLTU2MTU4NzUzMiw3NTcy
-MjcyMzddfQ==
+eyJoaXN0b3J5IjpbLTE3MTcyMDAzNzksLTI1MjUzMTkxNCwtMT
+M2Njc4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0
+MTQzOSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC
+05NjA3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIy
+OTM1MiwtMTIzNTg4MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyND
+g3LC0xODM4NzYxNTgsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1
+NzIyNzIzN119
 -->
