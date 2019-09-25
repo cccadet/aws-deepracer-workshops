@@ -443,7 +443,10 @@ Temos um avanço em questão de percentual de progresso da pista, mas não de te
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v3_3.png)
 
-É possível ver que 
+É possível ver que na curva sinalizada o mesmo não priorizou o cnetro da pista e sim a velocidade. É possível ver também abaixo que o mesmo, durante a avaliação saiu da pista exatamente neste ponto:
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v3_3.png)
+
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -506,11 +509,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNT
-U4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5
-NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOT
-YzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0
-NDgsMTU0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC
-0xNTQ5NTE1OTAyLDIxMDU4MTI0ODcsLTE4Mzg3NjE1OCwxODE5
-MzIwMDgzXX0=
+eyJoaXN0b3J5IjpbMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOT
+Q0NjI5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUw
+NDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksND
+YyMDg4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUx
+MzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLT
+EyMzU4ODA5ODIsLTE1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgz
+ODc2MTU4XX0=
 -->
