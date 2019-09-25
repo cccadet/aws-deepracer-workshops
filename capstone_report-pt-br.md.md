@@ -455,7 +455,7 @@ Recapitulando então temos até agora um modelo com uma função de recompensa b
 - **Discount factor:** 0.997
 - **Gradient descent batch size:** 64
 
-A ideia é caminhar novamente para parâmetros mais conservadores, mas com um pequeno ajuste no fator de desconto, pois acredito que diminuindo o número de 
+A ideia é caminhar novamente para parâmetros mais conservadores, mas com um pequeno ajuste no fator de desconto, pois acredito que diminuindo o número de passos futuros a serem consideradas recompensas
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -518,11 +518,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE4NDMxMDksNDI1MDY5MjM4LDE5OT
-Q2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3
-MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDMsLT
-E1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOTYzNjEw
-NDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgsMT
-U0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5
-NTE1OTAyXX0=
+eyJoaXN0b3J5IjpbMTc2NjE1NjQxNSw0MjUwNjkyMzgsMTk5ND
+YyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcx
+LC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMT
+UwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0
+NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNT
+QyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1
+MTU5MDJdfQ==
 -->
