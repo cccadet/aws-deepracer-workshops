@@ -447,6 +447,9 @@ Temos um avanço em questão de percentual de progresso da pista, mas não de te
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1_v3.png)
 
+Quanto aos gráficos de recompensa por iteração, não foram observados grandes alterações devido a função de recompensa se manter a mesma.
+
+
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -509,11 +512,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQzODM5NDgsNDI1MDY5MjM4LDE5OT
-Q2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3
-MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDMsLT
-E1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOTYzNjEw
-NDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgsMT
-U0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5
-NTE1OTAyXX0=
+eyJoaXN0b3J5IjpbLTE5NDM0MzQwNyw0MjUwNjkyMzgsMTk5ND
+YyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcx
+LC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMT
+UwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0
+NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNT
+QyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1
+MTU5MDJdfQ==
 -->
