@@ -377,6 +377,22 @@ Após adequar a função de recompensa conforme especificado na seção **Pré-p
 
 Com esse treinamento foram obtidos os seguintes resultados:
 
+##### Avaliação geral de recompensa por ações
+
+Na imagem abaixo é possível verificar as recompensas retornadas no processo de treinamento.
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions.png)
+
+##### Avaliação iteração 2
+
+Na imagem abaixo é possível verificar as recompensas de uma iteração específica do treinamento.
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Action_It2.png)
+
+##### Path taken for top reward iterations
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards.png)
+
 
 
 
@@ -449,11 +465,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM2MjEyNDQsNDYyMDg4MTM5LDE5Nj
-M2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0
-OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLT
-E1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkz
-MjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OS
-w0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEz
-XX0=
+eyJoaXN0b3J5IjpbMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOTYzNj
+EwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgs
+MTU0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNT
+Q5NTE1OTAyLDIxMDU4MTI0ODcsLTE4Mzg3NjE1OCwxODE5MzIw
+MDgzLC01NjE1ODc1MzIsNzU3MjI3MjM3LC0zMDc5MzA2NDksND
+MyMTYyMDYwLDYzMDYwNTI2MCwxMjI2MzIxMzU5LDM3OTExM119
+
 -->
