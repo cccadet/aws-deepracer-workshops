@@ -396,6 +396,25 @@ Gostaria de demonstrar que a segunda iteração mais pontuada teve menos rigor a
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_2.png)
 
 
+**Resultado da avaliação pela AWS:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
+
+Na etapa de avaliação temos que entender como o carrinho se portou na pista durante as três tentativas de completar a corrida.
+
+**Tentativa 1:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1.png)
+
+
+**Tentativa 2:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_2.png)
+
+
+**Tentativa 3:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_3.png)
 
 
 ### Refinamento
@@ -466,11 +485,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMT
-UwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0
-NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNT
-QyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1
-MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkzMjAwOD
-MsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OSw0MzIx
-NjIwNjBdfQ==
+eyJoaXN0b3J5IjpbMTE3ODEzNzkyOSwtMTM2Njc4NTA0MCwxMD
+cwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgx
+MzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsOD
+c1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4
+MDk4MiwtMTU0OTUxNTkwMiwyMTA1ODEyNDg3LC0xODM4NzYxNT
+gsMTgxOTMyMDA4MywtNTYxNTg3NTMyLDc1NzIyNzIzNywtMzA3
+OTMwNjQ5XX0=
 -->
