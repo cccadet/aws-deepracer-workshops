@@ -379,6 +379,8 @@ Com esse treinamento foram obtidos os seguintes resultados:
 
 
 
+
+
 ### Refinamento
 Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algoritmos e técnicas usados em sua implementação. Por exemplo, ajuste de parâmetros para que certos modelos obtenham melhores soluções está dentro da categoria de refinamento. Suas soluções inicial e final devem ser registradas, bem como quaisquer outros resultados intermediários significativos, conforme o necessário. Questões para se perguntar ao escrever esta seção:
 - _Uma solução inicial foi encontrada e claramente reportada?_
@@ -447,11 +449,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNDg0MCw0NjIwODgxMzksMTk2MzYxMD
-Q1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2NDQ4LDE1
-NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4MDk4MiwtMTU0OT
-UxNTkwMiwyMTA1ODEyNDg3LC0xODM4NzYxNTgsMTgxOTMyMDA4
-MywtNTYxNTg3NTMyLDc1NzIyNzIzNywtMzA3OTMwNjQ5LDQzMj
-E2MjA2MCw2MzA2MDUyNjAsMTIyNjMyMTM1OSwzNzkxMTNdfQ==
-
+eyJoaXN0b3J5IjpbLTIwMDM2MjEyNDQsNDYyMDg4MTM5LDE5Nj
+M2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0
+OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLT
+E1NDk1MTU5MDIsMjEwNTgxMjQ4NywtMTgzODc2MTU4LDE4MTkz
+MjAwODMsLTU2MTU4NzUzMiw3NTcyMjcyMzcsLTMwNzkzMDY0OS
+w0MzIxNjIwNjAsNjMwNjA1MjYwLDEyMjYzMjEzNTksMzc5MTEz
+XX0=
 -->
