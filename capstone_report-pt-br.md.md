@@ -387,11 +387,11 @@ Diferente da primeira função de recompensa, é possível ver que o carrinho es
 
 ##### Path taken for top reward iterations
 
-Nessa primeira imagem é possível ver que o carrinho manteve uma certa
+Nessa primeira imagem é possível ver que o carrinho manteve uma certa proximidade com o centro da pista, mas não foi tão rigorosa como a do primeiro modelo.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_1.png)
 
-
+Gostaria de demonstrar que a segunda iteração mais pontuada teve menos rigor ainda que a primeira em manter o carrinho no centro da pista.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_2.png)
 
@@ -466,7 +466,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQzODQ0MzksMTA3MDM4OTk0MywtMT
+eyJoaXN0b3J5IjpbLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMT
 UwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0
 NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNT
 QyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5ODIsLTE1NDk1
