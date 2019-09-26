@@ -648,8 +648,8 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 
 Quanto a melhorias são muitas possibilidades. As principais que eu elencaria seriam as seguintes:
 
-- Estudo do parâmetro `heading` para uso na função de recompensa como um auxiliar na centralização do carrinho na pista.
-- Treinamento maior do modelo final gerado para avaliar esse processo com mais iterações para que seja verificado se o modelo ficaria super ajustado.
+- Estudo do parâmetro `heading` para uso na função de recompensa como um auxiliar na centralização mais suave do carrinho na pista.
+- Maior tempo de treinamento (horas) do modelo final gerado para avaliar esse processo com mais iterações, para que seja verificado se o modelo ficaria super ajustado.
 - Treinamento do modelo em outras pistas, para que o mesmo se adapte as mais variadas possibilidades de pistas.
 
 -----------
@@ -674,11 +674,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzUxOTg4OCwxNjg4MjIxODkwLDEwNj
-cyNDkyNDksNzc3MjEwOTE3LC0xNjc5Nzg3MzQzLC0xMTE5NDA0
-NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0LDQ3ND
-k5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3
-Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2Mj
-M5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3MV19
+eyJoaXN0b3J5IjpbMTI5Mjg5MzEwLDE2ODgyMjE4OTAsMTA2Nz
+I0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMsLTExMTk0MDQ0
+OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OT
+kwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2
+LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMz
+kzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxXX0=
 
 -->
