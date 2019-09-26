@@ -152,10 +152,10 @@ Hyperparameters will be kept initially.
 ##### Log Structure
 By using the `DeepRacer Log Analysis.ipynb` notebook we can download the logs straight from AWS as long as the AWS Client is configured. The files needed to run the notebooks evaluated in this report will all be available in the ** log-analysis / ** (logs) and ** log-analysis / intermediate_checkpoint ** (templates) folder.
 
-##### Notebook de Análise
-Inicialmente vamos avaliar o notebook resultante de 1 hora de treinamento com as funções definidas acima. O mesmo encontra-se na pasta `log-analysis/` com nome `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
+##### Analysis Notebook
+Initially, we will evaluate the resulting 1-hour training notebook with the functions defined above. It is located in the `log-analysis /` folder named `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
 
-Os logs de treinamento após serem carregados para um DataFrame são exibidos conforme o exemplo abaixo:
+Training logs after being uploaded to a DataFrame are displayed as shown below:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Exemplo_Logs.png)
 
 Para avaliar as estatísticas selecionei as colunas que achei mais importantes para a avaliação:
@@ -607,6 +607,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAyMjQ1OCwxNTk2NDMwNDU2LC0xND
-A0MTU4NzU2XX0=
+eyJoaXN0b3J5IjpbLTE4MDQ0NzA3ODcsMTU5NjQzMDQ1NiwtMT
+QwNDE1ODc1Nl19
 -->
