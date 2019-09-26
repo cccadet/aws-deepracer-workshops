@@ -85,11 +85,6 @@ Para a métrica de avaliação a ideia é usar o **percentual de conclusão da p
 ## II. Análise
 
 ### Exploração dos dados - Treinamento
-Nesta seção, é esperado que você analise os dados que você está usando para o problema. Esses dados podem ser tanto na forma de um conjunto de dados (ou conjuntos de dados), dados de entrada (ou arquivos de entrada), ou até um ambiente. O tipo de dados deve ser descrito detalhadamente e, se possível, ter estatísticas e informações básicas apresentadas (tais como discussão dos atributos de entrada ou definição de características das entradas ou do ambiente) Qualquer anormalidade ou qualidade interessante dos dados que possam precisar ser devidamente tratadas devem ser identificadas (tais como características que precisem ser transformadas ou a possibilidade de valores atípicos) Questões para se perguntar ao escrever esta seção:
-- _Se exite um conjunto de dados para o problema em questão, você discutiu totalmente as características desse conjunto? Uma amostra dos dados foi oferecida ao leitor?_
-- _Se existe um conjunto de dados para o problema, as estatísticas sobre eles foram calculadas e reportadas? Foram discutidos quaisquer resultados relevantes desses cálculos?_
-- _Se **não** existe um conjunto de dados para o problema, foi realizada uma discussão sobre o espaço de entrada ou os dados de entrada do problema?_
-- _Existem anormalidades ou características acerca do espaço de entrada ou conjunto de dados que necessitem ser direcionados? (variáveis categóricas, valores faltando, valores atípicos, etc.)_
 
 A partir do treino e da avaliação realizada no console do AWS Deep Racer, são gerados arquivos de logs do treinamento e da avaliação. Utilizando o modelo de análise disponível no AWS Deepracer Workshop Lab Github [\[6\]](https://github.com/aws-samples/aws-deepracer-workshops) é possível realizar o download desses logs e iniciar a avaliação, atraveś do arquivo `log-analysis/DeepRacer Log Analysis.ipynb`. Além dos logs de treinamento/avaliação é gerado um modelo referente as redes neurais que fazem parte do algoritmo já explicado acima. No console AWS é possível realizar o download deste modelo para que o mesmo também seja avaliado no Jupyter Notebook já mencionado acima.
 
@@ -179,10 +174,6 @@ Na imagem é possível avaliar os seguinte pontos:
 - **Progress:** Bom, chegamos no 100%.
 
 ### Visualização exploratória - Treinamento
-Nesta seção, você precisará fornecer alguma forma de visualização que sintetize ou evidencie uma característica ou atributo relevante sobre os dados. A visualização deve sustentar adequadamente os dados utilizados. Discuta por que essa visualização foi escolhida e por que é relevante. Questões para se perguntar ao escrever esta seção:
-- _Você visualizou uma característica ou um atributo relevante acerca do conjunto de dados ou dados de entrada?_
-- _A visualização foi completamente analisada e discutida?_
-- _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
 #### Avaliação de recompensa por ações
 
@@ -233,17 +224,10 @@ Na etapa de avaliação temos que entender como o carrinho se portou na pista du
 É possível visualizar que o mesmo padrão do treinamento é repetido durante a fase de avaliação. O Carrinho tentou manter-se no centro da pista, por vezes sacrificando a velocidade para que isso acontecesse.
 
 ### Algoritmos e técnicas
-Nesta seção, você deverá discutir os algoritmos e técnicas que você pretende utilizar para solucionar o problema. Você deverá justificar o uso de cada algoritmo ou técnica baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
-- _Os algoritmos que serão utilizados, incluindo quaisquer variáveis/parâmetros padrão do projeto, foram claramente definidos?_
-- _As técnicas a serem usadas foram adequadamente discutidas e justificadas?_
-- _Ficou claro como os dados de entrada ou conjuntos de dados serão controlados pelos algoritmos e técnicas escolhidas?_
 
 Conforme descrito na etapa de **I.Definição** o AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Esse projeto trata-se de um projeto de otimização do algoritmo já definido e usado pela AWS Deep Racer. Nas etapa de **Conjuntos de dados e entradas** e **Exploração dos Dados** já foram descritos a função de recompensa padrão inicial e os hyperparâmetros usados como ponto de partida para análise.
 
 ### Benchmark
-Nesta  seção, você deverá definir claramente um resultado de referência (benchmark) ou limiar para comparar entre desempenhos obtidos pela sua solução. O raciocínio por trás da referência (no caso onde não é estabelecido um resultado) deve ser discutido. Questões para se perguntar ao escrever esta seção:
-- _Algum resultado ou valor que funcione como referência para a medida de desempenho foi fornecido?_
-- _Ficou claro como esse resultado ou valor foi obtido (seja por dados ou por hipóteses)?_
 
 Como referência, me baseio no ganhador do “re:Invent 2018" que completou a volta em 12.68 secs [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794). Para este modelo foi usada a seguinte função de recompensa:
 
@@ -301,13 +285,8 @@ A partir desses parâmetros como referência desejo trilhar o caminho entre essa
 
 
 ## III. Metodologia
-_(aprox. 3-5 páginas)_
 
 ### Pré-processamento de dados
-Nesta seção, você deve documentar claramente todos os passos de pré-processamento que você pretende fazer, caso algum seja necessário. A partir da seção anterior, quaisquer anormalidades ou características que você identificou no conjunto de dados deverão ser adequadamente direcionadas e tratadas aqui. Questões para se perguntar ao escrever esta seção:
-- _Se os algoritmos escolhidos requerem passos de pré-processamento, como seleção ou transformações de atributos, tais passos foram adequadamente documentados?_
-- _Baseado na seção de **Exploração de dados**, se existiram anormalidade ou características que precisem ser tratadas, elas foram adequadamente corrigidas?_
-- _Se não é necessário um pré-processamento, foi bem definido o porquê?_
 
 Conforme avaliado na seção de **Exploração de dados - Treinamento** a função de recompensa padrão utilizada apresentou uma forte tendência de manter o carrinho no centro da pista. Isso não é de todo mal, porém tratando-se de uma corrida, a ideia é que o tempo de volta seja melhor.
 
@@ -358,10 +337,6 @@ Assim, a função atual de recompensa ficou a seguinte:
 
 
 ### Implementação
-Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas deveriam ser implementados para os dados apresentados deve estar claramente documentado. Deve estar bastante claro como a implementação foi feita, e uma discussão deve ser elaborada a respeito de quaisquer complicações ocorridas durante o processo.  Questões para se perguntar ao escrever esta seção:
-- _Ficou claro como os algoritmos e técnicas foram implementados com os conjuntos de dados e os dados de entrada apresentados?_
-- _Houve complicações com as métricas ou técnicas originais que acabaram exigindo mudanças antes de chegar à solução?_
-- _Houve qualquer parte do processo de codificação (escrita de funções complicadas, por exemplo) que deveriam ser documentadas?_
 
 Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente. O notebook de análise encontra-se na pasta `log-analysis/` com nome `09 - DeepRacer Log Analysis - Final 60 min.ipynb`.
 
@@ -411,10 +386,6 @@ Na avaliação do modelo que tem a base em velocidade, 1 hora de treinamento nã
 
 
 ### Refinamento
-Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algoritmos e técnicas usados em sua implementação. Por exemplo, ajuste de parâmetros para que certos modelos obtenham melhores soluções está dentro da categoria de refinamento. Suas soluções inicial e final devem ser registradas, bem como quaisquer outros resultados intermediários significativos, conforme o necessário. Questões para se perguntar ao escrever esta seção:
-- _Uma solução inicial foi encontrada e claramente reportada?_
-- _O processo de melhoria foi documentado de foma clara, bem como as técnicas utilizadas?_
-- _As soluções intermediárias e finais foram reportadas claramente, conforme o processo foi sendo melhorado?_
 
 Como no primeiro modelo (padrão v1) já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
 
@@ -510,14 +481,8 @@ Por fim, ficam com a seguinte função de recompensa:
 Além disso, o notebook desta análise encontra-se na pasta log-analysis/ com nome 13 - DeepRacer Log Analysis - Final 60 min - v2-v6.ipynb` .
 
 ## IV. Resultados
-_(aprox. 2-3 páginas)_
 
 ### Modelo de avaliação e validação
-Nesta seção, o modelo final e quaisquer qualidades que o sustentem devem ser avaliadas em detalhe. Deve ficar claro como o modelo final foi obtido e por que tal modelo foi escolhido. Além disso, algum tipo de análise deve ser realizada para validar a robustez do modelo e sua solução, como, por exemplo, manipular os dados de entrada ou o ambiente para ver como a solução do modelo é afetada (técnica chamada de análise sensitiva). Questões para se perguntar ao escrever esta seção:
-- _O modelo final é razoável e alinhado com as expectativas de solução? Os parâmetros finais do modelo são apropriados?_
-- _O modelo final foi testado com várias entradas para avaliar se o modelo generaliza bem com dados não vistos?_
--_O modelo é robusto o suficiente para o problema? Pequenas perturbações (mudanças) nos dados de treinamento ou no espaço de entrada afetam os resultados de forma considerável?_
-- _Os resultados obtidos do modelo são confiáveis?_
 
 **Resultado da avaliação pela AWS:**
 
@@ -555,10 +520,6 @@ Do modelo padrão para o modelo desenvolvido encontramos 7,071 segundos de difer
 
 
 ### Justificativa
-Nesta seção, a solução final do seu modelo e os resultados dela obtidos devem ser comparados aos valores de referência (benchmark) que você estabeleceu anteriormente no projeto, usando algum tipo de análise estatística. Você deverá também justificar se esses resultados e a solução são significativas o suficiente para ter resolvido o problema apresentado no projeto. Questões para se perguntar ao escrever esta seção:
-- _Os resultados finais encontrados são mais fortes do que a referência reportada anteriormente?_
-- _Você analisou e discutiu totalmente a solução final?_
-- _A solução final é significativa o suficiente para ter resolvido o problema?_
 
 De certa forma os modelos desenvolvidos (Foco Centro da pista e Foco em Velocidade) apresentaram resultados melhores que o modelo de benchmark em até 3 H de treinamento.
 
@@ -582,13 +543,8 @@ Quanto a questão "*A solução final é significativa o suficiente para ter res
 Avaliando o desafio proposto, completar 100% da pista gastando menos de U$ 50,00 entendo que sim, ela é significativa o suficiente para completar o desafio dando subsídios para uma continuídade do trabalho, inclusive. 
 
 ## V. Conclusão
-_(aprox. 1-2 páginas)_
 
 ### Foma livre de visualização
-Nesta seção, você deverá fornecer alguma forma de visualização que enfatize uma qualidade importante do projeto. A visualização é de forma livre, mas deve sustentar de forma razoável um resultado ou característica relevante sobre o problema que você quer discutir. Questões para se perguntar ao escrever esta seção:
-- _Você visualizou uma qualidade importante ou relevante acerca do problema, conjunto de dados, dados de entrada, ou resultados?_
-- _A visualização foi completamente analisada e discutida?_
-- _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
 A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas definidas e hyperparâmetros utilizados. 
 
@@ -675,5 +631,5 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY2ODU3MTldfQ==
+eyJoaXN0b3J5IjpbMTUwNzg2MzQ3MV19
 -->
