@@ -492,6 +492,8 @@ Nesta seção, o modelo final e quaisquer qualidades que o sustentem devem ser a
 -_O modelo é robusto o suficiente para o problema? Pequenas perturbações (mudanças) nos dados de treinamento ou no espaço de entrada afetam os resultados de forma considerável?_
 - _Os resultados obtidos do modelo são confiáveis?_
 
+
+
 ### Justificativa
 Nesta seção, a solução final do seu modelo e os resultados dela obtidos devem ser comparados aos valores de referência (benchmark) que você estabeleceu anteriormente no projeto, usando algum tipo de análise estatística. Você deverá também justificar se esses resultados e a solução são significativas o suficiente para ter resolvido o problema apresentado no projeto. Questões para se perguntar ao escrever esta seção:
 - _Os resultados finais encontrados são mais fortes do que a referência reportada anteriormente?_
@@ -543,11 +545,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NjY5MjA2LC0yMDg2NDUyNDc2LDQyMj
-ExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwt
-Njk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1Mz
-E5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1
-OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4ND
-M4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2
-XX0=
+eyJoaXN0b3J5IjpbLTE3MjUxOTM3OTgsLTIwODY0NTI0NzYsND
+IyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0
+LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1Mj
+UzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4
+NjU4LDI5MTk0MTQzOSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNz
+g0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYy
+MjZdfQ==
 -->
