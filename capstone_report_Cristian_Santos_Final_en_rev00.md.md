@@ -405,44 +405,45 @@ The idea is that with more frequent update streams and larger jumps, algorithm a
 With these adjustments I achieved the following AWS evaluation results:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
 
-Temos um avanço em questão de percentual de progresso da pista, mas não de tempo de volta. Vale ressaltar que 30 minutos é um tempo baixo para uma avaliação mais concreta, mas quero destacar a seguinte iteração do carrinho:
+We have a breakthrough in terms of track progress percentage, but not lap time. It's worth noting that 30 minutes is a low time for a more concrete assessment, but I want to highlight the following cart iteration:
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v3_3.png)
 
-É possível ver que na curva sinalizada o mesmo não priorizou o centro da pista e sim a velocidade. É possível ver também abaixo que o mesmo, durante a avaliação saiu da pista exatamente neste ponto:
+You can see that in the signaled curve it did not prioritize the center of the track but the speed. You can also see below that the same, during the evaluation left the track exactly at this point:
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1_v3.png)
 
-Quanto aos gráficos de recompensa por iteração, não foram observados grandes alterações devido a função de recompensa se manter a mesma.
 
-Recapitulando, temos até agora um modelo com uma função de recompensa baseada em velocidade que **foi treinado por 1 hora e meia**. Com isso, adicionarei **mais um treinamento de 60 minutos**, mas ajustando alguns parâmetros de recompensa.
+As for the iteration reward charts, no major changes were observed due to the reward function remaining the same.
 
-- **Learning rate:** 0.0003
-- **Discount factor:** 0.888
-- **Gradient descent batch size:** 64
+To recap, we have so far a model with a speed-based reward function that ** has been trained for 1.5 hours **. With that, I will add ** another 60-minute training **, but adjusting some reward parameters.
 
-A ideia é caminhar novamente para parâmetros mais conservadores, mas com um pequeno ajuste no fator de desconto, pois acredito que diminuindo o número de passos futuros a serem considerados para recompensa priorize ações momentâneas.
+- ** Learning rate: ** 0.0003
+- ** Discount factor: ** 0.888
+- ** Gradient descent batch size: ** 64
 
-Além disso, avaliando um pouco melhor a função de recompensa, é possível que a variável progress tenha descompensado a recompensa baseada na velocidade. 
+The idea is to move back to more conservative parameters, but with a slight adjustment in the discount factor, as I believe that decreasing the number of future steps to be considered for reward prioritizes momentary actions.
 
-Isso pode ter ocorrido devido ao seguinte trecho de código:
+Also, by slightly assessing the reward function, the progress variable may have offset the speed-based reward.
+
+This may have been due to the following code snippet:
 
 `reward = reward + (reward * (progress / 100))`
 
-Como a recompensa é baseada na velocidade/progresso podem ocorrer os seguintes casos:
+As the reward is based on speed / progress the following cases may occur:
 
-Sendo a velocidade = 1 e o progresso = 25 %, a recompensa seria:
+With speed = 1 and progress = 25%, the reward would be:
 **1.25** = 1 + (1 * (25/100))
-	
-Sendo a velocidade = 0.8 e o progresso = 75 %, a recompensa seria:
-**1.4** = 0.8 + (0.8 * (75/100))
 
-Com isso, é possível que com o aumento do progresso, o modelo prefira diminuir a velocidade para garantir uma recompensa maior.
+With speed = 0.8 and progress = 75%, the reward would be:
+** 1.4 ** = 0.8 + (0.8 * (75/100))
 
-Para resolver essa situação, resolvi remover esse fator relacionado ao progresso. Outra alteração foi a remoção da penalização baseada na variável `steering_angle` por dois motivos:
+With this, it is possible that as the progress increases, the model prefers to slow down to ensure a greater reward.
 
--  Em alguns momentos o carrinho reduzia a velocidade em trechos retos da pista somente para poder alinhar-se conforme o angulo definido (imagem abaixo).
-- Como o treinamento inicial do modelo já foi realizado inicialmente com esse parâmetro, os problemas iniciais de zigue-zague foram diminuídos. 
+To resolve this situation, I decided to remove this progress-related factor. Another change was the removal of the penalty based on the `steering_angle` variable for two reasons:
+
+- At times the trolley would slow down in straight stretches of track just so that it could align with the set angle (image below).
+- Since initial model training was initially performed with this parameter, the initial zigzag problems were decreased.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
 
@@ -617,6 +618,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDgyNzM2MCwxNTk2NDMwNDU2LC0xND
+eyJoaXN0b3J5IjpbLTk4NzI5OTQ3NywxNTk2NDMwNDU2LC0xND
 A0MTU4NzU2XX0=
 -->
