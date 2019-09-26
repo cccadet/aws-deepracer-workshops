@@ -449,7 +449,7 @@ Temos um avanço em questão de percentual de progresso da pista, mas não de te
 
 Quanto aos gráficos de recompensa por iteração, não foram observados grandes alterações devido a função de recompensa se manter a mesma.
 
-Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que foi treinado por 1 hora e meia. Com isso, adicionarei mais um treinamento de 60 minutos, mas ajustando alguns parâmetros de recompensa.
+Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que **foi treinado por 1 hora e meia**. Com isso, adicionarei **mais um treinamento de 60 minutos**, mas ajustando alguns parâmetros de recompensa.
 
 - **Learning rate:** 0.0003
 - **Discount factor:** 0.888
@@ -520,10 +520,11 @@ Agora vamos comprar este modelo com o modelo inicial focado na permanência no c
 **Modelo padrão (Focado na centralidade da pista):**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
-
 **Modelo atual (Focado na velocidade):**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
+
+Do modelo padrão para o modelo desenvolvido encontramos 7,071 segundos de diferença, com 
 
 
 ### Justificativa
@@ -577,11 +578,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMD
-g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
-MTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NT
-g2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0
-MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5Nj
-M2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0
-OF19
+eyJoaXN0b3J5IjpbLTE4NTg2MTY5ODksMjI4NzQ5MDcxLC0xNz
+I1MTkzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5
+Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOT
+Q0NjI5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUw
+NDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksND
+YyMDg4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUx
+MzQ2XX0=
 -->
