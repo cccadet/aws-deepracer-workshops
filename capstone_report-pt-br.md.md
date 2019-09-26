@@ -578,7 +578,7 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 
 As função de recompensas utilizadas utilizam um número limitado de parâmetros. Isso faz com que a possibilidade de parametrizações também seja limitada, porém deixa para o algoritmo de RL a maior parte do aprendizado.
 
-O desenvolvedor da função de recompensa sempre terá que ter um equilibro entre definir uma função de recomp
+O desenvolvedor da função de recompensa sempre terá que ter um equilibro entre definir uma função de recompensa extremamente complexa e uma abrangente, para que o algoritmo de RL tenha a flexibilidade de encontrar outras formas de "resolver o seu problema" de recompensa.
 
 
 
@@ -588,6 +588,8 @@ Nesta seção, você deverá resumir os procedimentos desde o problema até a so
 - _Houve algum aspecto interessante do projeto?_
 - _Houve algum aspecto difícil do projeto?_
 - _O modelo e solução final alinham-se com suas expectativas para o problema, e devem ser usadas de forma geral para resolver esses tipos de problemas?_
+
+Basicamente as tarefas de RL são muito exploratórios e abrangentes.
 
 ### Melhorias
 Nesta seção, você deverá discutir como um aspecto da sua implementação poderia ser melhorado. Por exemplo, considere maneiras de tornar a sua implementação mais geral e o que precisaria ser modificado. Você não precisa fazer a melhoria, mas as possíveis soluções que resultariam de tais mudanças devem ser consideradas e comparadas/contrastadas com a sua solução atual. Questões para se perguntar ao escrever esta seção:
@@ -617,11 +619,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDc3MDk3MiwtMTY3OTc4NzM0MywtMT
-ExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQz
-NCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwOD
-Y0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwx
-OTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1OD
-Y5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQz
-XX0=
+eyJoaXN0b3J5IjpbLTIxNDI4MTU3ODgsLTE2Nzk3ODczNDMsLT
+ExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0
+MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMD
+g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
+MTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NT
+g2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0
+M119
 -->
