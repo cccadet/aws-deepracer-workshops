@@ -576,7 +576,9 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 
 É visível a forma como o modelo padrão inicial não explorava toda extensão da pista, por vezes reduzindo a velocidade do carrinho para isso. Já na segunda imagem é possível verificar como o carrinho por vezes "espalha a curva" para compensar a velocidade. E isso tudo devido a definição base da função recompensa.
 
-Na função de recompensa utilizada tanto num quanto no outro utiliza um número limitado de parâmetros. 
+As função de recompensas utilizadas utilizam um número limitado de parâmetros. Isso faz com que a possibilidade de parametrizações também seja limitada, porém deixa para o algoritmo de RL a maior parte do aprendizado.
+
+
 
 ### Reflexão
 Nesta seção, você deverá resumir os procedimentos desde o problema até a solução e discutir um ou dois aspectos  do projeto que você achou particularmente interessante ou difícil. É esperado que você reflita sobre o projeto como um todo de forma a mostrar que você possui um entendimento sólido de todo o processo empregado em seu trabalho. Questões para se perguntar ao escrever esta seção:
@@ -613,11 +615,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzk3ODczNDMsLTExMTk0MDQ0OTEsLT
-E0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OTkwODUs
-MjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2LDQyMj
-ExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwt
-Njk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1Mz
-E5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1
-OF19
+eyJoaXN0b3J5IjpbMTQ5NTY2MTc4MywtMTY3OTc4NzM0MywtMT
+ExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQz
+NCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwOD
+Y0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwx
+OTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1OD
+Y5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQz
+XX0=
 -->
