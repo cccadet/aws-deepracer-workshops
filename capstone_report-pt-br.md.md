@@ -480,7 +480,42 @@ Para resolver essa situação, resolvi remover esse fator relacionado ao progres
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
 
-Agora queremos focar em velocidade.
+Por fim, ficam com a seguinte função de recompensa:
+
+	def reward_function(params):
+	    # Read input parameters
+	    track_width = params['track_width']
+	    distance_from_center = params['distance_from_center']
+	    all_wheels_on_track = params['all_wheels_on_track']
+	    steering = abs(params['steering_angle'])  # Only need the absolute steering angle
+	    progress = params['progress']
+	    speed = params['speed']
+	    # Steering penality threshold, change the number based on your action space setting
+	    ABS_STEERING_THRESHOLD = 20
+
+	    if not all_wheels_on_track:
+	        # Penalize if the car goes off track
+	        reward = 1e-3
+	    else:
+	        reward = speed
+
+	    # Calculate 3 markers that are at varying distances away from the center line
+	    marker_1 = 0.4 * track_width
+	    marker_2 = 0.45 * track_width
+	    marker_3 = 0.5 * track_width
+
+	    # Give higher reward if the car is closer to center line and vice versa
+	    if distance_from_center <= marker_1:
+	        reward *= 1
+	    elif distance_from_center <= marker_2:
+	        reward *= 0.9
+	    elif distance_from_center <= marker_3:
+	        reward *= 0.85
+	    else:
+	        reward = 1e-3  # likely crashed/ close to off track
+
+
+	    return float(reward)
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -638,11 +673,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNzQzNTU4LDE2ODgyMjE4OTAsMTA2Nz
-I0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMsLTExMTk0MDQ0
-OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OT
-kwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2
-LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMz
-kzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxXX0=
+eyJoaXN0b3J5IjpbMTgzMzIzOTIsMTY4ODIyMTg5MCwxMDY3Mj
+Q5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQwNDQ5
+MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0NzQ5OT
+A4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0NzYs
+NDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOT
+M0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzFdfQ==
 
 -->
