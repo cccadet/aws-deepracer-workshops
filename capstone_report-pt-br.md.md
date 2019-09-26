@@ -673,14 +673,17 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [\[2\]](https://www.udacity.com/aws-deepracer-scholarship) AWS DeepRacer Scholarship with Udacity. Retrieved from https://www.udacity.com/aws-deepracer-scholarship
 
 [\[3 \]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+Parâmetros de entrada da função de recompensa do AWS DeepRacer - AWS DeepRacer. Retrieved from https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html
 
-https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html
-[4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
+[\[4\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters) 
+
+https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters
+
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjEzNjk3NywxOTM3NzcyNDk1LDEyOT
+eyJoaXN0b3J5IjpbLTg1OTAwOTg5OSwxOTM3NzcyNDk1LDEyOT
 I4OTMxMCwxNjg4MjIxODkwLDEwNjcyNDkyNDksNzc3MjEwOTE3
 LC0xNjc5Nzg3MzQzLC0xMTE5NDA0NDkxLC0xNDY1MjA0MDQsMT
 A0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MDg1LDIyODc0OTA3MSwt
