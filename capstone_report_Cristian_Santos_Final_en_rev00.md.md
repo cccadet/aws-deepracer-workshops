@@ -447,7 +447,7 @@ To resolve this situation, I decided to remove this progress-related factor. Ano
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
 
-Por fim, ficam com a seguinte função de recompensa:
+Finally, they get the following reward function:
 
 	def reward_function(params):
 	    # Read input parameters
@@ -484,15 +484,15 @@ Por fim, ficam com a seguinte função de recompensa:
 
 	    return float(reward)
 
-Além disso, o notebook desta análise encontra-se na pasta log-analysis/ com nome 13 - DeepRacer Log Analysis - Final 60 min - v2-v6.ipynb` .
+Also, the notebook for this review is located in log-analysis / folder 13 - DeepRacer Log Analysis - Final 60 min - v2-v6.ipynb`.
 
-## IV. Resultados
+## IV. Results
 
-### Modelo de avaliação e validação
+### Evaluation and Validation Model
 
-**Resultado da avaliação pela AWS:**
+**AWS assessment result:**
 
-Antes de avaliarmos o resultado do progresso x tempo de volta, vamos somente visualizar como o treinamento distribuiu as recompensas por iterações.
+Before we evaluate the result of progress x time back, let's just look at how the training distributed the rewards across iterations.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v6.png)
 
@@ -618,6 +618,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4MzAxMzYxLDE1OTY0MzA0NTYsLTE0MD
-QxNTg3NTZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTMzNDgxMDgsNjA4MzAxMzYxLDE1OT
+Y0MzA0NTYsLTE0MDQxNTg3NTZdfQ==
 -->
