@@ -496,29 +496,30 @@ Before we evaluate the result of progress x time back, let's just look at how th
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v6.png)
 
-Agora vamos verificar como o modelo performou nas 3 tentativas de avaliação da AWS:
 
-**Tentativa 1:**
+Now let's look at how the model performed in the 3 AWS trial attempts:
+
+**Attempt 1:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_1.png)
 
 
-**Tentativa 2:**
+**Attempt 2:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_2.png)
 
 
-**Tentativa 3:**
+**Attempt 3:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_3.png)
 
 
-Agora vamos comprar este modelo com o modelo inicial focado na permanência no centro da pista:
+Now let's buy this model with the initial model focused on staying in the center of the track:
 
-**Modelo padrão (Focado na centralidade da pista):**
+**Standard Model (Focused on Track Centering):**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
-**Modelo atual (Focado na velocidade):**
+**Current Model (Speed Focused):**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
 
@@ -618,6 +619,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMzNDgxMDgsNjA4MzAxMzYxLDE1OT
+eyJoaXN0b3J5IjpbLTE3OTM1NTk0MzEsNjA4MzAxMzYxLDE1OT
 Y0MzA0NTYsLTE0MDQxNTg3NTZdfQ==
 -->
