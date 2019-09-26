@@ -283,14 +283,14 @@ In hyperparameters, the following were used:
 |Number of epochs|10|
 
 
-From these benchmarks, I want to walk the path between this great benchmark and the default parameters. If possible, further refine the model and test the results. ** However, it is important to note that the training time used by the competitor was not reported **.
+From these benchmarks, I want to walk the path between this great benchmark and the default parameters. If possible, further refine the model and test the results. **However, it is important to note that the training time used by the competitor was not reported**.
 
 
 ## III. Methodology
 
 ### Data Preprocessing
 
-As assessed in the ** Data Exploration - Training ** section the standard reward function used showed a strong tendency to keep the cart in the center of the track. This is not all bad, but when it comes to a race, the idea is that the lap time will be better.
+As assessed in the **Data Exploration - Training** section the standard reward function used showed a strong tendency to keep the cart in the center of the track. This is not all bad, but when it comes to a race, the idea is that the lap time will be better.
 
 Because of this, I changed the reward function based on the speed of the cart. Another big change is that the distance from the center of the track will have greater flexibility, with discounts, even if few, at the ends of the track. I kept the reward bonus as the track progressed and the penalty to avoid zigzagging.
 
@@ -341,7 +341,7 @@ Thus, the current reward function was as follows:
 
 ### Implementation
 
-After adjusting the reward function as specified in the ** Data Preprocessing ** section, 1-hour training was conducted to evaluate the effectiveness of this reward function during the same training time. An important note is that no changes were made to the hyperparameters initially. The analysis notebook is in the `log-analysis /` folder named `09 - DeepRacer Log Analysis - Final 60 min.ipynb`.
+After adjusting the reward function as specified in the **Data Preprocessing** section, 1-hour training was conducted to evaluate the effectiveness of this reward function during the same training time. An important note is that no changes were made to the hyperparameters initially. The analysis notebook is in the `log-analysis /` folder named `09 - DeepRacer Log Analysis - Final 60 min.ipynb`.
 
 #### Exploratory Visualization - Training v2
 
@@ -367,7 +367,7 @@ I would like to demonstrate that the second highest score iteration was less rig
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_2.png)
 
 
-** AWS assessment result: **
+**AWS assessment result:**
 
 In assessing the speed-based model, 1 hour of training is not enough to complete 100% of the track.
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
@@ -375,7 +375,7 @@ In assessing the speed-based model, 1 hour of training is not enough to complete
 
 It is possible to see in the attempts the constant use of the acceleration, causing the exit of the track.
 
-** Attempt 1: **
+**Attempt 1:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1_v2.png)
 
@@ -397,8 +397,8 @@ Since in the first model (standard v1) I already reached the goal of completing 
 
 To do this, I will clone version 1 of the training model (which is evaluated on the `09 - DeepRacer Log Analysis - Final 60 min.ipynb` notebook), which would be the speed-focused reward function model. in the first hour of training and I will add another 30 minutes of training with the following adjustments:
 
-- ** Learning rate: ** 0.0009
-- ** Gradient descent batch size: ** 32
+- **Learning rate:** 0.0009
+- **Gradient descent batch size:** 32
 
 The idea is that with more frequent update streams and larger jumps, algorithm adjustments will be accelerated.
 
@@ -416,11 +416,11 @@ You can see that in the signaled curve it did not prioritize the center of the t
 
 As for the iteration reward charts, no major changes were observed due to the reward function remaining the same.
 
-To recap, we have so far a model with a speed-based reward function that ** has been trained for 1.5 hours **. With that, I will add ** another 60-minute training **, but adjusting some reward parameters.
+To recap, we have so far a model with a speed-based reward function that **has been trained for 1.5 hours**. With that, I will add **another 60-minute training**, but adjusting some reward parameters.
 
-- ** Learning rate: ** 0.0003
-- ** Discount factor: ** 0.888
-- ** Gradient descent batch size: ** 64
+- **Learning rate:** 0.0003
+- **Discount factor:** 0.888
+- **Gradient descent batch size:** 64
 
 The idea is to move back to more conservative parameters, but with a slight adjustment in the discount factor, as I believe that decreasing the number of future steps to be considered for reward prioritizes momentary actions.
 
@@ -436,7 +436,7 @@ With speed = 1 and progress = 25%, the reward would be:
 **1.25** = 1 + (1 * (25/100))
 
 With speed = 0.8 and progress = 75%, the reward would be:
-** 1.4 ** = 0.8 + (0.8 * (75/100))
+**1.4** = 0.8 + (0.8 * (75/100))
 
 With this, it is possible that as the progress increases, the model prefers to slow down to ensure a greater reward.
 
@@ -618,6 +618,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzI5OTQ3NywxNTk2NDMwNDU2LC0xND
-A0MTU4NzU2XX0=
+eyJoaXN0b3J5IjpbLTIwMDM2ODQyMjMsMTU5NjQzMDQ1NiwtMT
+QwNDE1ODc1Nl19
 -->
