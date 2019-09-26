@@ -307,7 +307,7 @@ Já em hyperparâmetros foram utilizados os seguinte:
 |N. of experience episodes between each policy-updating iteration|20|
 |Number of epochs|10|
 
-A partir desses parâmetros como referência desejo trilhar o caminho entre essa ótima referência e os parâmetros padrões. Se possível, aprimorar ainda mais o modelo e testar os resultados. Porém, é importante salientar que o tempo de treinamento usado pelo competidor não foi informado.
+A partir desses parâmetros como referência desejo trilhar o caminho entre essa ótima referência e os parâmetros padrões. Se possível, aprimorar ainda mais o modelo e testar os resultados. **Porém, é importante salientar que o tempo de treinamento usado pelo competidor não foi informado**.
 
 
 ## III. Metodologia
@@ -319,7 +319,7 @@ Nesta seção, você deve documentar claramente todos os passos de pré-processa
 - _Baseado na seção de **Exploração de dados**, se existiram anormalidade ou características que precisem ser tratadas, elas foram adequadamente corrigidas?_
 - _Se não é necessário um pré-processamento, foi bem definido o porquê?_
 
-Conforme avaliado na seção de **Exploração de dados - Treinamento** a função de recompensa padrão utilizada apresentou uma forte de manter o carrinho no centro da pista. Isso não é de todo mal, porém tratando-se de uma corrida, a ideia é que o tempo de volta seja melhor.
+Conforme avaliado na seção de **Exploração de dados - Treinamento** a função de recompensa padrão utilizada apresentou uma forte tendência de manter o carrinho no centro da pista. Isso não é de todo mal, porém tratando-se de uma corrida, a ideia é que o tempo de volta seja melhor.
 
 Diante disso, alterei a função de recompensa para ter como base a velocidade do carrinho. Outra grande mudança é que a distância do centro da pista terá uma flexibilidade maior, apresentando descontos, mesmo que poucos, nas extremidades da pista. Mantive o bônus de recompensa conforme o progresso na pista e a penalização para evitar o zigue-zague.
 
@@ -638,7 +638,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzIxNDQzNiw3NzcyMTA5MTcsLTE2Nz
+eyJoaXN0b3J5IjpbMTg2NzY0NDk4MCw3NzcyMTA5MTcsLTE2Nz
 k3ODczNDMsLTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3
 MTQxLC04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MT
 kzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0
