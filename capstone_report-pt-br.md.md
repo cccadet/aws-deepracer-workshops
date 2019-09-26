@@ -498,7 +498,7 @@ Antes de avaliarmos o resultado do progresso x tempo de volta, vamos somente vis
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v6.png)
 
-Agora vamos verificar como o modelo foi avaliado
+Agora vamos verificar como o modelo performou nas 3 tentativas de avaliação da AWS:
 
 **Tentativa 1:**
 
@@ -515,6 +515,7 @@ Agora vamos verificar como o modelo foi avaliado
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_3.png)
 
 
+Agora vamos comprar este modelo com o modelo inicial focado na permanência no 
 
 
 
@@ -569,11 +570,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQyMDU0NDEsLTE3MjUxOTM3OTgsLT
-IwODY0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIz
-OCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMT
-U1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5
-OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgxMzksMT
-k2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2
-NDQ4XX0=
+eyJoaXN0b3J5IjpbLTcyODMxNzM0OSwtMTcyNTE5Mzc5OCwtMj
+A4NjQ1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4
+LDE5OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNT
+U4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5
+NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOT
+YzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0
+NDhdfQ==
 -->
