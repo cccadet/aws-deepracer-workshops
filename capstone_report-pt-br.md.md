@@ -574,6 +574,7 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 **Modelo Final**
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_Livre.png)
 
+É visível a forma como o modelo padrão inicial não explorava toda extensão da pista, por vezes reduzindo a velocidade do carrinho para isso.
 
 ### Reflexão
 Nesta seção, você deverá resumir os procedimentos desde o problema até a solução e discutir um ou dois aspectos  do projeto que você achou particularmente interessante ou difícil. É esperado que você reflita sobre o projeto como um todo de forma a mostrar que você possui um entendimento sólido de todo o processo empregado em seu trabalho. Questões para se perguntar ao escrever esta seção:
@@ -610,11 +611,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04Mj
-A0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0y
-MDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMz
-gsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1
-NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OT
-k0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5XX0=
-
+eyJoaXN0b3J5IjpbLTEzNzc1NzY3NzMsLTE0NjUyMDQwNCwxMD
+Q5OTk3MTQxLC04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0x
+NzI1MTkzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Nj
+g5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIw
+OTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3OD
+UwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0Mzld
+fQ==
 -->
