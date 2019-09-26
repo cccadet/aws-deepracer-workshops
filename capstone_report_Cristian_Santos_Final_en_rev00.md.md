@@ -50,7 +50,7 @@ The reward function will be the guide of the algorithm. It will reward positive 
 
 More information on the reward function is available in the Amazon Deep Racer developer documentation. [\[3\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html).
 
-##### Hyperparâmetros
+##### Hyperparameters
 
 
 Algorithmic hyperparameters are options available in the above mentioned neural networks. With them, we can accelerate role adjustments and define key points in the Reinforcement Learning process, such as having our algorithm prioritize highest reward actions ever discovered or explore more actions to find a better action in a given state. In the AWS Deep Racer console we have the following parameters:
@@ -64,8 +64,8 @@ Algorithmic hyperparameters are options available in the above mentioned neural 
 
 More detailed information about each can be found in the AWS Deep Racer Developer's Guide in the Parameter Settings section. [\[4\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters).
 
-#### Solução
-Para solucionar o problema proposto utilizarei como ponto de partida os exemplos de função de recompensa e hiperparâmetros disponíveis nos exemplos da documentação da AWS Deep Racer. 
+#### Solution
+To solve the proposed problem I will use as a starting point the examples of reward function and hyperparameters available in the AWS Deep Racer documentation examples.
 ##### Reward
 Para a função de recompensa utilizarei formas de maximizar ações esperadas, como manter-se na pista, ganhar velocidade e completar voltas. Para isso a ideia é usar como base da função de recompensa os parâmetros `distance_from_center` and `all_wheels_on_track`. Além disso, vou usar como multiplicador da recompensa o `progress` a fim de que a recompensa seja maior de acordo com o avanço na pista.
 ##### Hyperparâmetros
@@ -611,6 +611,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjYwNzg4MzEsMTU5NjQzMDQ1NiwtMT
+eyJoaXN0b3J5IjpbLTE0NTQ1NTQwOTIsMTU5NjQzMDQ1NiwtMT
 QwNDE1ODc1Nl19
 -->
