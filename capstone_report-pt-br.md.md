@@ -668,7 +668,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 
 
 ### Referências:
-[\[1\]](https://aws.amazon.com/deepracer/?nc1=h_ls) AWS Deep Racer - Visão Geral
+[\[1\]](https://aws.amazon.com/deepracer/?nc1=h_ls) AWS DeepRacer - the fastest way to get rolling with machine learning 
 
 [2] [https://www.udacity.com/aws-deepracer-scholarship](https://www.udacity.com/aws-deepracer-scholarship)
 [3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
@@ -677,11 +677,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzc3MjQ5NSwxMjkyODkzMTAsMTY4OD
-IyMTg5MCwxMDY3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0
-MywtMTExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLT
-gyMDQzNCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgs
-LTIwODY0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OT
-IzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNF19
+eyJoaXN0b3J5IjpbMTA5NDk0NTkyMywxOTM3NzcyNDk1LDEyOT
+I4OTMxMCwxNjg4MjIxODkwLDEwNjcyNDkyNDksNzc3MjEwOTE3
+LC0xNjc5Nzg3MzQzLC0xMTE5NDA0NDkxLC0xNDY1MjA0MDQsMT
+A0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MDg1LDIyODc0OTA3MSwt
+MTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3Niw0MjIxMTAxODYsNzIyOD
+Y4OTYsNDI1MDY5MjM4LDE5OTQ2MjM5MzQsLTY5NTY3ODIxN119
 
 -->
