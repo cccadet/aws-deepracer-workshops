@@ -362,46 +362,47 @@ In this first image, you can see that the car maintained a certain proximity to 
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_1.png)
 
-Gostaria de demonstrar que a segunda iteração mais pontuada teve menos rigor ainda que a primeira em manter o carrinho no centro da pista.
+I would like to demonstrate that the second highest score iteration was less rigorous than the first in keeping the cart in the center of the track.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_2.png)
 
 
-**Resultado da avaliação pela AWS:**
+** AWS assessment result: **
 
-Na avaliação do modelo que tem a base em velocidade, 1 hora de treinamento não é o suficiente para que o mesmo complete 100% da pista.
+In assessing the speed-based model, 1 hour of training is not enough to complete 100% of the track.
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
 
-É possível ver nas tentativas o uso constante da aceleração, ocasionando a saída da pista.
 
-**Tentativa 1:**
+It is possible to see in the attempts the constant use of the acceleration, causing the exit of the track.
+
+** Attempt 1: **
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1_v2.png)
 
 
-**Tentativa 2:**
+**Attempt 2:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_2_v2.png)
 
 
-**Tentativa 3:**
+**Attempt 3:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_3_v2.png)
 
 
-### Refinamento
 
-Como no primeiro modelo (padrão v1) já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
+### Refinement
 
-Para isso, clonarei a versão 1 do modelo de treinamento (que é avaliado no notebook `09 - DeepRacer Log Analysis - Final 60 min.ipynb`, que seria o modelo com função de recompensa focada em velocidade. Com isso aproveitarei o conhecimento já construído na primeira hora de treinamento e adicionarei mais 30 minutos de treinamento com os seguintes ajustes:
+Since in the first model (standard v1) I already reached the goal of completing 100% of the track, I will try to optimize the completion time back. For this I will make some hyperparameter adjustments to speed up the training, remembering that the personal goal is not to exceed the cost of $ 50.00.
 
-- **Learning rate:** 0.0009
-- **Gradient descent batch size:** 32
+To do this, I will clone version 1 of the training model (which is evaluated on the `09 - DeepRacer Log Analysis - Final 60 min.ipynb` notebook), which would be the speed-focused reward function model. in the first hour of training and I will add another 30 minutes of training with the following adjustments:
 
-A ideia é que com fluxos de atualizações mais frequentes e saltos maiores, os ajustes do algoritmo sejam acelerados.
+- ** Learning rate: ** 0.0009
+- ** Gradient descent batch size: ** 32
 
-Com esses ajustes consegui os seguintes resultados de avaliação na AWS:
+The idea is that with more frequent update streams and larger jumps, algorithm adjustments will be accelerated.
 
+With these adjustments I achieved the following AWS evaluation results:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v2.png)
 
 Temos um avanço em questão de percentual de progresso da pista, mas não de tempo de volta. Vale ressaltar que 30 minutos é um tempo baixo para uma avaliação mais concreta, mas quero destacar a seguinte iteração do carrinho:
@@ -616,6 +617,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3MzAzMjEsMTU5NjQzMDQ1NiwtMTQwND
-E1ODc1Nl19
+eyJoaXN0b3J5IjpbLTI5NDgyNzM2MCwxNTk2NDMwNDU2LC0xND
+A0MTU4NzU2XX0=
 -->
