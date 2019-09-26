@@ -15,13 +15,13 @@ The project is themed on AWS Deep Racer from Amazon. As Amazon itself describes:
 
 This model of competition and RL learning makes us learn about the subject which is a fascinating but very complex field of study. Recently Udacity launched the AWS DeepRacer Scholarship Challenge and as I had not selected my proposal for the final work I decided to accept this challenge.
 
-### Descrição do problema
+### Problem Statement
 
-O objetivo do meu projeto é desenvolver e fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta pessoal é U$50,00.
+The goal of my project is to develop and make the cart reach the end by completing 100% of the track. However, as the cost with AWS DeepRacer can quickly become high, I will look for the best solution with few features. My personal goal is $ 50.
 
-#### Conjuntos de dados e entradas
+#### Datasets and Entries
 
-O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer [\[2\]](https://www.udacity.com/aws-deepracer-scholarship), esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
+AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorithm. According to AWS DeepRacer course “Value Functions” (L4: Reinforcement Learning) video [\[2\]](https://www.udacity.com/aws-deepracer-scholarship), esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
 
 -   Policy Network: Decide qual ação tomar de acordo com a imagem recebida no input.
 -   Value Network: Estima o resultado cumulativo que provavelmente obteremos, considerando a imagem como uma entrada.
@@ -611,5 +611,5 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI0MDQ3NzldfQ==
+eyJoaXN0b3J5IjpbMTIxNDMzNDk3NF19
 -->
