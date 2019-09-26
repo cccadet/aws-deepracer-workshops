@@ -578,6 +578,8 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 
 As função de recompensas utilizadas utilizam um número limitado de parâmetros. Isso faz com que a possibilidade de parametrizações também seja limitada, porém deixa para o algoritmo de RL a maior parte do aprendizado.
 
+O desenvolvedor da função de recompensa sempre terá que ter um equilibro entre definir uma função de recomp
+
 
 
 ### Reflexão
@@ -615,7 +617,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTY2MTc4MywtMTY3OTc4NzM0MywtMT
+eyJoaXN0b3J5IjpbLTM0MDc3MDk3MiwtMTY3OTc4NzM0MywtMT
 ExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQz
 NCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwOD
 Y0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwx
