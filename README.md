@@ -17,7 +17,7 @@ Os pré requisitos para execução dos notebook são:
 - Pandas
 - Matplotlib
 - Shapely Library
-- log_analysis (no próprio diretório)
+- log_analysis (`log_analysis.py` no próprio diretório)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODY5ODQxMV19
+eyJoaXN0b3J5IjpbLTE2MDEwODI5NjVdfQ==
 -->
