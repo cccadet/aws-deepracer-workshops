@@ -457,7 +457,9 @@ Recapitulando então temos até agora um modelo com uma função de recompensa b
 
 A ideia é caminhar novamente para parâmetros mais conservadores, mas com um pequeno ajuste no fator de desconto, pois acredito que diminuindo o número de passos futuros a serem considerados para recompensa priorize ações momentâneas.
 
-Além disso, avaliando um pouco melhor a função de recompensa, é possível que a variável progress tenha descompensado a 
+Além disso, avaliando um pouco melhor a função de recompensa, é possível que a variável progress tenha descompensado a recompensa baseada na velocidade. 
+
+Isso pode ter ocorrido devido ao caso de que a partir de um determinado momento, como o progresso da pista acrescenta um percentual da recompensa baseada na velocidade 
 
 
 ## IV. Resultados
@@ -521,11 +523,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMDAyNjIwLDcyMjg2ODk2LDQyNTA2OT
-IzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwx
-MTU1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMz
-g5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgxMzks
-MTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NT
-E2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4MDk4
-Ml19
+eyJoaXN0b3J5IjpbLTk4MzgwOTg5Miw3MjI4Njg5Niw0MjUwNj
+kyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQs
+MTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MD
+M4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5
+LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NT
+UxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5
+ODJdfQ==
 -->
