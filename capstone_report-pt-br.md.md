@@ -480,7 +480,6 @@ Para resolver essa situação, resolvi remover esse fator relacionado ao progres
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
 
-
 Agora queremos focar em velocidade.
 
 ## IV. Resultados
@@ -544,11 +543,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY0NTI0NzYsNDIyMTEwMTg2LDcyMj
-g2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcs
-MjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Nj
-c4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQz
-OSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05Nj
-A3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1
-Ml19
+eyJoaXN0b3J5IjpbNDI2NjY5MjA2LC0yMDg2NDUyNDc2LDQyMj
+ExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwt
+Njk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1Mz
+E5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1
+OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5NjM2MTA0NTYsMTc4ND
+M4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0OCwxNTQyNzg2MjI2
+XX0=
 -->
