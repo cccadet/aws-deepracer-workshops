@@ -467,6 +467,8 @@ Como a recompensa é baseada na velocidade podem ocorrer os seguintes casos:
 
 1.25 = 1 + (1 * (25/100))
 
+= 0.5 + (0.5 * (50/100))
+
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
 
@@ -528,7 +530,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MTQ3MTQ4LDcyMjg2ODk2LDQyNTA2OT
+eyJoaXN0b3J5IjpbMjMzNDMxNTY3LDcyMjg2ODk2LDQyNTA2OT
 IzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwx
 MTU1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMz
 g5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgxMzks
