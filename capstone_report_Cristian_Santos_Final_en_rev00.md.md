@@ -193,41 +193,44 @@ In the image below you can see the rewards of a specific training iteration.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards.png)
 
-Nas imagens acima é possível confirmar o que foi levantado na seção "Notebook de Análise" quanto a questão da recompensa ter uma média próxima a 1 devido a base da composição da recompensa ser a distância do centro da pista. Tanto na imagem de avaliação geral quanto a imagem de avaliação de uma iteração específica, no caso a iteração 2, é visto que a distribuição das recompensas estão muito próximas do centro da pista.
 
-Além disso, o caminho percorrido para as iterações de maior recompensa estão extremamente alinhadas com o centro da pista. 
-
-### Visualização exploratória - Treinamento v1
-
-**Resultado da avaliação pela AWS:**
+In the images above it is possible to confirm what was raised in the "Analysis Notebook" section regarding the issue of the reward having an average close to 1 because the basis of the reward composition is the distance from the center of the track. Both in the overall evaluation image and the evaluation image of a specific iteration, in this case, iteration 2, it is seen that the reward distribution is very close to the center of the track.  
+  
+Besides, the path taken for the most rewarding iterations is extremely aligned with the center of the track.  
+  
+### Exploratory Visualization - Training v1  
+  
+** AWS assessment result: **
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
 
-Na etapa de avaliação temos que entender como o carrinho se portou na pista durante as três tentativas de completar a corrida.
 
-**Tentativa 1:**
+In the evaluation stage we have to understand how the cart behaved on the track during the three attempts to complete the race.
+
+** Attempt 1: **
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1.png)
 
 
-**Tentativa 2:**
+**Attempt 2:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_2.png)
 
 
-**Tentativa 3:**
+**Attempt 3:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_3.png)
 
-É possível visualizar que o mesmo padrão do treinamento é repetido durante a fase de avaliação. O Carrinho tentou manter-se no centro da pista, por vezes sacrificando a velocidade para que isso acontecesse.
 
-### Algoritmos e técnicas
+You can see that the same training pattern is repeated during the evaluation phase. The Cart tried to stay in the center of the track, sometimes sacrificing speed to make it happen.
 
-Conforme descrito na etapa de **I.Definição** o AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Esse projeto trata-se de um projeto de otimização do algoritmo já definido e usado pela AWS Deep Racer. Nas etapa de **Conjuntos de dados e entradas** e **Exploração dos Dados** já foram descritos a função de recompensa padrão inicial e os hyperparâmetros usados como ponto de partida para análise.
+### Algorithms and Techniques
+
+As described in step ** I.Definition ** AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorithm. This project is an algorithm optimization project already defined and used by AWS Deep Racer. In the ** Data Sets and Inputs ** and ** Data Exploration ** steps the initial default reward function and the hyperparameters used as the starting point for analysis have already been described.
 
 ### Benchmark
 
-Como referência, me baseio no ganhador do “re:Invent 2018" que completou a volta em 12.68 secs [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794). Para este modelo foi usada a seguinte função de recompensa:
+As a reference, I am based on the “re: Invent 2018” winner who completed the lap in 12.68 secs [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794). Para este modelo, foi utilizada a seguinte função de recompensa:
 
 ```
 def reward_function(params):
@@ -610,6 +613,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDczMTMwNTUsMTU5NjQzMDQ1NiwtMT
-QwNDE1ODc1Nl19
+eyJoaXN0b3J5IjpbNjAzMTM5NDIyLDE1OTY0MzA0NTYsLTE0MD
+QxNTg3NTZdfQ==
 -->
