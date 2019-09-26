@@ -185,7 +185,7 @@ Na imagem é possível avaliar os seguinte pontos:
 
 - **Iteration (2) and episode (39)**: Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
 - **Throttle:** Com uma média de 0.7765 é possível avaliar que o carrinho esteve acelerando boa parte do tempo de treinamento.
-- **Reward:** Temos uma média de recompensa de 1.05. Se formos avaliar a função de recompensa atual, podemos verificar que essa recompensa é atribuída quando o carrinhos está muito próximo ao centro da pista. Como o foco da corrida é tempo de volta, possívelmente a base da recompensa não poderá ser a distancia do centro da pista.
+- **Reward:** Temos uma média de recompensa de 1.05. Se formos avaliar a função de recompensa atual, podemos verificar que essa recompensa é atribuída quando o carrinhos está muito próximo ao centro da pista. Como o foco da corrida é tempo de volta, possivelmente a base da recompensa não poderá ser a distância do centro da pista.
 - **Progress:** Bom, chegamos no 100%.
 
 ### Visualização exploratória - Treinamento
@@ -638,7 +638,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTAyMzYwLC0xNjc5Nzg3MzQzLC0xMT
+eyJoaXN0b3J5IjpbNzc3MjEwOTE3LC0xNjc5Nzg3MzQzLC0xMT
 E5NDA0NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0
 LDQ3NDk5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4Nj
 Q1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5
