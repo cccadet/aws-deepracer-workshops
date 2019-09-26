@@ -608,6 +608,7 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_livre_0.png)
 
+
 **Modelo Final**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_Livre.png)
@@ -675,11 +676,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MTU4ODksMTI5Mjg5MzEwLDE2ODgyMj
-E4OTAsMTA2NzI0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMs
-LTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04Mj
-A0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0y
-MDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMz
-gsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzRdfQ==
+eyJoaXN0b3J5IjpbLTQ4NjM4NTg1NywxMjkyODkzMTAsMTY4OD
+IyMTg5MCwxMDY3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0
+MywtMTExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLT
+gyMDQzNCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgs
+LTIwODY0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OT
+IzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNF19
 
 -->
