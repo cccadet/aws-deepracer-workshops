@@ -596,7 +596,11 @@ Basicamente as tarefas de RL são muito exploratórios e abrangentes. Para resol
 - Estudo sobre impactos dos parâmetros da função de recompensa.
 - Implementação da nova função de recompensa e ajuste de hyperparâmetros.
 - Avaliação dos dados gerados a partir da nova rodada de treinamento/avaliação.
-- 
+- Estudo sobre possiveis melhorias e pontos de impactos negativos na performance do modelo e função de recompensa.
+- Nova rodada de treinamento/avaliação.
+- Composição e avaliação dos resultados obtidos.
+
+Como Reinforcement 
 
 ### Melhorias
 Nesta seção, você deverá discutir como um aspecto da sua implementação poderia ser melhorado. Por exemplo, considere maneiras de tornar a sua implementação mais geral e o que precisaria ser modificado. Você não precisa fazer a melhoria, mas as possíveis soluções que resultariam de tais mudanças devem ser consideradas e comparadas/contrastadas com a sua solução atual. Questões para se perguntar ao escrever esta seção:
@@ -626,7 +630,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTY3MDY1MywtMTY3OTc4NzM0MywtMT
+eyJoaXN0b3J5IjpbMTkzNzcyMzAzMywtMTY3OTc4NzM0MywtMT
 ExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQz
 NCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwOD
 Y0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwx
