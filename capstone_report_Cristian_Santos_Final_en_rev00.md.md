@@ -338,25 +338,27 @@ Thus, the current reward function was as follows:
 	    return float(reward)
 
 
-### Implementação
 
-Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente. O notebook de análise encontra-se na pasta `log-analysis/` com nome `09 - DeepRacer Log Analysis - Final 60 min.ipynb`.
+### Implementation
 
-#### Visualização exploratória - Treinamento v2
+After adjusting the reward function as specified in the ** Data Preprocessing ** section, 1-hour training was conducted to evaluate the effectiveness of this reward function during the same training time. An important note is that no changes were made to the hyperparameters initially. The analysis notebook is in the `log-analysis /` folder named `09 - DeepRacer Log Analysis - Final 60 min.ipynb`.
 
-Com esse treinamento foram obtidos os seguintes resultados:
+#### Exploratory Visualization - Training v2
 
-##### Avaliação geral de recompensa por ações
+With this training the following results were obtained:
 
-Na imagem abaixo é possível verificar as recompensas retornadas no processo de treinamento.
+##### Overall Share Reward Rating
+
+In the image below you can see the rewards returned in the training process.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v2.png)
 
-Diferente da primeira função de recompensa, é possível ver que o carrinho está explorando mais a pista. Com isso, é possível verificar mais "erros de percurso" do que na primeira versão.
+
+Unlike the first reward function, you can see that the cart is exploring the track more. This allows you to check for more "travel errors" than in the first version.
 
 ##### Path taken for top reward iterations
 
-Nessa primeira imagem é possível ver que o carrinho manteve uma certa proximidade com o centro da pista, mas não foi tão rigorosa como a do primeiro modelo.
+In this first image, you can see that the car maintained a certain proximity to the center of the track, but was not as rigorous as the first model.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v2_1.png)
 
@@ -614,6 +616,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTcwODk5NCwxNTk2NDMwNDU2LC0xND
-A0MTU4NzU2XX0=
+eyJoaXN0b3J5IjpbMzE3MzAzMjEsMTU5NjQzMDQ1NiwtMTQwND
+E1ODc1Nl19
 -->
