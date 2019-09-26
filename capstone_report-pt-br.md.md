@@ -551,7 +551,8 @@ Como o modelo de benchmark não deixa claro o tempo no qual foi treinado, não �
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
 
-
+Quanto a questão "*A solução final é significativa o suficiente para ter resolvido o problema?*":
+Avaliando o desafio proposto, completar 100% da pista
 
 ## V. Conclusão
 _(aprox. 1-2 páginas)_
@@ -597,7 +598,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjYxNDcwLC04MjA0MzQsNDc0OTkwOD
+eyJoaXN0b3J5IjpbODQ3MjI3MjA0LC04MjA0MzQsNDc0OTkwOD
 UsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2LDQy
 MjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNC
 wtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1
