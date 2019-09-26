@@ -492,6 +492,29 @@ Nesta seção, o modelo final e quaisquer qualidades que o sustentem devem ser a
 -_O modelo é robusto o suficiente para o problema? Pequenas perturbações (mudanças) nos dados de treinamento ou no espaço de entrada afetam os resultados de forma considerável?_
 - _Os resultados obtidos do modelo são confiáveis?_
 
+**Resultado da avaliação pela AWS:**
+
+Na avaliação do modelo que tem a base em velocidade, 1 hora de treinamento não é o suficiente para que o mesmo complete 100% da pista.
+![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v6.png)
+
+É possível ver nas tentativas o uso constante da aceleração, ocasionando a saída da pista.
+
+**Tentativa 1:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_1.png)
+
+
+**Tentativa 2:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_2.png)
+
+
+**Tentativa 3:**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_3.png)
+
+
+
 
 
 ### Justificativa
@@ -545,11 +568,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUxOTM3OTgsLTIwODY0NTI0NzYsND
-IyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0
-LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1Mj
-UzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4
-NjU4LDI5MTk0MTQzOSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNz
-g0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYy
-MjZdfQ==
+eyJoaXN0b3J5IjpbLTIwNjEzNTU3NzIsLTE3MjUxOTM3OTgsLT
+IwODY0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIz
+OCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMT
+U1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5
+OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgxMzksMT
+k2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NTE2
+NDQ4XX0=
 -->
