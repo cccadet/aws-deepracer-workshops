@@ -567,11 +567,6 @@ O desenvolvedor da função de recompensa sempre terá que ter um equilibro entr
 
 
 ### Reflexão
-Nesta seção, você deverá resumir os procedimentos desde o problema até a solução e discutir um ou dois aspectos  do projeto que você achou particularmente interessante ou difícil. É esperado que você reflita sobre o projeto como um todo de forma a mostrar que você possui um entendimento sólido de todo o processo empregado em seu trabalho. Questões para se perguntar ao escrever esta seção:
-- _Você resumiu inteiramente o processo que você utilizou neste projeto?_
-- _Houve algum aspecto interessante do projeto?_
-- _Houve algum aspecto difícil do projeto?_
-- _O modelo e solução final alinham-se com suas expectativas para o problema, e devem ser usadas de forma geral para resolver esses tipos de problemas?_
 
 Basicamente as tarefas de RL são muito exploratórios e abrangentes. Para resolver esse problema escolhido, segmentei da seguinte forma meu trabalho:
 - Experimentação acerca do funcionamento da plataforma AWS Deep Racer.
@@ -589,10 +584,6 @@ Como Reinforcement Learning é uma área nova para mim, a complexidade de cenár
 Quanto a solução final, ela ficou abaixo do resultado inicial que eu esperava (os 11 segundos do modelo de benchmark). Porém, o processo de avaliação foi tão produtivo e mostrou-se muito explicativo que compensou e muito essa diferença entre o tempo de volta que eu esperava. Sem falar que mesmo o modelo de benchmark, com treinamento inferior a 3 H não performou tão bem, por vezes não completando a pista nas avaliações.
 
 ### Melhorias
-Nesta seção, você deverá discutir como um aspecto da sua implementação poderia ser melhorado. Por exemplo, considere maneiras de tornar a sua implementação mais geral e o que precisaria ser modificado. Você não precisa fazer a melhoria, mas as possíveis soluções que resultariam de tais mudanças devem ser consideradas e comparadas/contrastadas com a sua solução atual. Questões para se perguntar ao escrever esta seção:
-- _Existem melhorias futuras que podem ser feitas nos algoritmos ou técnicas que você usou neste projeto?_
-- _Existem algoritmos ou técnicas que você pesquisou, porém não soube como implementá-las, mas consideraria usar se você soubesse como?_
-- _Se você usou sua solução final como nova referência, você acredita existir uma solução ainda melhor?_
 
 Quanto a melhorias são muitas possibilidades. As principais que eu elencaria seriam as seguintes:
 
@@ -601,16 +592,6 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 - Treinamento do modelo em outras pistas, para que o mesmo se adapte as mais variadas possibilidades de pistas.
 
 -----------
-
-**Antes de enviar, pergunte-se. . .**
-
-- _O relatório de projeto que você escreveu segue uma estrutura bem organizada, similar ao modelo do projeto?_
-- Cada seção (particularmente **Análise** e **Metodologia**) foi escrita de maneira clara, concisa e específica? Existe algum termo ou frase ambígua que precise de esclarecimento?
-- O público-alvo do seu projeto será capaz de entender suas análises, métodos e resultados?
-- Você revisou seu relatório de projeto adequadamente, de forma a minimizar a quantidade de erros gramaticais e ortográficos?
-- Todos os recursos usados neste projeto foram corretamente citados e referenciados?
-- O código que implementa sua solução está legível e comentado adequadamente?
-- O código é executado sem erros e produz resultados similares àqueles reportados?
 
 
 ### Referências:
@@ -631,5 +612,5 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzg2MzQ3MV19
+eyJoaXN0b3J5IjpbMTcwMjkyNTM1XX0=
 -->
