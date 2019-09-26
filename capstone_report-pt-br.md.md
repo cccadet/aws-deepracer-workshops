@@ -535,11 +535,22 @@ Nesta seção, a solução final do seu modelo e os resultados dela obtidos deve
 
 De certa forma os modelos desenvolvidos apresentaram (Foco Centro da pista e Foco em Velocidade) apresentaram resultados melhores que o modelo de benchmark em até 3 H de treinamento.
 
+**Modelo benchmark:**
+
 É possível verificar na imagem abaixo que a função de recompensa e os hyperparâmetros do modelo benchmark não completaram a volta durante as três tentativas de avaliação do modelo treinado durante 3H.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_Beanchmark_1)
 
 Como o modelo de benchmark não deixa claro o tempo no qual foi treinado, não é possível avaliarmos o resultado de forma mais precisa.
+
+**Modelo padrão (Focado na centralidade da pista):**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
+
+**Modelo atual (Focado na velocidade):**
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
+
 
 
 ## V. Conclusão
@@ -586,7 +597,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczNDY0ODQyLC04MjA0MzQsNDc0OTkwOD
+eyJoaXN0b3J5IjpbMTIxMjYxNDcwLC04MjA0MzQsNDc0OTkwOD
 UsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2LDQy
 MjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNC
 wtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1
