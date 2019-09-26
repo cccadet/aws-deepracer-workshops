@@ -463,7 +463,7 @@ Isso pode ter ocorrido devido ao seguinte trecho de código:
 
 `reward = reward + (reward * (progress / 100))`
 
-Como a recompensa é baseada na velocidade podem ocorrer os seguintes casos:
+Como a recompensa é baseada na velocidade/progresso podem ocorrer os seguintes casos:
 
 Sendo a velocidade = 1 e o progresso = 25 %, a recompensa seria:
 **1.25** = 1 + (1 * (25/100))
@@ -476,11 +476,11 @@ Com isso, é possível que com o aumento do progresso, o modelo prefira diminuir
 Para resolver essa situação, resolvi remover esse fator relacionado ao progresso. Outra alteração foi a remoção da penalização baseada na variável `steering_angle` por dois motivos:
 
 -  Em alguns momentos o carrinho reduzia a velocidade em trechos retos da pista somente para poder alinhar-se conforme o angulo definido.
-- Como o treinamento inicial do modelo já foi realizado inicialmente com esse parâmetro, os problemas iniciais de zigue-zague form diminuídos. 
+- Como o treinamento inicial do modelo já foi realizado inicialmente com esse parâmetro, os problemas iniciais de zigue-zague foram diminuídos. 
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
 
-Agora queremos focar em velocidade.
+Na imagem acima é possívelAgora queremos focar em velocidade.
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDQwNTgxLDE2ODgyMjE4OTAsMTA2Nz
-I0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMsLTExMTk0MDQ0
-OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OT
-kwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2
-LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMz
-kzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxXX0=
+eyJoaXN0b3J5IjpbLTMxMjYxMTU2OSwxNjg4MjIxODkwLDEwNj
+cyNDkyNDksNzc3MjEwOTE3LC0xNjc5Nzg3MzQzLC0xMTE5NDA0
+NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0LDQ3ND
+k5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3
+Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2Mj
+M5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3MV19
 
 -->
