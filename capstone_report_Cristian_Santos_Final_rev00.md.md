@@ -4,7 +4,6 @@ Cristian Carlos dos Santos
 22 de setembro de 2019
 
 ## I. Definição
-_(aprox. 1-2 páginas)_
 
 ### Visão geral do projeto
 
@@ -612,5 +611,5 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjkyNTM1XX0=
+eyJoaXN0b3J5IjpbNzMzMjIyMzE3XX0=
 -->
