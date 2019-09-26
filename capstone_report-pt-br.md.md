@@ -570,7 +570,7 @@ Nesta seção, a solução final do seu modelo e os resultados dela obtidos deve
 - _Você analisou e discutiu totalmente a solução final?_
 - _A solução final é significativa o suficiente para ter resolvido o problema?_
 
-De certa forma os modelos desenvolvidos apresentaram (Foco Centro da pista e Foco em Velocidade) apresentaram resultados melhores que o modelo de benchmark em até 3 H de treinamento.
+De certa forma os modelos desenvolvidos (Foco Centro da pista e Foco em Velocidade) apresentaram resultados melhores que o modelo de benchmark em até 3 H de treinamento.
 
 **Modelo benchmark:**
 
@@ -602,7 +602,7 @@ Nesta seção, você deverá fornecer alguma forma de visualização que enfatiz
 
 A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas definidas e hyperparâmetros utilizados. 
 
-As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial, focada na distância do centro da pista, e a final, focada em velocidade são as seguinte:
+As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial, focada na distância do centro da pista, e a final focada em velocidade são as seguinte:
 
 **Modelo Padrão Inicial**
 
@@ -675,7 +675,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY0NTU1MDcsMTY4ODIyMTg5MCwxMD
+eyJoaXN0b3J5IjpbLTEwNTgxMjY1MzgsMTY4ODIyMTg5MCwxMD
 Y3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQw
 NDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0Nz
 Q5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0
