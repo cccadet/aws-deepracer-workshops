@@ -83,9 +83,9 @@ As an evaluation metric, the idea is to use ** track completion percentage **, *
 
 From the training and assessment performed on the AWS Deep Racer console, training and assessment log files are generated. Using the analysis model available in the AWS Deepracer Workshop Lab Github [\[6\]](https://github.com/aws-samples/aws-deepracer-workshops)  you can download these logs and start the evaluation through the `log-analysis / DeepRacer Log Analysis.ipynb` file. In addition to the training/evaluation logs, a model is generated for the neural networks that are part of the algorithm already explained above. You can download this model from the AWS console so that it can also be evaluated on the Jupyter Notebook already mentioned above.
 
-Meu objetivo inicial foi encontrar, com a função de recompensa baseada nos padrões básicos dos exemplos da documentação e hyperparâmetros padrões, o menor tempo necessário de treinamento para que o carrinho completasse uma volta. O mínimo de tempo que encontrei na pista **re:Invent 2018** foi 1H. Segue a função de recompensa usada e os hyper parâmetros:
+My initial goal was to find, with the reward function based on the basic standards of the documentation examples and standard hyperparameters, the shortest training time required for the cart to complete one lap. The minimum time I found on the track ** re: Invent 2018 ** was 1H. Following is the reward function used and the hyperparameters:
 
-**Função de recompensa:**
+**Reward Function:**
 
     def reward_function(params):
 	    # Read input parameters
@@ -133,9 +133,9 @@ Meu objetivo inicial foi encontrar, com a função de recompensa baseada nos pad
 
 	    return float(reward)
 
-Essa função de recompensa é busca manter o carrinho na pista, sem grandes zigue-zague e adicionando um multiplicador pela velocidade.
+This reward function is to keep the cart on track without major zigzag and adding a multiplier for speed.
 
-**Hyperparâmetros:**
+**Hyperparameters:**
 
 | Hyperparâmetro              |      Value    |
 |-----------------------------|:-------------:|
@@ -607,6 +607,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjA3Njc4OSwxNTk2NDMwNDU2LC0xND
-A0MTU4NzU2XX0=
+eyJoaXN0b3J5IjpbMTQ5NDM0MzM2LDE1OTY0MzA0NTYsLTE0MD
+QxNTg3NTZdfQ==
 -->
