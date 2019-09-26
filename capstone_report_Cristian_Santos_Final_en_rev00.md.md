@@ -230,7 +230,7 @@ As described in step ** I.Definition ** AWS DeepRacer trains models using the Pr
 
 ### Benchmark
 
-As a reference, I am based on the “re: Invent 2018” winner who completed the lap in 12.68 secs [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794). Para este modelo, foi utilizada a seguinte função de recompensa:
+As a reference, I am based on the “re: Invent 2018” winner who completed the lap in 12.68 secs [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794). For this model the following reward function was used:
 
 ```
 def reward_function(params):
@@ -613,6 +613,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMTM5NDIyLDE1OTY0MzA0NTYsLTE0MD
-QxNTg3NTZdfQ==
+eyJoaXN0b3J5IjpbMTk5NDAwODQ1MCwxNTk2NDMwNDU2LC0xND
+A0MTU4NzU2XX0=
 -->
