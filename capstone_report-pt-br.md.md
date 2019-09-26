@@ -373,7 +373,7 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 - _Houve complicações com as métricas ou técnicas originais que acabaram exigindo mudanças antes de chegar à solução?_
 - _Houve qualquer parte do processo de codificação (escrita de funções complicadas, por exemplo) que deveriam ser documentadas?_
 
-Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente. O notebook de análise encontra-se na pasta `log-analysis/` com nome `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
+Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente. O notebook de análise encontra-se na pasta `log-analysis/` com nome `09 - DeepRacer Log Analysis - Final 60 min.ipynb`.
 
 #### Visualização exploratória - Treinamento v2
 
@@ -426,7 +426,7 @@ Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algorit
 - _O processo de melhoria foi documentado de foma clara, bem como as técnicas utilizadas?_
 - _As soluções intermediárias e finais foram reportadas claramente, conforme o processo foi sendo melhorado?_
 
-Como no primeiro modelo já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
+Como no primeiro modelo (v1) já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
 
 Para isso, clonarei a versão 2 do modelo de treinamento, que seria o modelo com função de recompensa focada em velocidade. Com isso aproveitarei o conhecimento já construído na primeira hora de treinamento e adicionarei mais 30 minutos de treinamento com os seguintes ajustes:
 
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzI0OTI0OSw3NzcyMTA5MTcsLTE2Nz
-k3ODczNDMsLTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3
-MTQxLC04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MT
-kzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0
-MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0Nj
-I5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDBd
-fQ==
+eyJoaXN0b3J5IjpbLTI1OTIyOTc5LDEwNjcyNDkyNDksNzc3Mj
+EwOTE3LC0xNjc5Nzg3MzQzLC0xMTE5NDA0NDkxLC0xNDY1MjA0
+MDQsMTA0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MDg1LDIyODc0OT
+A3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3Niw0MjIxMTAxODYs
+NzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2MjM5MzQsLTY5NTY3OD
+IxNywyMDk0NDYyOTM0LDExNTU4Njk3MSwtMjUyNTMxOTE0XX0=
+
 -->
