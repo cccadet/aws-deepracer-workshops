@@ -576,6 +576,8 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 
 É visível a forma como o modelo padrão inicial não explorava toda extensão da pista, por vezes reduzindo a velocidade do carrinho para isso. Já na segunda imagem é possível verificar como o carrinho por vezes "espalha a curva" para compensar a velocidade. E isso tudo devido a definição base da função recompensa.
 
+Na função de recompensa utilizada tanto num quanto no outro utiliza um número limitado de parâmetros. 
+
 ### Reflexão
 Nesta seção, você deverá resumir os procedimentos desde o problema até a solução e discutir um ou dois aspectos  do projeto que você achou particularmente interessante ou difícil. É esperado que você reflita sobre o projeto como um todo de forma a mostrar que você possui um entendimento sólido de todo o processo empregado em seu trabalho. Questões para se perguntar ao escrever esta seção:
 - _Você resumiu inteiramente o processo que você utilizou neste projeto?_
@@ -611,11 +613,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMD
-Q5OTk3MTQxLC04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0x
-NzI1MTkzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Nj
-g5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIw
-OTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3OD
-UwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0Mzld
-fQ==
+eyJoaXN0b3J5IjpbLTE2Nzk3ODczNDMsLTExMTk0MDQ0OTEsLT
+E0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OTkwODUs
+MjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2LDQyMj
+ExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwt
+Njk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxLC0yNTI1Mz
+E5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1
+OF19
 -->
