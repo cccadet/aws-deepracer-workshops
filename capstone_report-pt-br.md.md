@@ -576,7 +576,7 @@ De certa forma os modelos desenvolvidos (Foco Centro da pista e Foco em Velocida
 
 É possível verificar na imagem abaixo que a função de recompensa e os hyperparâmetros do modelo benchmark não completaram a volta durante as três tentativas de avaliação do modelo treinado durante 3H.
 
-![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_Beanchmark_1)
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_Beanchmark_1.png)
 
 Como o modelo de benchmark não deixa claro o tempo no qual foi treinado, não é possível avaliarmos o resultado de forma mais precisa.
 
@@ -674,11 +674,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mjg5MzEwLDE2ODgyMjE4OTAsMTA2Nz
-I0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMsLTExMTk0MDQ0
-OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OT
-kwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2
-LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMz
-kzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxXX0=
-
+eyJoaXN0b3J5IjpbLTE5MjI1MDMzNTcsMTI5Mjg5MzEwLDE2OD
+gyMjE4OTAsMTA2NzI0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODcz
+NDMsLTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC
+04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4
+LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNj
+kyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzRd
+fQ==
 -->
