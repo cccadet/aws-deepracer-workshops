@@ -19,7 +19,7 @@ O projeto tem como tema o AWS Deep Racer da Amazon. Como a própria Amazon descr
 
 “AWS DeepRacer is a reinforcement learning (RL)-enabled autonomous 1/18th-scale vehicle with supporting services in the AWS Machine Learning ecosystem. It offers an interactive learning system for users of all levels to acquire and refine their skill set in machine learning in general and reinforcement learning in particular. You can use the AWS DeepRacer console to train and evaluate deep reinforcement learning models in simulation and then deploy them to an AWS DeepRacer vehicle for autonomous driving. You can also join AWS DeepRacer League to race in the online Virtual Circuit or the in-person Summit Circuit.” [\[1\]](https://aws.amazon.com/deepracer/?nc1=h_ls)
 
-Esse modelo de competição e aprendizado de RL faz com que aprendamos sobre o assunto que é um campo de estudo fascinante, porém muito complexo. Recentemente a Udacity lançou o AWS DeepRacer Scholarship Challenge e como não havia selecionado a minha proposta para o trabalho final resolvi applicá-la no meu trabalho.
+Esse modelo de competição e aprendizado de RL faz com que aprendamos sobre o assunto que é um campo de estudo fascinante, porém muito complexo. Recentemente a Udacity lançou o AWS DeepRacer Scholarship Challenge e como não havia selecionado a minha proposta para o trabalho final resolvi aceitar esse desafio.
 
 ### Descrição do problema
 Nesta seção, você irá definir o problema que você está tentando resolver de forma clara, incluindo a estratégia (resumo das tarefas) que você irá utilizar para alcançar a solução desejada. Você deverá também discutir detalhadamente qual será a solução pretendida para este problema. Questões para se perguntar ao escrever esta seção:
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMDg1Nzc2LC0xNjc5Nzg3MzQzLC0xMT
-E5NDA0NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0
-LDQ3NDk5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4Nj
-Q1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5
-OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Nj
-k3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDNd
-fQ==
+eyJoaXN0b3J5IjpbLTE0MTgzNjIxMjMsLTE2Nzk3ODczNDMsLT
+ExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0
+MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMD
+g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
+MTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NT
+g2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0
+M119
 -->
