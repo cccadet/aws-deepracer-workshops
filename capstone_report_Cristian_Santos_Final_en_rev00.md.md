@@ -21,10 +21,9 @@ The goal of my project is to develop and make the cart reach the end by completi
 
 #### Datasets and Entries
 
-AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorithm. According to AWS DeepRacer course “Value Functions” (L4: Reinforcement Learning) video [\[2\]](https://www.udacity.com/aws-deepracer-scholarship), esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
-
--   Policy Network: Decide qual ação tomar de acordo com a imagem recebida no input.
--   Value Network: Estima o resultado cumulativo que provavelmente obteremos, considerando a imagem como uma entrada.
+AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorithm. According to AWS DeepRacer course “Value Functions” (L4: Reinforcement Learning) video [\[2\]](https://www.udacity.com/aws-deepracer-scholarship), this algorithm is used because it is efficient, stable and easy to use compared to other algorithms. The Algorithm uses two neural networks during training: Policy Network (Actor-Network) and Value Network (Critic Network).
+- Policy Network: Decides what action to take according to the image received in the input.
+- Value Network: Estimates the cumulative result we are likely to get, considering the image as an input.
 
 ##### Reward
 
@@ -611,5 +610,5 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDMzNDk3NF19
+eyJoaXN0b3J5IjpbLTE0MDQxNTg3NTZdfQ==
 -->
