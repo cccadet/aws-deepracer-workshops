@@ -443,13 +443,13 @@ Temos um avanço em questão de percentual de progresso da pista, mas não de te
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v3_3.png)
 
-É possível ver que na curva sinalizada o mesmo não priorizou o cnetro da pista e sim a velocidade. É possível ver também abaixo que o mesmo, durante a avaliação saiu da pista exatamente neste ponto:
+É possível ver que na curva sinalizada o mesmo não priorizou o centro da pista e sim a velocidade. É possível ver também abaixo que o mesmo, durante a avaliação saiu da pista exatamente neste ponto:
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1_v3.png)
 
 Quanto aos gráficos de recompensa por iteração, não foram observados grandes alterações devido a função de recompensa se manter a mesma.
 
-Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que **foi treinado por 1 hora e meia**. Com isso, adicionarei **mais um treinamento de 60 minutos**, mas ajustando alguns parâmetros de recompensa.
+Recapitulando, temos até agora um modelo com uma função de recompensa baseada em velocidade que **foi treinado por 1 hora e meia**. Com isso, adicionarei **mais um treinamento de 60 minutos**, mas ajustando alguns parâmetros de recompensa.
 
 - **Learning rate:** 0.0003
 - **Discount factor:** 0.888
@@ -638,7 +638,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyMzc4NTk0LDE2ODgyMjE4OTAsMTA2Nz
+eyJoaXN0b3J5IjpbMjEyNDQwNTgxLDE2ODgyMjE4OTAsMTA2Nz
 I0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMsLTExMTk0MDQ0
 OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OT
 kwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2
