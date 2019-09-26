@@ -534,6 +534,10 @@ Nesta seção, a solução final do seu modelo e os resultados dela obtidos deve
 - _A solução final é significativa o suficiente para ter resolvido o problema?_
 
 
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_1_Benchmark.png)
+
+
+
 ## V. Conclusão
 _(aprox. 1-2 páginas)_
 
@@ -578,11 +582,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MT
-kzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0
-MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0Nj
-I5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAs
-MTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMD
-g4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2
-XX0=
+eyJoaXN0b3J5IjpbLTgyMDQzNCw0NzQ5OTA4NSwyMjg3NDkwNz
+EsLTE3MjUxOTM3OTgsLTIwODY0NTI0NzYsNDIyMTEwMTg2LDcy
+Mjg2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0LC02OTU2NzgyMT
+csMjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1MjUzMTkxNCwtMTM2
+Njc4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MT
+QzOSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxXX0=
+
 -->
