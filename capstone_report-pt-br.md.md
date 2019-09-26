@@ -255,7 +255,7 @@ Nesta  seção, você deverá definir claramente um resultado de referência (be
 - _Algum resultado ou valor que funcione como referência para a medida de desempenho foi fornecido?_
 - _Ficou claro como esse resultado ou valor foi obtido (seja por dados ou por hipóteses)?_
 
-Como referência, me baseio no ganhador do “re:Invent 2018" que completou a volta em 12.68 secs [7]. Para este modelo foi usada a seguinte função de recompensa:
+Como referência, me baseio no ganhador do “re:Invent 2018" que completou a volta em 12.68 secs [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794). Para este modelo foi usada a seguinte função de recompensa:
 
 ```
 def reward_function(params):
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MjEwOTE3LC0xNjc5Nzg3MzQzLC0xMT
-E5NDA0NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0
-LDQ3NDk5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4Nj
-Q1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5
-OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Nj
-k3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDNd
+eyJoaXN0b3J5IjpbMTE2MzIxNDQzNiw3NzcyMTA5MTcsLTE2Nz
+k3ODczNDMsLTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3
+MTQxLC04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MT
+kzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0
+MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0Nj
+I5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDBd
 fQ==
 -->
