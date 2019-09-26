@@ -373,7 +373,7 @@ Nesta seção, o processo de escolha de quais métricas, algoritmos e técnicas 
 - _Houve complicações com as métricas ou técnicas originais que acabaram exigindo mudanças antes de chegar à solução?_
 - _Houve qualquer parte do processo de codificação (escrita de funções complicadas, por exemplo) que deveriam ser documentadas?_
 
-Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente.
+Após adequar a função de recompensa conforme especificado na seção **Pré-processamento de dados**, foi realizado um treinamento de 1 hora para avaliar a efetividade desta função de recompensa durante o mesmo tempo de treinamento. Uma observação importante é que não foi realizada nenhuma alteração nos hyperparâmetros, inicialmente. O notebook de análise encontra-se na pasta `log-analysis/` com nome `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
 
 #### Visualização exploratória - Treinamento v2
 
@@ -638,7 +638,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzY0NDk4MCw3NzcyMTA5MTcsLTE2Nz
+eyJoaXN0b3J5IjpbMTA2NzI0OTI0OSw3NzcyMTA5MTcsLTE2Nz
 k3ODczNDMsLTExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3
 MTQxLC04MjA0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MT
 kzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0
