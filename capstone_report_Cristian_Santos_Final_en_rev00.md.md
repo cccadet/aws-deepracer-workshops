@@ -137,7 +137,7 @@ This reward function is to keep the cart on track without major zigzag and addin
 
 **Hyperparameters:**
 
-| Hyperparâmetro              |      Value    |
+| Hyperparameters             |      Value    |
 |-----------------------------|:-------------:|
 | Gradient descent batch size | 64            |
 |Entropy|0.01|
@@ -147,10 +147,10 @@ This reward function is to keep the cart on track without major zigzag and addin
 |N. of experience episodes between each policy-updating iteration|20|
 |Number of epochs|10|
 
-Os hyperparâmetros serão mantidos estes inicialmente.
+Hyperparameters will be kept initially.
 
-##### Estrutura de logs
-Ao utilizar o notebook `DeepRacer Log Analysis.ipynb` temos recursos de download os logs direto da AWS, desde que o AWS Client seja configurado. Os arquivos necessário para executar os notebooks avaliados neste relatório estarão todos disponíveis na pasta **log-analysis/** (logs) e **log-analysis/intermediate_checkpoint** (modelos).
+##### Log Structure
+By using the `DeepRacer Log Analysis.ipynb` notebook we can download the logs straight from AWS as long as the AWS Client is configured. The files needed to run the notebooks evaluated in this report will all be available in the ** log-analysis / ** (logs) and ** log-analysis / intermediate_checkpoint ** (templates) folder.
 
 ##### Notebook de Análise
 Inicialmente vamos avaliar o notebook resultante de 1 hora de treinamento com as funções definidas acima. O mesmo encontra-se na pasta `log-analysis/` com nome `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
@@ -607,6 +607,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDM0MzM2LDE1OTY0MzA0NTYsLTE0MD
-QxNTg3NTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzAyMjQ1OCwxNTk2NDMwNDU2LC0xND
+A0MTU4NzU2XX0=
 -->
