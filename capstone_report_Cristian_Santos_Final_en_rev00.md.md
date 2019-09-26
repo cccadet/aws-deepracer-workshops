@@ -48,20 +48,21 @@ The reward function will be the guide of the algorithm. It will reward positive 
 
 ```
 
-Mais informações sobre a função de recompensa estão disponíveis na documentação de desenvolvedores da Amazon Deep Racer [\[3\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html).
+More information on the reward function is available in the Amazon Deep Racer developer documentation. [\[3\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html).
 
 ##### Hyperparâmetros
 
-Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais citadas acima. Com eles podemos acelerar ajustes de funções e definir pontos importantes do processo de Reinforcement Learning, como fazer com que nosso algoritmo priorize ações de maior recompensa já descoberta ou explore mais ações a fim de encontrar uma ação melhor em determinado estado. No console da AWS Deep Racer temos  os seguintes parâmetros:
-- Gradient descent batch size (Tamanho de lote da descida de gradiente)  
-- Number of epochs (Número de epochs)  
-- Learning rate (Taxa de aprendizado)  
-- Entropy  
-- Discount factor (Fator de desconto)  
-- Loss type (Tipo de perda)  
-- Number of experience episodes between each policy-updating iteration - (Número de episódios de experiência entre cada iteração de atualização de política)
 
-É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajustes de parâmetros [\[4\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters).
+Algorithmic hyperparameters are options available in the above mentioned neural networks. With them, we can accelerate role adjustments and define key points in the Reinforcement Learning process, such as having our algorithm prioritize highest reward actions ever discovered or explore more actions to find a better action in a given state. In the AWS Deep Racer console we have the following parameters:
+- Gradient descent batch size
+- Number of epochs
+- Learning rate
+- Entropy
+- Discount factor
+- Loss type
+- Number of experience episodes between each policy-updating iteration - (Number of experience episodes between each policy update iteration)
+
+More detailed information about each can be found in the AWS Deep Racer Developer's Guide in the Parameter Settings section. [\[4\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters).
 
 #### Solução
 Para solucionar o problema proposto utilizarei como ponto de partida os exemplos de função de recompensa e hiperparâmetros disponíveis nos exemplos da documentação da AWS Deep Racer. 
@@ -610,5 +611,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjQzMDQ1NiwtMTQwNDE1ODc1Nl19
+eyJoaXN0b3J5IjpbLTE1MjYwNzg4MzEsMTU5NjQzMDQ1NiwtMT
+QwNDE1ODc1Nl19
 -->
