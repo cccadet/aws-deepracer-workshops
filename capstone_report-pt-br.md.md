@@ -476,7 +476,12 @@ Com isso, é possível que com o aumento do progresso, o modelo prefira diminuir
 Para resolver essa situação, resolvi remover esse fator relacionado ao progresso. Outra alteração foi a remoção da penalização baseada na variável `steering_angle` por dois motivos:
 
 -  Em alguns momentos o carrinho reduzia a velocidade em trechos retos da pista somente para poder alinhar-se conforme o angulo definido.
-- Como o treinamento inicial do modelo já foi realizado inicialmente com esse parâmetro, os problemas iniciais de zigue-zague form diminuídos. Agora queremos focar em velocidade.
+- Como o treinamento inicial do modelo já foi realizado inicialmente com esse parâmetro, os problemas iniciais de zigue-zague form diminuídos. 
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
+
+
+Agora queremos focar em velocidade.
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -539,11 +544,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OT
-IzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwx
-MTU1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMz
-g5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQzOSw0NjIwODgxMzks
-MTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05NjA3NTEzNDYsODc1NT
-E2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1MiwtMTIzNTg4MDk4
+eyJoaXN0b3J5IjpbLTIwODY0NTI0NzYsNDIyMTEwMTg2LDcyMj
+g2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTcs
+MjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Nj
+c4NTA0MCwxMDcwMzg5OTQzLC0xNTA1Mzg4NjU4LDI5MTk0MTQz
+OSw0NjIwODgxMzksMTk2MzYxMDQ1NiwxNzg0Mzg4MjkxLC05Nj
+A3NTEzNDYsODc1NTE2NDQ4LDE1NDI3ODYyMjYsMTE5OTIyOTM1
 Ml19
 -->
