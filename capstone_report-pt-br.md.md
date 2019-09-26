@@ -670,18 +670,21 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 ### Referências:
 [\[1\]](https://aws.amazon.com/deepracer/?nc1=h_ls) AWS DeepRacer - the fastest way to get rolling with machine learning. Retrieved from https://aws.amazon.com/deepracer/?nc1=h_ls
 
-[2] [https://www.udacity.com/aws-deepracer-scholarship]AWS DeepRacer Scholarship with Udacity(https://www.udacity.com/aws-deepracer-scholarship)
-[3 [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+[\[2\]](https://www.udacity.com/aws-deepracer-scholarship) AWS DeepRacer Scholarship with Udacity. Retrieved from https://www.udacity.com/aws-deepracer-scholarship
+
+[\[3 \]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+
+https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html
 [4] [https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters)
 [5][https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs)
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ0MDQzNTgsMTkzNzc3MjQ5NSwxMj
-kyODkzMTAsMTY4ODIyMTg5MCwxMDY3MjQ5MjQ5LDc3NzIxMDkx
-NywtMTY3OTc4NzM0MywtMTExOTQwNDQ5MSwtMTQ2NTIwNDA0LD
-EwNDk5OTcxNDEsLTgyMDQzNCw0NzQ5OTA4NSwyMjg3NDkwNzEs
-LTE3MjUxOTM3OTgsLTIwODY0NTI0NzYsNDIyMTEwMTg2LDcyMj
-g2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0LC02OTU2NzgyMTdd
-fQ==
+eyJoaXN0b3J5IjpbMTkwNjEzNjk3NywxOTM3NzcyNDk1LDEyOT
+I4OTMxMCwxNjg4MjIxODkwLDEwNjcyNDkyNDksNzc3MjEwOTE3
+LC0xNjc5Nzg3MzQzLC0xMTE5NDA0NDkxLC0xNDY1MjA0MDQsMT
+A0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MDg1LDIyODc0OTA3MSwt
+MTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3Niw0MjIxMTAxODYsNzIyOD
+Y4OTYsNDI1MDY5MjM4LDE5OTQ2MjM5MzQsLTY5NTY3ODIxN119
+
 -->
