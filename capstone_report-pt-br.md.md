@@ -563,6 +563,10 @@ Nesta seção, você deverá fornecer alguma forma de visualização que enfatiz
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
+
+![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
+
+
 ### Reflexão
 Nesta seção, você deverá resumir os procedimentos desde o problema até a solução e discutir um ou dois aspectos  do projeto que você achou particularmente interessante ou difícil. É esperado que você reflita sobre o projeto como um todo de forma a mostrar que você possui um entendimento sólido de todo o processo empregado em seu trabalho. Questões para se perguntar ao escrever esta seção:
 - _Você resumiu inteiramente o processo que você utilizou neste projeto?_
@@ -598,11 +602,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MD
-g1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3Niw0
-MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2MjM5Mz
-QsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3MSwtMjUy
-NTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDMsLTE1MDUzOD
-g2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOTYzNjEwNDU2XX0=
+eyJoaXN0b3J5IjpbLTE0ODQ2OTA3OTYsMTA0OTk5NzE0MSwtOD
+IwNDM0LDQ3NDk5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwt
+MjA4NjQ1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5Mj
+M4LDE5OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDEx
+NTU4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzOD
+k5NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOV19
 
 -->
