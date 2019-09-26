@@ -4,9 +4,9 @@
 
 Esse  projeto contém um [relatório em PDF](https://github.com/cccadet/aws-deepracer-workshops/blob/master/aws-deepracer-workshops_capstone_report_Cristian_Santos_Final_en_rev00.pdf) com o detalhamento do projeto.
 
-Execução: Para realização do trabalho utilizei a plataforma AWS Deep Racer da Amazon.
+**Execução:** Para realização do trabalho utilizei a plataforma AWS Deep Racer da Amazon.
 
-Para avaliação dos logs, utilizei os notebook, conforme descrito no relatório da pasta `logs-analysis`.
+**Avaliação de logs:** Para avaliação dos logs, utilizei os notebook, conforme descrito no relatório da pasta `logs-analysis`.
 
 Os pré requisitos para execução dos notebook são:
 - Python 3.5 ou superior
@@ -18,6 +18,8 @@ Os pré requisitos para execução dos notebook são:
 - Matplotlib
 - Shapely Library
 - log_analysis (`log_analysis.py` no próprio diretório)
+
+Esse projeto é derivado 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDEwODI5NjVdfQ==
+eyJoaXN0b3J5IjpbMjYyOTcwODk2XX0=
 -->
