@@ -28,7 +28,24 @@ Esse projeto é derivado do projeto [https://github.com/aws-samples/aws-deeprace
 ----
 EN
 ----
+This project contains a [PDF report](https://github.com/cccadet/aws-deepracer-workshops/blob/master/aws-deepracer-workshops_capstone_report_Cristian_Santos_Final_en_rev00.pdf) detailing the project.
 
+**Execution:** To do the work I used the AWS Deep Racer platform from Amazon.
+
+**Log evaluation:** For log evaluation, I used the notebooks, as described in the `logs-analysis` folder report.
+
+The prerequisites for running the notebooks are:
+- Python 3.5 or higher
+- AWS CLI: [https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html[(https://docs.aws.amazon.com/cli/latest/userguide/ cli-chap-configure.html)
+- button3> = 1.9.133
+- Boto Configuration: [https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html[(https://boto3.amazonaws.com/v1/documentation/api/latest/guide/ configuration.html)
+- Numpy
+- Pandas
+- Matplotlib
+- Shapely Library
+- log_analysis (`log_analysis.py` in the directory itself)
+
+This project is derived from the project [https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzgzMjA3NSwyNjI5NzA4OTZdfQ==
+eyJoaXN0b3J5IjpbMTc2MzExMDQwNiwyNjI5NzA4OTZdfQ==
 -->
