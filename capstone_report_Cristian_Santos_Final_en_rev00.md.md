@@ -270,9 +270,9 @@ def reward_function(params):
 
 ```
 
-Já em hyperparâmetros foram utilizados os seguinte:
+In hyperparameters, the following were used:
 
-| Hyperparâmetro              |      Value    |
+| Hyperparameter              |      Value    |
 |-----------------------------|:-------------:|
 | Gradient descent batch size | 64            |
 |Entropy|0.01|
@@ -282,18 +282,19 @@ Já em hyperparâmetros foram utilizados os seguinte:
 |N. of experience episodes between each policy-updating iteration|20|
 |Number of epochs|10|
 
-A partir desses parâmetros como referência desejo trilhar o caminho entre essa ótima referência e os parâmetros padrões. Se possível, aprimorar ainda mais o modelo e testar os resultados. **Porém, é importante salientar que o tempo de treinamento usado pelo competidor não foi informado**.
+
+From these benchmarks, I want to walk the path between this great benchmark and the default parameters. If possible, further refine the model and test the results. ** However, it is important to note that the training time used by the competitor was not reported **.
 
 
-## III. Metodologia
+## III. Methodology
 
-### Pré-processamento de dados
+### Data Preprocessing
 
-Conforme avaliado na seção de **Exploração de dados - Treinamento** a função de recompensa padrão utilizada apresentou uma forte tendência de manter o carrinho no centro da pista. Isso não é de todo mal, porém tratando-se de uma corrida, a ideia é que o tempo de volta seja melhor.
+As assessed in the ** Data Exploration - Training ** section the standard reward function used showed a strong tendency to keep the cart in the center of the track. This is not all bad, but when it comes to a race, the idea is that the lap time will be better.
 
-Diante disso, alterei a função de recompensa para ter como base a velocidade do carrinho. Outra grande mudança é que a distância do centro da pista terá uma flexibilidade maior, apresentando descontos, mesmo que poucos, nas extremidades da pista. Mantive o bônus de recompensa conforme o progresso na pista e a penalização para evitar o zigue-zague.
+Because of this, I changed the reward function based on the speed of the cart. Another big change is that the distance from the center of the track will have greater flexibility, with discounts, even if few, at the ends of the track. I kept the reward bonus as the track progressed and the penalty to avoid zigzagging.
 
-Assim, a função atual de recompensa ficou a seguinte:
+Thus, the current reward function was as follows:
 
     def reward_function(params):
 	    # Read input parameters
@@ -613,6 +614,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDAwODQ1MCwxNTk2NDMwNDU2LC0xND
+eyJoaXN0b3J5IjpbMTc5MTcwODk5NCwxNTk2NDMwNDU2LC0xND
 A0MTU4NzU2XX0=
 -->
