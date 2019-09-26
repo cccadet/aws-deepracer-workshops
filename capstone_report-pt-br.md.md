@@ -565,11 +565,13 @@ Nesta seção, você deverá fornecer alguma forma de visualização que enfatiz
 
 A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas definidas e hyperparâmetros utilizados. 
 
-As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial
+As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial, focada na distância do centro da pista, e a final, focada em velocidade são as seguinte:
+
+**Modelo Padrão Inicial**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_Livre_0.png)
 
-
+**Modelo Final**
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_Livre.png)
 
 
@@ -608,7 +610,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDM2NjgxNSwxMDQ5OTk3MTQxLC04Mj
+eyJoaXN0b3J5IjpbLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04Mj
 A0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0y
 MDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMz
 gsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1
