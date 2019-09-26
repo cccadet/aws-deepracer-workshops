@@ -161,14 +161,15 @@ Training logs after being uploaded to a DataFrame are displayed as shown below:
 Para avaliar as estatísticas selecionei as colunas que achei mais importantes para a avaliação:
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Train_Describe.png)
 
-Na imagem é possível avaliar os seguinte pontos:
 
-- **Iteration (2) and episode (39)**: Temos um número baixo de iterações e episódios devido ao baixo tempo de treinamento.
-- **Throttle:** Com uma média de 0.7765 é possível avaliar que o carrinho esteve acelerando boa parte do tempo de treinamento.
-- **Reward:** Temos uma média de recompensa de 1.05. Se formos avaliar a função de recompensa atual, podemos verificar que essa recompensa é atribuída quando o carrinhos está muito próximo ao centro da pista. Como o foco da corrida é tempo de volta, possivelmente a base da recompensa não poderá ser a distância do centro da pista.
-- **Progress:** Bom, chegamos no 100%.
+In the image it is possible to evaluate the following points:
 
-### Visualização exploratória - Treinamento
+- ** Iteration (2) and episode (39) **: We have a low number of iterations and episodes due to the short training time.
+- ** Throttle: ** With an average of 0.7765 it is possible to estimate that the trolley has been accelerating much of the training time.
+- ** Reward: ** We have a reward average of 1.05. If we are to evaluate the current reward function, we can see that this reward is awarded when the cart is too close to the center of the track. Since the focus of the race is lap time, possibly the basis of the reward cannot be the distance from the center of the track.
+- ** Progress: ** Well, we reached 100%.
+
+### ### Exploratory Visualization - Training
 
 #### Avaliação de recompensa por ações
 
@@ -607,6 +608,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ0NzA3ODcsMTU5NjQzMDQ1NiwtMT
+eyJoaXN0b3J5IjpbLTE2NjM5NDgwODcsMTU5NjQzMDQ1NiwtMT
 QwNDE1ODc1Nl19
 -->
