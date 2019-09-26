@@ -523,41 +523,43 @@ Now let's buy this model with the initial model focused on staying in the center
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
 
-Do modelo padrão para o modelo desenvolvido encontramos 7,071 segundos de diferença, com o total de 2,5 H de treinamento. 
+
+From the standard model to the developed model we found a 7.071 seconds difference, with a total of 2.5 hours of training.
 
 
-### Justificativa
+### Justification
 
-De certa forma os modelos desenvolvidos (Foco Centro da pista e Foco em Velocidade) apresentaram resultados melhores que o modelo de benchmark em até 3 H de treinamento.
+In some ways, the developed models (Track Center Focus and Speed Focus) showed better results than the benchmark model in up to 3 hours of training.
 
-**Modelo benchmark:**
+** Benchmark model: **
 
-É possível verificar na imagem abaixo que a função de recompensa e os hyperparâmetros do modelo benchmark não completaram a volta durante as três tentativas de avaliação do modelo treinado durante 3H.
+You can see from the image below that the reward function and benchmark hyperparameters did not complete the lap during the three attempts to evaluate the trained model during 3H.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluation_Beanchmark_1.png)
 
-Como o modelo de benchmark não deixa claro o tempo no qual foi treinado, não é possível avaliarmos o resultado de forma mais precisa.
 
-**Modelo padrão (Focado na centralidade da pista):**
+As the benchmark model does not make clear the time in which it was trained, it is not possible to more accurately assess the outcome.
+
+**Standard model (Focused on track centrality):**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
 
-**Modelo atual (Focado na velocidade):**
+**Current Model (Speed Focused):**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
 
-Quanto a questão "*A solução final é significativa o suficiente para ter resolvido o problema?*":
-Avaliando o desafio proposto, completar 100% da pista gastando menos de U$ 50,00 entendo que sim, ela é significativa o suficiente para completar o desafio dando subsídios para uma continuídade do trabalho, inclusive. 
+Regarding the question "* Is the final solution significant enough to have solved the problem? *":
+In assessing the proposed challenge, completing 100% of the track by spending less than $ 50 I believe yes, it is significant enough to complete the challenge by providing continuity of work, inclusive.
 
-## V. Conclusão
+## V. Conclusion
 
-### Foma livre de visualização
+### Preview Free Foma
 
-A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas definidas e hyperparâmetros utilizados. 
+The main quality that could be listed in my project is the knowledge built on the functioning of the defined reward functions and hyperparameters used.
 
-As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial, focada na distância do centro da pista, e a final, focada em velocidade, são as seguintes:
+The most representative visualizations of the differences between the initial reward function, focused on distance from the center of the track, and the final, focused on speed, is as follows:
 
-**Modelo Padrão Inicial**
+**Initial Standard Model**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_livre_0.png)
 
@@ -619,6 +621,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTM1NTk0MzEsNjA4MzAxMzYxLDE1OT
-Y0MzA0NTYsLTE0MDQxNTg3NTZdfQ==
+eyJoaXN0b3J5IjpbLTM4OTM4NjkyOCw2MDgzMDEzNjEsMTU5Nj
+QzMDQ1NiwtMTQwNDE1ODc1Nl19
 -->
