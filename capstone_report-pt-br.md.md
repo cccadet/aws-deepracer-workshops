@@ -475,12 +475,12 @@ Com isso, é possível que com o aumento do progresso, o modelo prefira diminuir
 
 Para resolver essa situação, resolvi remover esse fator relacionado ao progresso. Outra alteração foi a remoção da penalização baseada na variável `steering_angle` por dois motivos:
 
--  Em alguns momentos o carrinho reduzia a velocidade em trechos retos da pista somente para poder alinhar-se conforme o angulo definido.
+-  Em alguns momentos o carrinho reduzia a velocidade em trechos retos da pista somente para poder alinhar-se conforme o angulo definido (imagem abaixo).
 - Como o treinamento inicial do modelo já foi realizado inicialmente com esse parâmetro, os problemas iniciais de zigue-zague foram diminuídos. 
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Slight_Left.png)
 
-Na imagem acima é possível verificarmos que em vários momentos onde a pista é reta, o carrinho usa o Agora queremos focar em velocidade.
+Agora queremos focar em velocidade.
 
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI0NzM1OTgsMTY4ODIyMTg5MCwxMD
-Y3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQw
-NDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0Nz
-Q5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0
-NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0Nj
-IzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzFd
-fQ==
+eyJoaXN0b3J5IjpbMzMxNzQzNTU4LDE2ODgyMjE4OTAsMTA2Nz
+I0OTI0OSw3NzcyMTA5MTcsLTE2Nzk3ODczNDMsLTExMTk0MDQ0
+OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0MzQsNDc0OT
+kwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMDg2NDUyNDc2
+LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgsMTk5NDYyMz
+kzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NTg2OTcxXX0=
+
 -->
