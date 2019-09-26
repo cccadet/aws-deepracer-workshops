@@ -27,7 +27,7 @@ AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorit
 
 ##### Reward
 
-A função de recompensa será o guia do algoritmo. Ela que recompensará as ações positivas, ou seja, o que eu gostaria que o carrinho realizasse. Além disso, ela também penalizará açõs indesejadas, como sair da pista durante a corrida. Para a construção da função de recompensa temos uma entrada de uma variável chamada `params`. Essa variável é uma biblioteca no seguinte formato:
+The reward function will be the guide of the algorithm. It will reward positive actions, ie what I would like the cart to accomplish. Besides, it will also penalize unwanted actions such as getting off track during the race. For the construction of the reward function, we have an input of a variable called `params`. This variable is a library in the following format:
 
 ```
 {
@@ -610,5 +610,5 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQxNTg3NTZdfQ==
+eyJoaXN0b3J5IjpbMTU5NjQzMDQ1NiwtMTQwNDE1ODc1Nl19
 -->
