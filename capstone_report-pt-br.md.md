@@ -494,10 +494,11 @@ Nesta seção, o modelo final e quaisquer qualidades que o sustentem devem ser a
 
 **Resultado da avaliação pela AWS:**
 
-Na avaliação do modelo que tem a base em velocidade, 1 hora de treinamento não é o suficiente para que o mesmo complete 100% da pista.
+Antes de avaliarmos o resultado do progresso x tempo de volta, vamos somente visualizar como o trienamento distribuiu as recompensas por iterações.
+
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v6.png)
 
-É possível ver nas tentativas o uso constante da aceleração, ocasionando a saída da pista.
+Agora vamos verificar como o modelo foi avaliado
 
 **Tentativa 1:**
 
@@ -568,7 +569,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjEzNTU3NzIsLTE3MjUxOTM3OTgsLT
+eyJoaXN0b3J5IjpbLTIxMTQyMDU0NDEsLTE3MjUxOTM3OTgsLT
 IwODY0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIz
 OCwxOTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMT
 U1ODY5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5
