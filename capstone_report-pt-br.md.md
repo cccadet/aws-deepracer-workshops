@@ -517,6 +517,8 @@ Por fim, ficam com a seguinte função de recompensa:
 
 	    return float(reward)
 
+Além disso, o notebook desta análise encontra-se na pasta log-analysis/ com nome 13 - DeepRacer Log Analysis - Final 60 min - v2-v6.ipynb` .
+
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
 
@@ -529,7 +531,7 @@ Nesta seção, o modelo final e quaisquer qualidades que o sustentem devem ser a
 
 **Resultado da avaliação pela AWS:**
 
-Antes de avaliarmos o resultado do progresso x tempo de volta, vamos somente visualizar como o trienamento distribuiu as recompensas por iterações.
+Antes de avaliarmos o resultado do progresso x tempo de volta, vamos somente visualizar como o treinamento distribuiu as recompensas por iterações.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions_v6.png)
 
@@ -673,11 +675,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzIzOTIsMTY4ODIyMTg5MCwxMDY3Mj
-Q5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQwNDQ5
-MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0NzQ5OT
-A4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0NzYs
-NDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOT
-M0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzFdfQ==
-
+eyJoaXN0b3J5IjpbLTE0MDY0NTU1MDcsMTY4ODIyMTg5MCwxMD
+Y3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQw
+NDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0Nz
+Q5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0
+NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0Nj
+IzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzFd
+fQ==
 -->
