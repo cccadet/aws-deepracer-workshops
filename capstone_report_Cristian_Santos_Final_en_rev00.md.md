@@ -74,7 +74,7 @@ Para os hiperparâmetros, conforme vídeo “Intro to Tuning Hyperparameters” 
 
 #### Metrics
 
-As an evaluation metric, the idea is to use ** track completion percentage **, ** lap completion time **, and visualization of rewards by iteration. To facilitate this analysis I will use the Jupyter notebook available in the article “Using Jupyter Notebook for analysing DeepRacer’s logs” [\[5\]](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs).
+As an evaluation metric, the idea is to use **track completion percentage**, **lap completion time**, and visualization of rewards by iteration. To facilitate this analysis I will use the Jupyter notebook available in the article “Using Jupyter Notebook for analysing DeepRacer’s logs” [\[5\]](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs).
 
 
 ## II. ## Analysis
@@ -83,7 +83,7 @@ As an evaluation metric, the idea is to use ** track completion percentage **, *
 
 From the training and assessment performed on the AWS Deep Racer console, training and assessment log files are generated. Using the analysis model available in the AWS Deepracer Workshop Lab Github [\[6\]](https://github.com/aws-samples/aws-deepracer-workshops)  you can download these logs and start the evaluation through the `log-analysis / DeepRacer Log Analysis.ipynb` file. In addition to the training/evaluation logs, a model is generated for the neural networks that are part of the algorithm already explained above. You can download this model from the AWS console so that it can also be evaluated on the Jupyter Notebook already mentioned above.
 
-My initial goal was to find, with the reward function based on the basic standards of the documentation examples and standard hyperparameters, the shortest training time required for the cart to complete one lap. The minimum time I found on the track ** re: Invent 2018 ** was 1H. Following is the reward function used and the hyperparameters:
+My initial goal was to find, with the reward function based on the basic standards of the documentation examples and standard hyperparameters, the shortest training time required for the cart to complete one lap. The minimum time I found on the track **re: Invent 2018** was 1H. Following is the reward function used and the hyperparameters:
 
 **Reward Function:**
 
@@ -150,7 +150,7 @@ This reward function is to keep the cart on track without major zigzag and addin
 Hyperparameters will be kept initially.
 
 ##### Log Structure
-By using the `DeepRacer Log Analysis.ipynb` notebook we can download the logs straight from AWS as long as the AWS Client is configured. The files needed to run the notebooks evaluated in this report will all be available in the ** log-analysis / ** (logs) and ** log-analysis / intermediate_checkpoint ** (templates) folder.
+By using the `DeepRacer Log Analysis.ipynb` notebook we can download the logs straight from AWS as long as the AWS Client is configured. The files needed to run the notebooks evaluated in this report will all be available in the **log-analysis /** (logs) and **log-analysis / intermediate_checkpoint** (templates) folder.
 
 ##### Analysis Notebook
 Initially, we will evaluate the resulting 1-hour training notebook with the functions defined above. It is located in the `log-analysis /` folder named `06 - DeepRacer Log Analysis - MyTrain 60 min speed.ipynb`.
@@ -164,10 +164,10 @@ Para avaliar as estatísticas selecionei as colunas que achei mais importantes p
 
 In the image it is possible to evaluate the following points:
 
-- ** Iteration (2) and episode (39) **: We have a low number of iterations and episodes due to the short training time.
-- ** Throttle: ** With an average of 0.7765 it is possible to estimate that the trolley has been accelerating much of the training time.
-- ** Reward: ** We have a reward average of 1.05. If we are to evaluate the current reward function, we can see that this reward is awarded when the cart is too close to the center of the track. Since the focus of the race is lap time, possibly the basis of the reward cannot be the distance from the center of the track.
-- ** Progress: ** Well, we reached 100%.
+- **Iteration (2) and episode (39)**: We have a low number of iterations and episodes due to the short training time.
+- **Throttle:** With an average of 0.7765 it is possible to estimate that the trolley has been accelerating much of the training time.
+- **Reward:** We have a reward average of 1.05. If we are to evaluate the current reward function, we can see that this reward is awarded when the cart is too close to the center of the track. Since the focus of the race is lap time, possibly the basis of the reward cannot be the distance from the center of the track.
+- **Progress:** Well, we reached 100%.
 
 ### ### Exploratory Visualization - Training
 
@@ -200,7 +200,7 @@ Besides, the path taken for the most rewarding iterations is extremely aligned w
   
 ### Exploratory Visualization - Training v1  
   
-** AWS assessment result: **
+**AWS assessment result:**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate.png)
 
@@ -226,7 +226,7 @@ You can see that the same training pattern is repeated during the evaluation pha
 
 ### Algorithms and Techniques
 
-As described in step ** I.Definition ** AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorithm. This project is an algorithm optimization project already defined and used by AWS Deep Racer. In the ** Data Sets and Inputs ** and ** Data Exploration ** steps the initial default reward function and the hyperparameters used as the starting point for analysis have already been described.
+As described in step **I.Definition** AWS DeepRacer trains models using the Proximal Policy Optimization (PPO) algorithm. This project is an algorithm optimization project already defined and used by AWS Deep Racer. In the **Data Sets and Inputs** and **Data Exploration** steps the initial default reward function and the hyperparameters used as the starting point for analysis have already been described.
 
 ### Benchmark
 
@@ -618,6 +618,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM2ODQyMjMsMTU5NjQzMDQ1NiwtMT
-QwNDE1ODc1Nl19
+eyJoaXN0b3J5IjpbNjA4MzAxMzYxLDE1OTY0MzA0NTYsLTE0MD
+QxNTg3NTZdfQ==
 -->
