@@ -524,7 +524,7 @@ Agora vamos comprar este modelo com o modelo inicial focado na permanência no c
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Evaluate_v6.png)
 
-Do modelo padrão para o modelo desenvolvido encontramos 7,071 segundos de diferença, com 
+Do modelo padrão para o modelo desenvolvido encontramos 7,071 segundos de diferença, com o total de 2,5 H de treinamento. 
 
 
 ### Justificativa
@@ -578,11 +578,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg2MTY5ODksMjI4NzQ5MDcxLC0xNz
-I1MTkzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5
-Niw0MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOT
-Q0NjI5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUw
-NDAsMTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksND
-YyMDg4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUx
-MzQ2XX0=
+eyJoaXN0b3J5IjpbNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MT
+kzNzk4LC0yMDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0
+MjUwNjkyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0Nj
+I5MzQsMTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAs
+MTA3MDM4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMD
+g4MTM5LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2
+XX0=
 -->
