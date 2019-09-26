@@ -426,7 +426,7 @@ Nesta seção, você deverá discutir o processo de aperfeiçoamento dos algorit
 - _O processo de melhoria foi documentado de foma clara, bem como as técnicas utilizadas?_
 - _As soluções intermediárias e finais foram reportadas claramente, conforme o processo foi sendo melhorado?_
 
-Como no primeiro modelo (v1) já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
+Como no primeiro modelo (padrão v1) já atingi a meta de concluir 100% da pista, buscarei otimizar o tempo de conclusão de volta. Para isso farei alguns ajustes de hiperparâmetros buscando acelerar o treinamento, lembrando que a meta pessoal é não ultrapassar o custo de U$ 50,00.
 
 Para isso, clonarei a versão 2 do modelo de treinamento, que seria o modelo com função de recompensa focada em velocidade. Com isso aproveitarei o conhecimento já construído na primeira hora de treinamento e adicionarei mais 30 minutos de treinamento com os seguintes ajustes:
 
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTIyOTc5LDEwNjcyNDkyNDksNzc3Mj
-EwOTE3LC0xNjc5Nzg3MzQzLC0xMTE5NDA0NDkxLC0xNDY1MjA0
-MDQsMTA0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MDg1LDIyODc0OT
-A3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3Niw0MjIxMTAxODYs
-NzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2MjM5MzQsLTY5NTY3OD
-IxNywyMDk0NDYyOTM0LDExNTU4Njk3MSwtMjUyNTMxOTE0XX0=
+eyJoaXN0b3J5IjpbMTY4ODIyMTg5MCwxMDY3MjQ5MjQ5LDc3Nz
+IxMDkxNywtMTY3OTc4NzM0MywtMTExOTQwNDQ5MSwtMTQ2NTIw
+NDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0NzQ5OTA4NSwyMjg3ND
+kwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0NzYsNDIyMTEwMTg2
+LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0NjIzOTM0LC02OTU2Nz
+gyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzEsLTI1MjUzMTkxNF19
 
 -->
