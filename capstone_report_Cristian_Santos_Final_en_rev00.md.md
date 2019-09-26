@@ -171,19 +171,21 @@ In the image it is possible to evaluate the following points:
 
 ### ### Exploratory Visualization - Training
 
-#### Avaliação de recompensa por ações
+#### Action reward assessment
 
-Para avaliação dos gráficos a seguir é necessário tomar como base que o eixo X e o eixo Y são, respectivamente, colunas X e Y do Dataframe avaliado na seção "notebooks de análise".
 
-##### Avaliação geral
+For evaluation of the following graphs, it is necessary to take as the base that the X-axis and Y-axis are, respectively, columns X and Y of the Dataframe evaluated in the section "analysis notebooks".
 
-Na imagem abaixo é possível verificar as recompensas retornadas no processo de treinamento.
+##### General evaluation
+
+In the image below you can see the rewards returned in the training process.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Actions.png)
 
-##### Avaliação iteração 2
 
-Na imagem abaixo é possível verificar as recompensas de uma iteração específica do treinamento.
+##### Evaluation Iteration 2
+
+In the image below you can see the rewards of a specific training iteration.
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Reward_All_Action_It2.png)
 
@@ -608,6 +610,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM5NDgwODcsMTU5NjQzMDQ1NiwtMT
+eyJoaXN0b3J5IjpbLTEwNDczMTMwNTUsMTU5NjQzMDQ1NiwtMT
 QwNDE1ODc1Nl19
 -->
