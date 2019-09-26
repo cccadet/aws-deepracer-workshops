@@ -473,6 +473,8 @@ Sendo a velocidade = 0.8 e o progresso = 75 %, a recompensa seria:
 
 Com isso, é possível que com o aumento do progresso, o modelo prefira diminuir a velocidade para garantir uma recompensa maior.
 
+Para resolver essa situação, resolvi remover esse fator relacionado ao progresso. Outra alteração foi a remoção do 
+
 ## IV. Resultados
 _(aprox. 2-3 páginas)_
 
@@ -534,11 +536,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjI0NjM4Nyw3MjI4Njg5Niw0MjUwNj
-kyMzgsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQs
-MTE1NTg2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MD
-M4OTk0MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5
-LDE5NjM2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NT
-UxNjQ0OCwxNTQyNzg2MjI2LDExOTkyMjkzNTIsLTEyMzU4ODA5
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTE4NzcyMjU3MzQsNzIyODY4OTYsNDI1MD
+Y5MjM4LDE5OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0
+LDExNTU4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNz
+AzODk5NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEz
+OSwxOTYzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4Nz
+U1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgw
+OTgyXX0=
 -->
