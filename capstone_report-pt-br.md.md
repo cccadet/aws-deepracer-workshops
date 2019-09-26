@@ -515,9 +515,12 @@ Agora vamos verificar como o modelo performou nas 3 tentativas de avaliação da
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Top_Rewards_v6_3.png)
 
 
-Agora vamos comprar este modelo com o modelo inicial focado na permanência no 
+Agora vamos comprar este modelo com o modelo inicial focado na permanência no centro da pista:
+
+**Modelo padrão (Focado na centralidade da pista):**
 
 
+**Modelo atual (Focado na velocidade):**
 
 ### Justificativa
 Nesta seção, a solução final do seu modelo e os resultados dela obtidos devem ser comparados aos valores de referência (benchmark) que você estabeleceu anteriormente no projeto, usando algum tipo de análise estatística. Você deverá também justificar se esses resultados e a solução são significativas o suficiente para ter resolvido o problema apresentado no projeto. Questões para se perguntar ao escrever esta seção:
@@ -570,11 +573,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODMxNzM0OSwtMTcyNTE5Mzc5OCwtMj
-A4NjQ1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4
-LDE5OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNT
-U4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5
-NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOT
-YzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0
-NDhdfQ==
+eyJoaXN0b3J5IjpbNTE5ODY4MTAwLC0xNzI1MTkzNzk4LC0yMD
+g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
+MTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NT
+g2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0
+MywtMTUwNTM4ODY1OCwyOTE5NDE0MzksNDYyMDg4MTM5LDE5Nj
+M2MTA0NTYsMTc4NDM4ODI5MSwtOTYwNzUxMzQ2LDg3NTUxNjQ0
+OF19
 -->
