@@ -638,7 +638,7 @@ Basicamente as tarefas de RL são muito exploratórios e abrangentes. Para resol
 
 Como Reinforcement Learning é uma área nova para mim, a complexidade de cenários (ações, estados, recompensas, etc) e o risco de alto custo na plataforma AWS são os maiores desafios do meu projeto.
 
-Quanto a solução final, ela ficou abaixo do resultado inicial que eu esperava (os 11 segundos do modelo de benchmark). Porém, o processo de avaliação foi tão produtivo e mostrou-se muito explicativo que compensou e muito essa diferença entre o tempo de volta que eu esperava. Sem falar que mesmo o modelo de benchmark, com treinamento inferior a 3 H não performou tão bem, por vezes não completando a.
+Quanto a solução final, ela ficou abaixo do resultado inicial que eu esperava (os 11 segundos do modelo de benchmark). Porém, o processo de avaliação foi tão produtivo e mostrou-se muito explicativo que compensou e muito essa diferença entre o tempo de volta que eu esperava. Sem falar que mesmo o modelo de benchmark, com treinamento inferior a 3 H não performou tão bem, por vezes não completando a pista nas avaliações.
 
 ### Melhorias
 Nesta seção, você deverá discutir como um aspecto da sua implementação poderia ser melhorado. Por exemplo, considere maneiras de tornar a sua implementação mais geral e o que precisaria ser modificado. Você não precisa fazer a melhoria, mas as possíveis soluções que resultariam de tais mudanças devem ser consideradas e comparadas/contrastadas com a sua solução atual. Questões para se perguntar ao escrever esta seção:
@@ -674,11 +674,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEwMDg4NTMsMTY4ODIyMTg5MCwxMD
-Y3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQw
-NDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0Nz
-Q5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0
-NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0Nj
-IzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzFd
-fQ==
+eyJoaXN0b3J5IjpbMTExNzUxOTg4OCwxNjg4MjIxODkwLDEwNj
+cyNDkyNDksNzc3MjEwOTE3LC0xNjc5Nzg3MzQzLC0xMTE5NDA0
+NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0LDQ3ND
+k5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3
+Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2Mj
+M5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3MV19
+
 -->
