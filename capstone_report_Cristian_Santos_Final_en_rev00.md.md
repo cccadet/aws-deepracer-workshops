@@ -72,16 +72,12 @@ For the reward function, I will use ways to maximize expected actions such as st
 Para os hiperparâmetros, conforme vídeo “Intro to Tuning Hyperparameters” (L5: Tuning your model - AWS DeepRacer Course): “Figuring out what works best for your model is usually done through trial and error.”
 
 
-#### Métricas
-Nesta seção, você precisará definir claramente as métricas ou cálculos que você irá usar para avaliar o desempenho de um modelo ou resultado no seu projeto. Esses cálculos e métricas devem ser justificadas baseado nas características do problema e domínio do problema. Questões para se perguntar ao escrever esta seção:
-- _As métricas que você escolheu para medir o desempenho de seus modelos foram discutidas e definidas de forma clara?_
-- _Você forneceu justificativas razoáveis para as métricas escolhidas, baseando-se no problema e solução?_
+#### Metrics
 
-Para a métrica de avaliação a ideia é usar o **percentual de conclusão da pista**, **o tempo de conclusão de volta** e a visualização das recompensas por iteração. Para facilitar essa análise utilizarei o Jupyter notebook disponibilizado no artigo “Using Jupyter Notebook for analysing DeepRacer’s logs” [\[5\]](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs).
+As an evaluation metric, the idea is to use ** track completion percentage **, ** lap completion time **, and visualization of rewards by iteration. To facilitate this analysis I will use the Jupyter notebook available in the article “Using Jupyter Notebook for analysing DeepRacer’s logs” [\[5\]](https://codelikeamother.uk/using-jupyter-notebook-for-analysing-deepracer-s-logs).
 
 
-
-## II. Análise
+## II. ## Analysis
 
 ### Exploração dos dados - Treinamento
 
@@ -611,6 +607,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzAwNTMsMTU5NjQzMDQ1NiwtMTQwND
-E1ODc1Nl19
+eyJoaXN0b3J5IjpbMTk3ODk0ODMwMywxNTk2NDMwNDU2LC0xND
+A0MTU4NzU2XX0=
 -->
