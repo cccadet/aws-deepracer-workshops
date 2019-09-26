@@ -59,7 +59,7 @@ A função de recompensa será o guia do algoritmo. Ela que recompensará as aç
 
 ```
 
-Mais informações sobre a função de recompensa estão disponíveis na documentação de desenvolvedores da Amazon Deep Racer [3].
+Mais informações sobre a função de recompensa estão disponíveis na documentação de desenvolvedores da Amazon Deep Racer [\[3\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-reward-function-input.html).
 
 ##### Hyperparâmetros
 
@@ -72,7 +72,7 @@ Os Hiperparâmetros algorítmicos são opções disponíveis nas redes neurais c
 - Loss type (Tipo de perda)  
 - Number of experience episodes between each policy-updating iteration - (Número de episódios de experiência entre cada iteração de atualização de política)
 
-É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajustes de parâmetros [4].
+É possível encontrar informações mais detalhadas sobre cada um no guia de desenvolvedores do AWS Deep Racer , na seção de ajustes de parâmetros [\[4\]](https://docs.aws.amazon.com/pt_br/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-iteratively-adjust-hyperparameters).
 
 #### Solução
 Para solucionar o problema proposto utilizarei como ponto de partida os exemplos de função de recompensa e hiperparâmetros disponíveis nos exemplos da documentação da AWS Deep Racer. 
@@ -638,11 +638,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU4ODgzNDksLTE2Nzk3ODczNDMsLT
-ExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0
-MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMD
-g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
-MTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NT
-g2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0
-M119
+eyJoaXN0b3J5IjpbMjA5NTQ1MzkwNywtMTY3OTc4NzM0MywtMT
+ExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQz
+NCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwOD
+Y0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwx
+OTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1OD
+Y5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQz
+XX0=
 -->
