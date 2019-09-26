@@ -24,7 +24,10 @@ def reward_function(params):
         # Penalize if the car goes off track
         reward = 1e-3
     else:
-        reward = speed
+        if speed < 1:
+            reward = speed + 0.5
+        else:
+            reward = speed + 1
 
     # Calculate 3 markers that are at varying distances away from the center line
     marker_1 = 0.4 * track_width
@@ -45,7 +48,7 @@ def reward_function(params):
         # Penalize reward if the agent is steering too much
         reward *= 0.8
 
-    reward = reward + (reward * (progress / 100))
+
 
 
     return float(reward)
