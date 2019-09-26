@@ -27,18 +27,18 @@ Nesta seção, você irá definir o problema que você está tentando resolver d
 - _Você discutiu detalhadamente como irá tentar resolver o problema?_
 - _A solução antecipada está claramente definida? O leitor entenderá quais resultados você está procurando?_
 
-O objetivo do meu projeto é desenvolver e fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta pessoa é U$50,00.
+O objetivo do meu projeto é desenvolver e fazer com que o carrinho chegue no final completando 100% da pista. Porém, como o custo com o AWS DeepRacer pode se tornar alto rapidamente, procurarei a melhor solução com poucos recursos. Minha meta pessoal é U$50,00.
 
 #### Conjuntos de dados e entradas
 
-O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer [2], esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
+O AWS DeepRacer treina os modelos usando o algoritmo PPO (Proximal Policy Optimization). Segundo a vídeo aula “Value Functions” (L4: Reinforcement Learning) do curso AWS DeepRacer [\[2\]](https://www.udacity.com/aws-deepracer-scholarship), esse algoritmo é utilizado por ser eficiente, estável e fácil de usar comparado com outros algoritmos. O Algoritmo usa duas redes neurais durante o treinamento: Policy Network (Actor Network) e Value Network (Critic Network).
 
 -   Policy Network: Decide qual ação tomar de acordo com a imagem recebida no input.
 -   Value Network: Estima o resultado cumulativo que provavelmente obteremos, considerando a imagem como uma entrada.
 
 ##### Reward
 
-A função de recompensa será o guia do nosso algoritmo. Ela que recompensará as ações positivas, ou seja que eu gostaria que o carrinho realizasse. Além disso, ela também penalizará açõs indesejadas, como sair da pista durante a corrida. Para a construção da função de recompensa temos uma entrada de uma variável chamada “params”. Essa variável é uma biblioteca no seguinte formato:
+A função de recompensa será o guia do algoritmo. Ela que recompensará as ações positivas, ou seja, o que eu gostaria que o carrinho realizasse. Além disso, ela também penalizará açõs indesejadas, como sair da pista durante a corrida. Para a construção da função de recompensa temos uma entrada de uma variável chamada `params`. Essa variável é uma biblioteca no seguinte formato:
 
 ```
 {
@@ -638,7 +638,7 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgzNjIxMjMsLTE2Nzk3ODczNDMsLT
+eyJoaXN0b3J5IjpbLTExOTU4ODgzNDksLTE2Nzk3ODczNDMsLT
 ExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0
 MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMD
 g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
