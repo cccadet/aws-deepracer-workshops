@@ -589,7 +589,9 @@ Nesta seção, você deverá resumir os procedimentos desde o problema até a so
 - _Houve algum aspecto difícil do projeto?_
 - _O modelo e solução final alinham-se com suas expectativas para o problema, e devem ser usadas de forma geral para resolver esses tipos de problemas?_
 
-Basicamente as tarefas de RL são muito exploratórios e abrangentes.
+Basicamente as tarefas de RL são muito exploratórios e abrangentes. Para resolver esse problema escolhido, segmentei da seguinte forma meu trabalho:
+- Experimentação acerca do funcionamento da plataforma.
+- Definição 
 
 ### Melhorias
 Nesta seção, você deverá discutir como um aspecto da sua implementação poderia ser melhorado. Por exemplo, considere maneiras de tornar a sua implementação mais geral e o que precisaria ser modificado. Você não precisa fazer a melhoria, mas as possíveis soluções que resultariam de tais mudanças devem ser consideradas e comparadas/contrastadas com a sua solução atual. Questões para se perguntar ao escrever esta seção:
@@ -619,11 +621,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI4MTU3ODgsLTE2Nzk3ODczNDMsLT
-ExMTk0MDQ0OTEsLTE0NjUyMDQwNCwxMDQ5OTk3MTQxLC04MjA0
-MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0yMD
-g2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMzgs
-MTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1NT
-g2OTcxLC0yNTI1MzE5MTQsLTEzNjY3ODUwNDAsMTA3MDM4OTk0
-M119
+eyJoaXN0b3J5IjpbODU0OTMyODcwLC0xNjc5Nzg3MzQzLC0xMT
+E5NDA0NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0
+LDQ3NDk5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4Nj
+Q1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5
+OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Nj
+k3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDNd
+fQ==
 -->
