@@ -612,7 +612,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 
 Quanto a melhorias são muitas possibilidades. As principais que eu elencaria seriam as seguintes:
 
-- Utilização de parametros como 
+- Estudo do parâmetro `heading` para uso 
 
 -----------
 
@@ -636,11 +636,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMjQ5NzMyLC0xNjc5Nzg3MzQzLC0xMT
-E5NDA0NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0
-LDQ3NDk5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4Nj
-Q1MjQ3Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5
-OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Nj
-k3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDNd
-fQ==
+eyJoaXN0b3J5IjpbMTkyMzIyMDY3NiwtMTY3OTc4NzM0MywtMT
+ExOTQwNDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQz
+NCw0NzQ5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwOD
+Y0NTI0NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwx
+OTk0NjIzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1OD
+Y5NzEsLTI1MjUzMTkxNCwtMTM2Njc4NTA0MCwxMDcwMzg5OTQz
+XX0=
 -->
