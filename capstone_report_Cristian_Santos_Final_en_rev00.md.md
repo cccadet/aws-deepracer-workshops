@@ -67,8 +67,8 @@ More detailed information about each can be found in the AWS Deep Racer Develope
 #### Solution
 To solve the proposed problem I will use as a starting point the examples of reward function and hyperparameters available in the AWS Deep Racer documentation examples.
 ##### Reward
-Para a função de recompensa utilizarei formas de maximizar ações esperadas, como manter-se na pista, ganhar velocidade e completar voltas. Para isso a ideia é usar como base da função de recompensa os parâmetros `distance_from_center` and `all_wheels_on_track`. Além disso, vou usar como multiplicador da recompensa o `progress` a fim de que a recompensa seja maior de acordo com o avanço na pista.
-##### Hyperparâmetros
+For the reward function, I will use ways to maximize expected actions such as staying on track, gaining speed and completing laps. For this, the idea is to use as the basis of the reward function the parameters `distance_from_center` and` all_wheels_on_track`. Also, I will use the progress multiplier as the reward multiplier so that the reward will be higher as the track progresses.
+##### Hyperparameters
 Para os hiperparâmetros, conforme vídeo “Intro to Tuning Hyperparameters” (L5: Tuning your model - AWS DeepRacer Course): “Figuring out what works best for your model is usually done through trial and error.”
 
 
@@ -611,6 +611,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ1NTQwOTIsMTU5NjQzMDQ1NiwtMT
-QwNDE1ODc1Nl19
+eyJoaXN0b3J5IjpbLTkyMzAwNTMsMTU5NjQzMDQ1NiwtMTQwND
+E1ODc1Nl19
 -->
