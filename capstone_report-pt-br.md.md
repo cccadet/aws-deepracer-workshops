@@ -602,7 +602,7 @@ Nesta seção, você deverá fornecer alguma forma de visualização que enfatiz
 
 A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas definidas e hyperparâmetros utilizados. 
 
-As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial, focada na distância do centro da pista, e a final focada em velocidade são as seguinte:
+As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial, focada na distância do centro da pista, e a final, focada em velocidade, são as seguintes:
 
 **Modelo Padrão Inicial**
 
@@ -613,10 +613,9 @@ As visualizações que demonstram de forma mais representativa as diferenças en
 
 É visível a forma como o modelo padrão inicial não explorava toda extensão da pista, por vezes reduzindo a velocidade do carrinho para isso. Já na segunda imagem é possível verificar como o carrinho por vezes "espalha a curva" para compensar a velocidade. E isso tudo devido a definição base da função recompensa.
 
-As função de recompensas utilizadas utilizam um número limitado de parâmetros. Isso faz com que a possibilidade de parametrizações também seja limitada, porém deixa para o algoritmo de RL a maior parte do aprendizado.
+As função de recompensas utilizam um número limitado de parâmetros. Isso faz com que a possibilidade de parametrizações também sejam limitadas, porém deixa para o algoritmo de RL a maior parte do aprendizado.
 
-O desenvolvedor da função de recompensa sempre terá que ter um equilibro entre definir uma função de recompensa extremamente complexa e uma abrangente, para que o algoritmo de RL tenha a flexibilidade de encontrar outras formas de "resolver o seu problema" de recompensa.
-
+O desenvolvedor da função de recompensa sempre terá que ter um equilibro entre definir uma função de recompensa extremamente complexa e uma abrangente, para que o algoritmo de RL tenha a flexibilidade de encontrar outras formas de "resolver o seu problema".
 
 
 ### Reflexão
@@ -675,11 +674,11 @@ Quanto a melhorias são muitas possibilidades. As principais que eu elencaria se
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTgxMjY1MzgsMTY4ODIyMTg5MCwxMD
-Y3MjQ5MjQ5LDc3NzIxMDkxNywtMTY3OTc4NzM0MywtMTExOTQw
-NDQ5MSwtMTQ2NTIwNDA0LDEwNDk5OTcxNDEsLTgyMDQzNCw0Nz
-Q5OTA4NSwyMjg3NDkwNzEsLTE3MjUxOTM3OTgsLTIwODY0NTI0
-NzYsNDIyMTEwMTg2LDcyMjg2ODk2LDQyNTA2OTIzOCwxOTk0Nj
-IzOTM0LC02OTU2NzgyMTcsMjA5NDQ2MjkzNCwxMTU1ODY5NzFd
-fQ==
+eyJoaXN0b3J5IjpbMTM4MDI2MTc2OSwxNjg4MjIxODkwLDEwNj
+cyNDkyNDksNzc3MjEwOTE3LC0xNjc5Nzg3MzQzLC0xMTE5NDA0
+NDkxLC0xNDY1MjA0MDQsMTA0OTk5NzE0MSwtODIwNDM0LDQ3ND
+k5MDg1LDIyODc0OTA3MSwtMTcyNTE5Mzc5OCwtMjA4NjQ1MjQ3
+Niw0MjIxMTAxODYsNzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2Mj
+M5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3MV19
+
 -->
