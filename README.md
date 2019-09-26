@@ -10,12 +10,14 @@ Para avaliação dos logs, utilizei os notebook, conforme descrito no relatório
 
 Os pré requisitos para execução dos notebook são:
 - Python 3.5 ou superior
-- import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-#Shapely Library
-cw_utils
-log_analysis (no próprio diretó
+- AWS CLI: [https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+- boto3 >= 1.9.133
+- Boto Configuration: [https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html)
+- Numpy
+- Pandas
+- Matplotlib
+- Shapely Library
+- log_analysis (no próprio diretório)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ0NTk4NDFdfQ==
+eyJoaXN0b3J5IjpbMTI4ODY5ODQxMV19
 -->
