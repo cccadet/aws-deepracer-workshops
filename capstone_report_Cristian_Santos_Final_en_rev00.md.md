@@ -564,41 +564,42 @@ The most representative visualizations of the differences between the initial re
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_livre_0.png)
 
 
-**Modelo Final**
+**Final Model**
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_Livre.png)
 
-É visível a forma como o modelo padrão inicial não explorava toda extensão da pista, por vezes reduzindo a velocidade do carrinho para isso. Já na segunda imagem é possível verificar como o carrinho por vezes "espalha a curva" para compensar a velocidade. E isso tudo devido a definição base da função recompensa.
 
-As função de recompensas utilizam um número limitado de parâmetros. Isso faz com que a possibilidade de parametrizações também sejam limitadas, porém deixa para o algoritmo de RL a maior parte do aprendizado.
+It is visible how the initial standard model did not exploit the full length of the track, sometimes reducing the speed of the cart for this. Already in the second image, it is possible to verify how the cart sometimes "spreads the curve" to compensate the speed. This is all due to the basic definition of the reward function.
 
-O desenvolvedor da função de recompensa sempre terá que ter um equilibro entre definir uma função de recompensa extremamente complexa e uma abrangente, para que o algoritmo de RL tenha a flexibilidade de encontrar outras formas de "resolver o seu problema".
+Rewards functions use a limited number of parameters. This makes the possibility of parameterization also limited, but leaves most of the learning to the RL algorithm.
+
+The reward function developer will always have to have a balance between defining an extremely complex and comprehensive reward function so that the RL algorithm has the flexibility to find other ways to "solve your problem".
 
 
-### Reflexão
+### Reflection
 
-Basicamente as tarefas de RL são muito exploratórios e abrangentes. Para resolver esse problema escolhido, segmentei da seguinte forma meu trabalho:
-- Experimentação acerca do funcionamento da plataforma AWS Deep Racer.
-- Definição dos marcos de início, como função padrão de recompensa e modelo de benchmark.
-- Avaliação dos dados gerados a partir da primeira rodada de treinamento/avaliação.
-- Estudo sobre impactos dos parâmetros da função de recompensa.
-- Implementação da nova função de recompensa e ajuste de hyperparâmetros.
-- Avaliação dos dados gerados a partir da nova rodada de treinamento/avaliação.
-- Estudo sobre possiveis melhorias e pontos de impactos negativos na performance do modelo e função de recompensa.
-- Nova rodada de treinamento/avaliação.
-- Composição e avaliação dos resultados obtidos.
+RL tasks are very exploratory and comprehensive. To solve this chosen problem, I segmented my work as follows:
+- Experimentation with AWS Deep Racer platform operation.
+- Definition of starting milestones as a standard reward function and benchmark model.
+- Evaluation of data generated from the first round of training/evaluation.
+- Study on the impacts of reward function parameters.
+- Implementation of the new reward function and adjustment of hyperparameters.
+- Evaluation of the data generated from the new training/evaluation round.
+- Study on possible improvements and negative impact points on model performance and reward function.
+- New round of training/evaluation.
+- Composition and evaluation of the results obtained.
 
-Como Reinforcement Learning é uma área nova para mim, a complexidade de cenários (ações, estados, recompensas, etc) e o risco de alto custo na plataforma AWS são os maiores desafios do meu projeto.
+As Reinforcement Learning is a new area for me, the complexity of scenarios (actions, states, rewards, etc.) and the high-cost risk on the AWS platform are the biggest challenges of my project.
 
-Quanto a solução final, ela ficou abaixo do resultado inicial que eu esperava (os 11 segundos do modelo de benchmark). Porém, o processo de avaliação foi tão produtivo e mostrou-se muito explicativo que compensou e muito essa diferença entre o tempo de volta que eu esperava. Sem falar que mesmo o modelo de benchmark, com treinamento inferior a 3 H não performou tão bem, por vezes não completando a pista nas avaliações.
+As for the final solution, it was below the initial result I expected (the 11 seconds benchmark model). However, the evaluation process was so productive and very explanatory that it made up for a lot of the difference between the return time I expected. Not to mention that even the benchmark model with training less than 3H did not perform as well, sometimes not completing the track in the evaluations.
 
-### Melhorias
+### Improvements
 
-Quanto a melhorias são muitas possibilidades. As principais que eu elencaria seriam as seguintes:
+As for improvements, there are many possibilities. The main ones I would list would be as follows:
 
-- Estudo do parâmetro `heading` para uso na função de recompensa como um auxiliar na centralização mais suave do carrinho na pista.
-- Maior tempo de treinamento (horas) do modelo final gerado para avaliar esse processo com mais iterações, para que seja verificado se o modelo ficaria super ajustado.
-- Treinamento do modelo em outras pistas, para que o mesmo se adapte as mais variadas possibilidades de pistas.
+- Study of the `heading` parameter for use in the reward function as an aid in the smoother centering of the cart on the track.
+- Longer training time (hours) of the final model generated to evaluate this process with more iterations, to verify if the model would be over adjusted.
+- Training the model in other tracks, so that it adapts to the most varied possibilities of tracks.
 
 -----------
 
@@ -621,6 +622,6 @@ aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-sampl
 
 [\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTM4NjkyOCw2MDgzMDEzNjEsMTU5Nj
-QzMDQ1NiwtMTQwNDE1ODc1Nl19
+eyJoaXN0b3J5IjpbLTE1MTM0NjMyMzAsNjA4MzAxMzYxLDE1OT
+Y0MzA0NTYsLTE0MDQxNTg3NTZdfQ==
 -->
