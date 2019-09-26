@@ -563,7 +563,9 @@ Nesta seção, você deverá fornecer alguma forma de visualização que enfatiz
 - _A visualização foi completamente analisada e discutida?_
 - _Se um gráfico foi fornecido, os eixos, títulos e dados foram claramente definidos?_
 
-A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas 
+A principal qualidade que poderia elencar no meu projeto é o conhecimento contruído sobre o funcionamento das funções de recompensas definidas e hyperparâmetros utilizados. 
+
+As visualizações que demonstram de forma mais representativa as diferenças entre a função de recompensa inicial
 
 ![Exemplo de dados de treinamento AWS Deep Racer](images/Forma_Livre_0.png)
 
@@ -606,7 +608,7 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI4NjkyMCwxMDQ5OTk3MTQxLC04Mj
+eyJoaXN0b3J5IjpbMTQ3NDM2NjgxNSwxMDQ5OTk3MTQxLC04Mj
 A0MzQsNDc0OTkwODUsMjI4NzQ5MDcxLC0xNzI1MTkzNzk4LC0y
 MDg2NDUyNDc2LDQyMjExMDE4Niw3MjI4Njg5Niw0MjUwNjkyMz
 gsMTk5NDYyMzkzNCwtNjk1Njc4MjE3LDIwOTQ0NjI5MzQsMTE1
