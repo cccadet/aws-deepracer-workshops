@@ -683,10 +683,9 @@ Using Jupyter Notebook for analysing DeepRacer's logs - Code Like A Mother. Retr
 [\[6\]](https://github.com/aws-samples/aws-deepracer-workshops)
 aws-samples/aws-deepracer-workshops. Retrieved from https://github.com/aws-samples/aws-deepracer-workshops
 
-[\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
-https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
+[\[7\]](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794) How to win at DeepRacer League? (code and model included) | AWS DeepRacer Championship Cup | re:Invent 2019. Retrieved from  https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzM3NTE2NywxOTM3NzcyNDk1LDEyOT
+eyJoaXN0b3J5IjpbLTcyNTIzNjU4NiwxOTM3NzcyNDk1LDEyOT
 I4OTMxMCwxNjg4MjIxODkwLDEwNjcyNDkyNDksNzc3MjEwOTE3
 LC0xNjc5Nzg3MzQzLC0xMTE5NDA0NDkxLC0xNDY1MjA0MDQsMT
 A0OTk5NzE0MSwtODIwNDM0LDQ3NDk5MDg1LDIyODc0OTA3MSwt
