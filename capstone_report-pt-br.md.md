@@ -449,10 +449,10 @@ Temos um avanço em questão de percentual de progresso da pista, mas não de te
 
 Quanto aos gráficos de recompensa por iteração, não foram observados grandes alterações devido a função de recompensa se manter a mesma.
 
-Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que foi treinado por 1 hora e meia. Com isso, adicionarei mais um treinamento de 30 minutos mantendo a função de recompensa, mas ajustando alguns parâmetros de recompensa.
+Recapitulando então temos até agora um modelo com uma função de recompensa baseada em velocidade que foi treinado por 1 hora e meia. Com isso, adicionarei mais um treinamento de 60 minutos, mas ajustando alguns parâmetros de recompensa.
 
-- **Learning rate:** 0.0007
-- **Discount factor:** 0.997
+- **Learning rate:** 0.0003
+- **Discount factor:** 0.888
 - **Gradient descent batch size:** 64
 
 A ideia é caminhar novamente para parâmetros mais conservadores, mas com um pequeno ajuste no fator de desconto, pois acredito que diminuindo o número de passos futuros a serem considerados para recompensa priorize ações momentâneas.
@@ -520,11 +520,11 @@ Nesta seção, você deverá discutir como um aspecto da sua implementação pod
 [6][https://github.com/aws-samples/aws-deepracer-workshops](https://github.com/aws-samples/aws-deepracer-workshops)
 [7][https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794](https://medium.com/vaibhav-malpanis-blog/how-to-win-at-deepracer-league-code-and-model-included-27742b868794)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODY4OTYsNDI1MDY5MjM4LDE5OTQ2Mj
-M5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0LDExNTU4Njk3MSwt
-MjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNzAzODk5NDMsLTE1MD
-UzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEzOSwxOTYzNjEwNDU2
-LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4NzU1MTY0NDgsMTU0Mj
-c4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgwOTgyLC0xNTQ5NTE1
-OTAyXX0=
+eyJoaXN0b3J5IjpbLTE4ODk5MDA3MjMsNzIyODY4OTYsNDI1MD
+Y5MjM4LDE5OTQ2MjM5MzQsLTY5NTY3ODIxNywyMDk0NDYyOTM0
+LDExNTU4Njk3MSwtMjUyNTMxOTE0LC0xMzY2Nzg1MDQwLDEwNz
+AzODk5NDMsLTE1MDUzODg2NTgsMjkxOTQxNDM5LDQ2MjA4ODEz
+OSwxOTYzNjEwNDU2LDE3ODQzODgyOTEsLTk2MDc1MTM0Niw4Nz
+U1MTY0NDgsMTU0Mjc4NjIyNiwxMTk5MjI5MzUyLC0xMjM1ODgw
+OTgyXX0=
 -->
