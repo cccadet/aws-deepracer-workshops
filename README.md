@@ -19,7 +19,7 @@ Os pré requisitos para execução dos notebook são:
 - Shapely Library
 - log_analysis (`log_analysis.py` no próprio diretório)
 
-Esse projeto é derivado 
+Esse projeto é derivado do projeto 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyOTcwODk2XX0=
+eyJoaXN0b3J5IjpbLTE2Mjg0MTk2NjIsMjYyOTcwODk2XX0=
 -->
